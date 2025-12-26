@@ -1,0 +1,429 @@
+openapi: 3.0.3
+info:
+  title: Pikkit Extension Backend API
+  description: |
+    Backend API for the Pikkit Chrome extension, providing bet scoring and opportunity capture functionality.
+
+    This API connects to Supabase to retrieve historical betting performance data and provides endpoints
+    for the Chrome extension to query bet statistics, capture opportunities, and access Supabase data.
+
+    **Related Repositories:**
+    - [Frontend Dashboard](https://github.com/Mlaz-code/analytics-dashboard) - Analytics dashboard and Netlify functions
+  version: 1.0.0
+  contact:
+    name: Pikkit Analytics
+    url: https://github.com/Mlaz-code/analytics-backend
+
+servers:
+  - url: http://192.168.4.80:8000
+    description: Local development server (Tools VM)
+  - url: http://65.49.60.110:5001
+    description: Production server (Optima VPS)
+
+tags:
+  - name: Scoring
+    description: Bet scoring and performance analysis
+  - name: Opportunities
+    description: Opportunity capture and tracking
+  - name: Supabase
+    description: Supabase database proxy endpoints
+  - name: Health
+    description: Service health and status
+
+paths:
+  /api/score-bet:
+    get:
+      tags:
+        - Scoring
+      summary: Score a bet based on historical performance
+      description: |
+        Analyzes historical betting data to score a specific bet combination.
+        Returns performance statistics (ROI, win rate, profit) and an evaluation score.
+      operationId: scoreBet
+      parameters:
+        - name: sport
+          in: query
+          required: true
+          description: Sport name (e.g., "Basketball", "Football", "Baseball")
+          schema:
+            type: string
+            example: Basketball
+        - name: market
+          in: query
+          required: true
+          description: Betting market type (e.g., "Spread", "Moneyline", "Total")
+          schema:
+            type: string
+            example: Spread
+        - name: book
+          in: query
+          required: true
+          description: Sportsbook name (e.g., "DraftKings", "FanDuel")
+          schema:
+            type: string
+            example: DraftKings
+        - name: league
+          in: query
+          required: false
+          description: League name (e.g., "NBA", "NFL", "MLB")
+          schema:
+            type: string
+            example: NBA
+        - name: player
+          in: query
+          required: false
+          description: Player name for player props
+          schema:
+            type: string
+        - name: betType
+          in: query
+          required: false
+          description: Type of bet
+          schema:
+            type: string
+            enum: [straight, parlay]
+            default: straight
+      responses:
+        '200':
+          description: Bet scoring successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BetScoreResponse'
+              examples:
+                goodPerformance:
+                  summary: Good performing market
+                  value:
+                    success: true
+                    performance:
+                      totalBets: 45
+                      totalWagered: 4500.00
+                      totalProfit: 350.50
+                      roi: 7.8
+                      winRate: 53.3
+                      wins: 24
+                      losses: 21
+                    evaluation:
+                      score: good
+                      scoreValue: 7.8
+                      recommendation: Good performing market based on 45 bets
+                      warnings: []
+                noData:
+                  summary: No historical data
+                  value:
+                    success: true
+                    performance:
+                      totalBets: 0
+                      totalWagered: 0
+                      totalProfit: 0
+                      roi: 0
+                      winRate: 0
+                      wins: 0
+                      losses: 0
+                    evaluation:
+                      score: unknown
+                      scoreValue: 0
+                      recommendation: No historical data for this market
+                      warnings: []
+        '400':
+          description: Missing required parameters
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/capture-opportunities:
+    post:
+      tags:
+        - Opportunities
+      summary: Capture betting opportunities
+      description: |
+        Stores identified betting opportunities from the Chrome extension.
+        Used for tracking and historical analysis of opportunities.
+      operationId: captureOpportunities
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - opportunities
+              properties:
+                opportunities:
+                  type: array
+                  items:
+                    $ref: '#/components/schemas/Opportunity'
+            example:
+              opportunities:
+                - sport: Basketball
+                  league: NBA
+                  market: Spread
+                  book: DraftKings
+                  odds: -110
+                  value: 5.2
+                  timestamp: "2025-12-26T16:00:00Z"
+      responses:
+        '200':
+          description: Opportunities captured successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  captured:
+                    type: integer
+                    description: Number of opportunities captured
+              example:
+                success: true
+                captured: 3
+        '400':
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/supabase/query:
+    get:
+      tags:
+        - Supabase
+      summary: Generic Supabase query proxy
+      description: |
+        Proxy endpoint for querying Supabase tables while keeping credentials server-side.
+        Allows the frontend to query data without exposing service keys.
+      operationId: supabaseQuery
+      parameters:
+        - name: table
+          in: query
+          required: true
+          description: Supabase table name
+          schema:
+            type: string
+            example: bets
+        - name: select
+          in: query
+          required: false
+          description: Columns to select
+          schema:
+            type: string
+            default: "*"
+            example: "sport,market,profit"
+        - name: filter
+          in: query
+          required: false
+          description: PostgREST filter string
+          schema:
+            type: string
+            example: "sport=eq.Basketball&limit=10"
+        - name: order
+          in: query
+          required: false
+          description: Order by clause
+          schema:
+            type: string
+            example: "created_at.desc"
+        - name: limit
+          in: query
+          required: false
+          description: Maximum number of results
+          schema:
+            type: integer
+            default: 100
+            maximum: 1000
+      responses:
+        '200':
+          description: Query successful
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+        '400':
+          description: Missing required parameters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+        '500':
+          description: Query failed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                  details:
+                    type: string
+
+  /api/supabase/last-sync:
+    get:
+      tags:
+        - Supabase
+      summary: Get last sync timestamp
+      description: Returns the timestamp of the most recent bet creation in Supabase
+      operationId: getLastSync
+      responses:
+        '200':
+          description: Last sync time retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  last_sync:
+                    type: string
+                    format: date-time
+              example:
+                success: true
+                last_sync: "2025-12-26T15:30:00Z"
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /api/health:
+    get:
+      tags:
+        - Health
+      summary: Health check endpoint
+      description: Returns service health status and configuration state
+      operationId: healthCheck
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum: [healthy, unhealthy]
+                  timestamp:
+                    type: string
+                    format: date-time
+                  supabase_configured:
+                    type: boolean
+                    description: Whether Supabase credentials are configured
+              example:
+                status: healthy
+                timestamp: "2025-12-26T16:45:30Z"
+                supabase_configured: true
+
+components:
+  schemas:
+    BetScoreResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        performance:
+          $ref: '#/components/schemas/Performance'
+        evaluation:
+          $ref: '#/components/schemas/Evaluation'
+
+    Performance:
+      type: object
+      properties:
+        totalBets:
+          type: integer
+          description: Total number of historical bets
+        totalWagered:
+          type: number
+          format: double
+          description: Total amount wagered
+        totalProfit:
+          type: number
+          format: double
+          description: Total profit/loss
+        roi:
+          type: number
+          format: double
+          description: Return on investment percentage
+        winRate:
+          type: number
+          format: double
+          description: Win rate percentage
+        wins:
+          type: integer
+          description: Number of winning bets
+        losses:
+          type: integer
+          description: Number of losing bets
+
+    Evaluation:
+      type: object
+      properties:
+        score:
+          type: string
+          enum: [good, neutral, warning, danger, unknown]
+          description: Performance score category
+        scoreValue:
+          type: number
+          format: double
+          description: Numeric score (typically ROI)
+        recommendation:
+          type: string
+          description: Human-readable recommendation
+        warnings:
+          type: array
+          items:
+            type: string
+          description: List of warnings or concerns
+
+    Opportunity:
+      type: object
+      required:
+        - sport
+        - market
+        - book
+      properties:
+        sport:
+          type: string
+        league:
+          type: string
+        market:
+          type: string
+        book:
+          type: string
+        odds:
+          type: number
+        value:
+          type: number
+        timestamp:
+          type: string
+          format: date-time
+
+    ErrorResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          default: false
+        error:
+          type: string
+          description: Error message
