@@ -1,0 +1,9 @@
+project: pikkit_features
+registry: /root/pikkit/ml/feature_store/feature_repo/data/registry.db
+provider: local
+online_store:
+  type: sqlite
+  path: /root/pikkit/ml/feature_store/feature_repo/data/online_store.db
+offline_store:
+  type: file
+entity_key_serialization_version: 2

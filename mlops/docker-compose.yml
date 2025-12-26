@@ -1,0 +1,235 @@
+# =============================================================================
+# Pikkit ML API - Docker Compose Configuration
+# Supports local development, production, and blue-green deployments
+# =============================================================================
+
+services:
+  # ---------------------------------------------------------------------------
+  # Production ML API (Blue deployment)
+  # ---------------------------------------------------------------------------
+  pikkit-ml-api-blue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+      args:
+        APP_VERSION: ${APP_VERSION:-1.0.0}
+        BUILD_DATE: ${BUILD_DATE:-unknown}
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
+    image: pikkit-ml-api:${APP_VERSION:-latest}
+    container_name: pikkit-ml-api-blue
+    restart: unless-stopped
+    ports:
+      - "8001:8000"
+    environment:
+      - ENVIRONMENT=production
+      - APP_VERSION=${APP_VERSION:-1.0.0}
+      - MODEL_DIR=/app/models
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - N8N_WEBHOOK_URL=${N8N_WEBHOOK_URL}
+      - DEPLOYMENT_COLOR=blue
+    volumes:
+      - ${MODEL_PATH:-./models}:/app/models:ro
+      - ml-api-logs-blue:/app/logs
+    networks:
+      - pikkit-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pikkit-ml-blue.rule=Host(`ml-api.local`)"
+      - "traefik.http.services.pikkit-ml-blue.loadbalancer.server.port=8000"
+      - "traefik.http.routers.pikkit-ml-blue.priority=100"
+      - "com.pikkit.deployment=blue"
+      - "com.pikkit.version=${APP_VERSION:-1.0.0}"
+
+  # ---------------------------------------------------------------------------
+  # Production ML API (Green deployment - for zero-downtime updates)
+  # ---------------------------------------------------------------------------
+  pikkit-ml-api-green:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+      args:
+        APP_VERSION: ${APP_VERSION:-1.0.0}
+        BUILD_DATE: ${BUILD_DATE:-unknown}
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
+    image: pikkit-ml-api:${APP_VERSION:-latest}
+    container_name: pikkit-ml-api-green
+    restart: unless-stopped
+    profiles:
+      - blue-green
+    ports:
+      - "8002:8000"
+    environment:
+      - ENVIRONMENT=production
+      - APP_VERSION=${APP_VERSION:-1.0.0}
+      - MODEL_DIR=/app/models
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - N8N_WEBHOOK_URL=${N8N_WEBHOOK_URL}
+      - DEPLOYMENT_COLOR=green
+    volumes:
+      - ${MODEL_PATH:-./models}:/app/models:ro
+      - ml-api-logs-green:/app/logs
+    networks:
+      - pikkit-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pikkit-ml-green.rule=Host(`ml-api.local`)"
+      - "traefik.http.services.pikkit-ml-green.loadbalancer.server.port=8000"
+      - "traefik.http.routers.pikkit-ml-green.priority=50"
+      - "com.pikkit.deployment=green"
+      - "com.pikkit.version=${APP_VERSION:-1.0.0}"
+
+  # ---------------------------------------------------------------------------
+  # Canary Deployment (receives 10% of traffic for new model testing)
+  # ---------------------------------------------------------------------------
+  pikkit-ml-api-canary:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+      args:
+        APP_VERSION: ${CANARY_VERSION:-1.0.0-canary}
+    image: pikkit-ml-api:${CANARY_VERSION:-canary}
+    container_name: pikkit-ml-api-canary
+    restart: unless-stopped
+    profiles:
+      - canary
+    ports:
+      - "8003:8000"
+    environment:
+      - ENVIRONMENT=canary
+      - APP_VERSION=${CANARY_VERSION:-1.0.0-canary}
+      - MODEL_DIR=/app/models
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - N8N_WEBHOOK_URL=${N8N_WEBHOOK_URL}
+      - DEPLOYMENT_COLOR=canary
+    volumes:
+      - ${CANARY_MODEL_PATH:-./models-canary}:/app/models:ro
+      - ml-api-logs-canary:/app/logs
+    networks:
+      - pikkit-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pikkit-ml-canary.rule=Host(`ml-api.local`)"
+      - "traefik.http.services.pikkit-ml-canary.loadbalancer.server.port=8000"
+      - "traefik.http.routers.pikkit-ml-canary.priority=25"
+      - "traefik.http.services.pikkit-ml-canary.loadbalancer.server.weight=10"
+      - "com.pikkit.deployment=canary"
+
+  # ---------------------------------------------------------------------------
+  # Nginx Load Balancer (for weighted routing and SSL termination)
+  # ---------------------------------------------------------------------------
+  nginx-lb:
+    image: nginx:alpine
+    container_name: pikkit-nginx-lb
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+      - "8443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    networks:
+      - pikkit-network
+    depends_on:
+      - pikkit-ml-api-blue
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "com.pikkit.service=load-balancer"
+
+  # ---------------------------------------------------------------------------
+  # Development Environment
+  # ---------------------------------------------------------------------------
+  pikkit-ml-api-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: pikkit-ml-api-dev
+    profiles:
+      - dev
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      - APP_VERSION=dev
+      - MODEL_DIR=/app/models
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - N8N_WEBHOOK_URL=${N8N_WEBHOOK_URL}
+    volumes:
+      - ./app:/app:rw
+      - ${MODEL_PATH:-./models}:/app/models:ro
+    networks:
+      - pikkit-network
+    labels:
+      - "com.pikkit.deployment=development"
+
+networks:
+  pikkit-network:
+    driver: bridge
+    name: pikkit-network
+
+volumes:
+  ml-api-logs-blue:
+  ml-api-logs-green:
+  ml-api-logs-canary:

@@ -1,0 +1,74 @@
+
+’
+r
+sport_market_key9Combination of sport + market (e.g., 'Basketball_Spread')"sport_market_keyJpikkit_features
+è×¯Ê˜µı’è×¯Ê˜µı’
+
+o
+sport_league_key6Combination of sport + league (e.g., 'Basketball_NBA')"sport_league_keyJpikkit_features
+è×¯ÊèÛŸ“è×¯ÊèÛŸ“
+F
+&
+__dummy"
+__dummy_idJpikkit_features
+è×¯ÊÈÍÃ“è×¯ÊÈÍÃ“
+”
+t
+institution_name;Sportsbook institution name (e.g., 'DraftKings', 'FanDuel')"institution_nameJpikkit_features
+è×¯ÊØµå“è×¯ÊØµå“1"$1dd27238-17b8-4854-9c56-03715dff57c3*®Û¯ÊØÜıÚ2¾
+‚
+institution_featurespikkit_featuresinstitution_name"
+institution_win_rate"
+institution_roi"
+institution_count"
+institution_avg_odds"
+institution_avg_clv"
+institution_sharp_pct*
+
+teamml*
+categoryinstitution2à¨:Æevent_timestampZA?/root/pikkit/ml/feature_store/data/institution_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢institution_features_source’è×¯Ê Ä¶Y"è×¯ÊàÓ’@R'Sportsbook-specific performance metricsb
+institution_name7
+è×¯Êğ»Š”®Û¯Êˆ¨f
+®æŠÊ¸˜Ò*®Û¯Ê¸˜Ò*2ë
+®
+historical_performancepikkit_featuressport_market_key"
+sport_win_rate"
+	sport_roi"
+sport_market_win_rate"
+sport_market_roi"
+sport_market_count"
+avg_clv"
+recent_win_rate_10"
+recent_roi_10*
+
+teamml*
+categoryperformance2€£:Êevent_timestampZCA/root/pikkit/ml/feature_store/data/historical_performance.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢historical_performance_source’è×¯ÊĞÒ¯X"è×¯ÊØş¦’@R=Historical betting performance aggregated by sport and marketb
+sport_market_key8
+è×¯Ê ¼Ø”®Û¯Ê˜ß°§
+®æŠÊ¸˜Ò*®Û¯Ê¸˜Ò*2
+Ó
+league_featurespikkit_featuressport_league_key"
+league_win_rate"
+
+league_roi"
+league_avg_edge"
+league_total_bets"
+league_recent_performance*
+
+teamml*
+categoryleague2ÀÑ:¼event_timestampZ<:/root/pikkit/ml/feature_store/data/league_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢league_features_source’è×¯Ê°¥„Z"è×¯ÊØˆú‘@R0League-specific betting patterns and performanceb
+sport_league_key8
+è×¯Ê¨¯“•®Û¯Ê ğÅÚ
+®æŠÊ¸˜Ò*®Û¯Ê¸˜Ò*RË
+™
+,feast.infra.online_stores.sqlite.SqliteTable"i
+?/root/pikkit/ml/feature_store/feature_repo/data/online_store.db&pikkit_features_historical_performance
+—
+,feast.infra.online_stores.sqlite.SqliteTable"g
+?/root/pikkit/ml/feature_store/feature_repo/data/online_store.db$pikkit_features_institution_features
+’
+,feast.infra.online_stores.sqlite.SqliteTable"b
+?/root/pikkit/ml/feature_store/feature_repo/data/online_store.dbpikkit_features_league_featuresbÎevent_timestampZ<:/root/pikkit/ml/feature_store/data/league_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢league_features_sourceªpikkit_features’è×¯Ê°¥„Z"è×¯ÊØˆú‘bÜevent_timestampZCA/root/pikkit/ml/feature_store/data/historical_performance.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢historical_performance_sourceªpikkit_features’è×¯ÊĞÒ¯X"è×¯ÊØş¦’bØevent_timestampZA?/root/pikkit/ml/feature_store/data/institution_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢institution_features_sourceªpikkit_features’è×¯Ê Ä¶Y"è×¯ÊàÓ’Š/
+
+pikkit_features
+è×¯Ê “íZè×¯Ê “íZ

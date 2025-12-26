@@ -1,0 +1,17 @@
+{
+  "trained_at": "2025-12-24T15:03:18.168222",
+  "n_features": 10,
+  "feature_names": [
+    "hist_bets",
+    "hist_winrate",
+    "hist_roi",
+    "last10_winrate",
+    "last10_roi",
+    "last20_winrate",
+    "last20_roi",
+    "winrate_momentum",
+    "roi_momentum",
+    "roi_std"
+  ],
+  "training_samples": 16192
+}

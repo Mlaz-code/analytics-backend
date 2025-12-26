@@ -1,0 +1,2551 @@
+id,market,sport,predicted_market_type,prediction_confidence
+693265ae16938c31aaccdc6d,Spread,Basketball,spread,0.9692767017473705
+6933be6d803342f75b5128be,Spread,Basketball,spread,0.9938691084172531
+693e3c9518569d598765e51a,Spread,Basketball,spread,0.9741083148213415
+69355dd1096db98a0782199d,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219ab,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219b0,Spread,Basketball,spread,0.9741083148213415
+69355dd1096db98a078219e3,Moneyline,Basketball,moneyline,0.9882725028724865
+69364ae4d0e2a7ec7b86005a,Spread,Basketball,spread,0.9615307144972717
+69364ae5d0e2a7ec7b86009d,Spread,Basketball,spread,0.996789347962361
+6938dcf9e7cf57cf9c01e43c,Spread,Basketball,spread,0.996789347962361
+6939059ae7cf57cf9c09c044,Spread,Basketball,spread,0.996789347962361
+6939059ae7cf57cf9c09c045,Spread,Basketball,spread,0.996789347962361
+693a4bbca3bf037db9fdd1e3,Team Total Points,Basketball,total,0.9939102385821148
+693ced230cc0f2bfea409d60,Moneyline,Basketball,moneyline,0.9882725028724865
+693ced230cc0f2bfea409d62,Moneyline,Basketball,moneyline,0.9882725028724865
+693ced230cc0f2bfea409d63,Team Total Points,Basketball,total,0.9995947282738071
+693e3c9618569d598765e536,Spread,Basketball,spread,0.9932115344453384
+693e594618569d59876ab4fd,Moneyline,Basketball,moneyline,0.9882725028724865
+693f96ed1cda31133c90ad16,Total Points,Basketball,total,0.9999000632473499
+6940d5be62015631e3885056,Spread,Basketball,spread,0.9600054616147647
+693265ae16938c31aaccdc6e,Spread,American Football,spread,0.9870241195799231
+69364ae5d0e2a7ec7b86005e,Spread,American Football,spread,0.9560771512021075
+69364ae5d0e2a7ec7b860066,Spread,American Football,spread,0.9820191151129862
+69364ae5d0e2a7ec7b860079,Spread,American Football,spread,0.9772221607982654
+69364ae5d0e2a7ec7b86007f,Spread,American Football,spread,0.9772221607982654
+69364ae5d0e2a7ec7b860083,Moneyline,American Football,moneyline,0.9781197351831051
+6937ab2ce1aeac2a55d62b75,Moneyline,American Football,moneyline,0.981757995193445
+6937ab2ce1aeac2a55d62b77,Moneyline,American Football,moneyline,0.981757995193445
+6937ab2ce1aeac2a55d62b84,Moneyline,American Football,moneyline,0.9963086024335138
+693e3c9518569d598765e50e,Other,American Football,prop,0.593480071729402
+69355dd1096db98a078219ae,Spread,Basketball,spread,0.9692767017473705
+6933be6d803342f75b5128cb,Spread,Basketball,spread,0.9903849009356663
+6943857a64cac35c54117a7b,Spread,Basketball,spread,0.9903849009356663
+69452903b835c3e3783386b4,Spread,Basketball,spread,0.9853849009356663
+6948569c56a7d5960f5319d6,Spread,Basketball,spread,0.9932533864083699
+694801750f260f8d974ad776,Spread,Basketball,spread,0.9853849009356663
+69477b2f9adaa364587bfbfd,Spread,Basketball,spread,0.996789347962361
+69364ae5d0e2a7ec7b86007e,Spread,Basketball,spread,0.996789347962361
+69355dd1096db98a078219c4,Spread,Basketball,spread,0.9922506987370457
+693265ae16938c31aaccdc76,Spread,Basketball,spread,0.9600054616147647
+69364ae5d0e2a7ec7b860076,Spread,American Football,spread,0.9772221607982654
+6933be6d803342f75b5128d2,Spread,Basketball,spread,0.9932533864083699
+6933be6d803342f75b5128d3,Spread,Basketball,spread,0.9932115344453384
+6933be6d803342f75b5128c5,Spread,Basketball,spread,0.9903849009356663
+69364ae4d0e2a7ec7b860059,Spread,Basketball,spread,0.996789347962361
+693f96ec1cda31133c90acf9,Spread,Tennis,spread,0.9781405469451657
+693ced230cc0f2bfea409d36,Spread,Basketball,spread,0.9903849009356663
+6935aad74bb364d7e95da90c,Spread,Basketball,spread,0.9920033106158738
+69388819dc54fd132b47410f,Spread,Basketball,spread,0.9903849009356663
+6933be6d803342f75b5128ba,Spread,Basketball,spread,0.9903849009356663
+693e594618569d59876ab4ee,Spread,Basketball,spread,0.9903849009356663
+693a4bbca3bf037db9fdd1cb,Spread,Basketball,spread,0.9903849009356663
+693a4bbca3bf037db9fdd1dc,Spread,Basketball,spread,0.9903849009356663
+69373156bf3e13a3cc036da2,Spread,Basketball,spread,0.9903849009356663
+69373156bf3e13a3cc036da7,Spread,Basketball,spread,0.9903884206345698
+69373156bf3e13a3cc036daa,Spread,Basketball,spread,0.9903849009356663
+69373156bf3e13a3cc036dad,Spread,Basketball,spread,0.9903849009356663
+6935aad74bb364d7e95da908,Spread,Basketball,spread,0.9853849009356663
+69355dd1096db98a07821978,Spread,Basketball,spread,0.9903849009356663
+69355dd1096db98a07821979,Spread,Basketball,spread,0.9903884206345698
+693ced230cc0f2bfea409d37,Spread,Basketball,spread,0.9853849009356663
+693ced230cc0f2bfea409d50,3rd Quarter Moneyline,Basketball,moneyline,0.9689162281489179
+693a4bbca3bf037db9fdd1e2,1st Half Total,Basketball,total,0.9995752864127978
+693ced230cc0f2bfea409d6a,1st Half Spread,Basketball,spread,0.9985321388352426
+69364ae5d0e2a7ec7b860086,Total Points,Basketball,total,0.9999000632473499
+693e594618569d59876ab4e6,Spread,Basketball,spread,0.9741083148213415
+693e594618569d59876ab4fc,Moneyline,Basketball,moneyline,0.9882725028724865
+693e3c9618569d598765e531,Spread,Basketball,spread,0.9938691084172531
+693a4bbca3bf037db9fdd1e1,Total Points,Basketball,total,0.9999000632473499
+693a4bbca3bf037db9fdd1e6,Total Points,Basketball,total,0.9999000632473499
+693ced230cc0f2bfea409d58,Spread,Basketball,spread,0.9938691084172531
+693e3c9618569d598765e52f,Spread,Basketball,spread,0.9922506987370457
+693e3c9618569d598765e53d,Spread,Basketball,spread,0.9922506987370457
+6940d5be62015631e388505e,1st Half Team Total,Basketball,total,0.9973431281354925
+69355dd1096db98a07821982,Moneyline,Ice Hockey,moneyline,0.9582074815135165
+69355dd1096db98a07821984,Moneyline,Ice Hockey,moneyline,0.9582074815135165
+693a4bbca3bf037db9fdd1d8,Other,Ice Hockey,prop,0.7355422035628385
+693ced230cc0f2bfea409d39,Moneyline,Ice Hockey,moneyline,0.9582074815135165
+69355dd1096db98a078219d4,Total Points,Basketball,total,0.9985296370690894
+6942944dc63a5c2d95171ac6,Moneyline,Basketball,moneyline,0.9882725028724865
+6942944dc63a5c2d95171ac8,Moneyline,Basketball,moneyline,0.9882725028724865
+6942944cc63a5c2d95171abe,Spread,Basketball,spread,0.9903849009356663
+6942944cc63a5c2d95171ac2,Spread,Basketball,spread,0.9853849009356663
+6942944cc63a5c2d95171ac4,Spread,Basketball,spread,0.9903849009356663
+6942944cc63a5c2d95171ac1,Spread,Unknown,spread,0.9538863763528087
+693e3c9518569d598765e50a,Spread,Tennis,spread,0.9781405469451657
+6940d5be62015631e3885064,1st Quarter Total,Basketball,total,0.9986305824735162
+69364ae4d0e2a7ec7b86005b,Spread,Basketball,spread,0.9649416481546749
+692cb02a42620669f74a6c1c,Moneyline,Tennis,spread,0.572755752182822
+693f96ed1cda31133c90ad1b,Total Points,American Football,total,0.9993885784884238
+692cb02a42620669f74a6c1d,Moneyline,Tennis,spread,0.572755752182822
+692dbe411208e5800c26ae31,Moneyline,Tennis,spread,0.572755752182822
+692cb02a42620669f74a6bf1,Both Teams to Score,Soccer,prop,0.6599740679309767
+69477b2f9adaa364587bfbe5,1st Half Team Total,Basketball,total,0.9971321628841249
+6935aad74bb364d7e95da909,1st Half Spread,Basketball,spread,0.9885892325068102
+693ced230cc0f2bfea409d41,1st Half Spread,Basketball,spread,0.9887221467985176
+6933be6d803342f75b5128bf,1st Half Spread,Basketball,spread,0.9885892325068102
+6933be6d803342f75b5128c9,1st Half Spread,Basketball,spread,0.9885892325068102
+6933be6d803342f75b5128db,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219ac,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219d3,1st Half Spread,Basketball,spread,0.9985321388352426
+693ced230cc0f2bfea409d5c,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219b6,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a0782199f,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219c8,1st Half Spread,Basketball,spread,0.9985321388352426
+692dbe411208e5800c26ae29,Game Handicap,Tennis,spread,0.8834798292317001
+693b5749363c04ea4b57272d,Moneyline,Tennis,moneyline,0.8929782044384956
+6933be69803342f75b512834,1st Set Winner,Tennis,prop,0.48465576546377503
+6933be6d803342f75b5128e1,1st Half Spread,Basketball,spread,0.9985321388352426
+693217d916938c31aab985d3,1st Set Winner,Tennis,prop,0.48465576546377503
+693217d916938c31aab985e2,2nd Set Winner,Tennis,prop,0.7333244988665497
+693b5749363c04ea4b572727,Moneyline,Tennis,moneyline,0.8929782044384956
+6933be6c803342f75b5128a8,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69364ae5d0e2a7ec7b860064,Spread,Basketball,spread,0.996789347962361
+69364ae5d0e2a7ec7b86007d,Spread,American Football,spread,0.9772221607982654
+6933be6c803342f75b5128b1,2nd Set Winner,Tennis,prop,0.7333244988665497
+6936e3e5bf3e13a3ccfa14b6,Moneyline,Tennis,moneyline,0.8929782044384956
+6939774d5b0fb5b0a6f630cc,Moneyline,Tennis,moneyline,0.8929782044384956
+6939774d5b0fb5b0a6f630ce,Moneyline,Tennis,moneyline,0.8929782044384956
+693b5749363c04ea4b572729,Moneyline,Tennis,moneyline,0.8929782044384956
+693b5749363c04ea4b57272c,Moneyline,Tennis,moneyline,0.8929782044384956
+693ced230cc0f2bfea409d46,Moneyline,Tennis,moneyline,0.8929782044384956
+69355dd1096db98a078219e7,2nd Half Total,Basketball,total,0.9615813273692345
+69355dd1096db98a07821992,Total Points,Basketball,total,0.9985296370690894
+693f96ed1cda31133c90ad17,Moneyline,Basketball,moneyline,0.9893075981415176
+693f96ed1cda31133c90ad15,3rd Quarter Total,Basketball,total,0.9753572526642484
+69477b2e9adaa364587bfbb6,Team Total Points,American Football,total,0.9941682048195684
+69477b2e9adaa364587bfbb3,Total Games,Tennis,total,0.9769160020271266
+693f96ed1cda31133c90ad18,3rd Quarter Total,Basketball,total,0.9905657878512187
+693e3c9518569d598765e511,Spread,Basketball,spread,0.9903849009356663
+693ced230cc0f2bfea409d42,Spread,Basketball,spread,0.9903849009356663
+693ced230cc0f2bfea409d45,Moneyline,Basketball,moneyline,0.8860252717658694
+693a4bbca3bf037db9fdd1e5,1st Half Spread,Basketball,spread,0.9985321388352426
+6939059ae7cf57cf9c09c043,Spread,Basketball,spread,0.996789347962361
+69355dd1096db98a0782199c,Team Total Points,Basketball,total,0.9939102385821148
+693b5749363c04ea4b572728,Moneyline,Tennis,moneyline,0.8929782044384956
+69355dd1096db98a07821977,Moneyline,Basketball,moneyline,0.9882725028724865
+69355dd1096db98a0782197a,Spread,Basketball,spread,0.9741083148213415
+69355dd1096db98a078219bb,1st Half Team Total,Basketball,total,0.9871372768728864
+69355dd1096db98a078219b1,Spread,Basketball,spread,0.9741083148213415
+69355dd1096db98a078219aa,Total Points,Basketball,total,0.9985296370690894
+6940d5be62015631e3885060,Spread,Basketball,spread,0.9925959947587277
+693f96ed1cda31133c90ad23,Moneyline,Basketball,moneyline,0.9943176290080232
+693f96ed1cda31133c90ad1f,1st Half Team Total,Basketball,total,0.9972534743134196
+693f96ed1cda31133c90ad1d,Total Points,Basketball,total,0.9999000632473499
+693e3c9518569d598765e519,Moneyline,Basketball,moneyline,0.9882725028724865
+693e3c9518569d598765e517,Moneyline,Basketball,moneyline,0.9882725028724865
+693e3c9518569d598765e528,Spread,Basketball,spread,0.9932533864083699
+693a4bbca3bf037db9fdd1d5,1st Half Spread,Basketball,spread,0.9885892325068102
+693e3c9618569d598765e52e,Spread,Basketball,spread,0.996789347962361
+6933be6d803342f75b5128e4,1st Half Team Total,Basketball,total,0.9871372768728864
+693e3c9618569d598765e533,Moneyline,Basketball,moneyline,0.9882725028724865
+693e3c9618569d598765e539,Spread,Basketball,spread,0.996789347962361
+693e3c9618569d598765e537,Moneyline,Basketball,moneyline,0.9882725028724865
+693e3c9618569d598765e53f,1st Half Moneyline,Basketball,moneyline,0.99787380825141
+693e3c9518569d598765e510,2nd Quarter Moneyline,Basketball,moneyline,0.9326718060398786
+693ced230cc0f2bfea409d59,Spread,Basketball,spread,0.9932115344453384
+693ced230cc0f2bfea409d5d,3rd Quarter Total,Basketball,total,0.9753572526642484
+693ced230cc0f2bfea409d5e,2nd Quarter Total,Basketball,total,0.981616444465428
+6937ab2ce1aeac2a55d62b7c,Moneyline,Soccer,moneyline,0.851037795286905
+69364ae5d0e2a7ec7b860065,1st Half Total,Basketball,total,0.9985522679602726
+693217d916938c31aab985df,Spread,Basketball,spread,0.9903849009356663
+69364ae5d0e2a7ec7b860060,Spread,American Football,spread,0.9560771512021075
+69364ae5d0e2a7ec7b86005f,Spread,Basketball,spread,0.9650054616147647
+693ced230cc0f2bfea409d3d,Moneyline,Tennis,moneyline,0.8929782044384956
+693ced230cc0f2bfea409d3e,Moneyline,Tennis,moneyline,0.8929782044384956
+69355dd1096db98a078219b9,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219a0,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219ad,Spread,Basketball,spread,0.9692767017473705
+69355dd1096db98a078219cf,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219e0,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219bc,Other,Soccer,prop,0.5346973892457086
+6933be6d803342f75b5128bc,Spread,Basketball,spread,0.9932533864083699
+6933be6d803342f75b5128de,1st Half Total,Basketball,total,0.9995752864127978
+693b5749363c04ea4b572732,Other,Tennis,prop,0.631923158498949
+693a4bbca3bf037db9fdd1e0,Total Points,Basketball,total,0.9999000632473499
+693a4bbca3bf037db9fdd1ca,Other,Ice Hockey,prop,0.7355422035628385
+693217d916938c31aab985d7,1st Set Winner,Tennis,prop,0.48465576546377503
+693e3c9618569d598765e530,Spread,Basketball,spread,0.996789347962361
+692d237f42620669f76581e3,Moneyline,Tennis,spread,0.572755752182822
+692f96d621f3579cd6508cc0,Other,Tennis,prop,0.631923158498949
+69355dd1096db98a078219be,Moneyline,Tennis,moneyline,0.8929782044384956
+6936e3e5bf3e13a3ccfa14b7,Moneyline,Tennis,moneyline,0.8929782044384956
+6933be6d803342f75b5128b3,Moneyline,Tennis,moneyline,0.8929782044384956
+6933be6d803342f75b5128bb,Moneyline,Tennis,moneyline,0.8929782044384956
+69373156bf3e13a3cc036da6,Moneyline,Tennis,moneyline,0.8929782044384956
+6940d5be62015631e388504d,Moneyline,Tennis,moneyline,0.8929782044384956
+6940d5be62015631e3885051,Moneyline,Tennis,moneyline,0.8929782044384956
+6940d5be62015631e3885055,Moneyline,Tennis,moneyline,0.8929782044384956
+693b5749363c04ea4b572722,Moneyline,Tennis,moneyline,0.8929782044384956
+6943857a64cac35c54117a8f,1st Half Team Total,Basketball,total,0.9973431281354925
+6943857a64cac35c54117a6e,Spread,Basketball,spread,0.9715600578348823
+6943857a64cac35c54117a8e,Spread,Basketball,spread,0.9922506987370457
+6943857a64cac35c54117a93,Total Points,American Football,total,0.9993885784884238
+6943857a64cac35c54117a94,1st Half Moneyline,American Football,moneyline,0.9886871629406433
+6943857a64cac35c54117a7e,Spread,Basketball,spread,0.9741083148213415
+692dbe411208e5800c26ae2e,2nd Set Winner,Tennis,prop,0.6938721254700198
+6943857a64cac35c54117a77,Other,Unknown,prop,0.5312417657157772
+6943857a64cac35c54117a79,Moneyline,Basketball,moneyline,0.8860252717658694
+6943857a64cac35c54117a7d,Moneyline,Basketball,moneyline,0.8860252717658694
+6943857a64cac35c54117a84,Moneyline,Basketball,moneyline,0.8860252717658694
+6943857a64cac35c54117a86,Spread,Basketball,spread,0.9903849009356663
+6943857a64cac35c54117a88,Spread,Basketball,spread,0.9862182342689998
+692f96d621f3579cd6508cb0,1st Set Winner,Tennis,spread,0.9274213252944041
+6943857a64cac35c54117a6f,Other,Unknown,prop,0.5312417657157772
+6943857a64cac35c54117a78,Moneyline,Unknown,moneyline,0.791805393924671
+6943857a64cac35c54117a7c,Moneyline,Unknown,moneyline,0.791805393924671
+6943857a64cac35c54117a81,Other,Unknown,prop,0.5312417657157772
+69388819dc54fd132b47410c,1st Half Team Total,Basketball,total,0.9887198717600699
+693ced230cc0f2bfea409d48,Team Total Points,Basketball,total,0.9799867524293054
+6939059ae7cf57cf9c09c042,Spread,Basketball,spread,0.996789347962361
+6939059ae7cf57cf9c09c03f,Spread,Basketball,spread,0.996789347962361
+6937ab2ce1aeac2a55d62b86,Team Total Points,American Football,total,0.9993082264797085
+6938cb7ce7cf57cf9cfd457a,1st Half Total,Basketball,total,0.9995752864127978
+6938cb7ce7cf57cf9cfd457b,1st Half Total,Basketball,total,0.9995752864127978
+6938cb7ce7cf57cf9cfd457c,Team Total Goals,Soccer,total,0.9853194100337719
+69388819dc54fd132b47410e,Moneyline,Basketball,moneyline,0.8860252717658694
+69355dd1096db98a0782198f,Player Points,Basketball,total,0.985558753125286
+6943857a64cac35c54117a74,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69452903b835c3e3783386bf,Spread,Basketball,spread,0.9932418602614992
+69452903b835c3e3783386ba,1st Quarter Total,Basketball,total,0.9835502312985466
+69452903b835c3e3783386bc,Total Goals,Ice Hockey,total,0.9898742315811435
+69364ae5d0e2a7ec7b860061,Moneyline,American Football,moneyline,0.9837691107392743
+69452903b835c3e3783386b3,1st Set Winner,Tennis,prop,0.48465576546377503
+69452903b835c3e3783386af,Other,Tennis,prop,0.6896926547134073
+69452903b835c3e3783386c9,2nd Half Total,Basketball,total,0.9662173252493657
+6943857a64cac35c54117a7f,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+6942944dc63a5c2d95171ac5,3rd Quarter Moneyline,Basketball,moneyline,0.9638106746729979
+69462065e75d89f03660a3ba,1st Half Team Total,Basketball,total,0.9871372768728864
+693a4bbca3bf037db9fdd1e4,Spread,Basketball,spread,0.990998845268905
+69355dd1096db98a07821997,Total Points,Basketball,total,0.9985296370690894
+69462065e75d89f03660a3bb,1st Half Team Total,Basketball,total,0.9871372768728864
+6948569c56a7d5960f5319d3,1st Half Moneyline,Basketball,moneyline,0.99787380825141
+6948569c56a7d5960f5319b0,Spread,Basketball,spread,0.9741083148213415
+6948569c56a7d5960f5319bf,Spread,Basketball,spread,0.9903849009356663
+693b5749363c04ea4b572751,Moneyline,Basketball,moneyline,0.9889742752526679
+694801750f260f8d974ad774,Total,Basketball,total,0.8760530044505228
+69477b2e9adaa364587bfbbf,Spread,Basketball,spread,0.9741083148213415
+69477b2f9adaa364587bfbc9,Spread,Basketball,spread,0.9742767017473705
+69477b2f9adaa364587bfbde,Moneyline,Basketball,moneyline,0.9882725028724865
+694801750f260f8d974ad772,Spread,Basketball,spread,0.9903849009356663
+694801750f260f8d974ad775,Moneyline,Basketball,moneyline,0.8860252717658694
+69477b2f9adaa364587bfc08,Total Points,American Football,total,0.9993885784884238
+69477b2f9adaa364587bfc04,Moneyline,Basketball,moneyline,0.9882725028724865
+69364ae4d0e2a7ec7b860058,Spread,Basketball,spread,0.9582550824272851
+69364ae4d0e2a7ec7b860057,Spread,Basketball,spread,0.961729829544778
+69477b2f9adaa364587bfc05,Total Points,Basketball,total,0.9999000632473499
+69477b2f9adaa364587bfbcd,Spread,Basketball,spread,0.9741083148213415
+69477b2f9adaa364587bfc0b,Total Points,Basketball,total,0.9999000632473499
+69477b2f9adaa364587bfbf0,Spread,Basketball,spread,0.9922506987370457
+69477b2f9adaa364587bfbda,Spread,Basketball,spread,0.9922506987370457
+694801750f260f8d974ad773,Moneyline,Basketball,moneyline,0.8860252717658694
+69477b2f9adaa364587bfbd0,Moneyline,Basketball,moneyline,0.8860252717658694
+69477b2f9adaa364587bfbeb,Total Points,Basketball,total,0.9985296370690894
+69477b2f9adaa364587bfbcb,Spread,Basketball,spread,0.9853849009356663
+6948569c56a7d5960f5319b4,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69477b2f9adaa364587bfbce,Spread,Basketball,spread,0.9640446259064721
+69364ae5d0e2a7ec7b860070,Total Points,Basketball,total,0.9999000632473499
+6948569c56a7d5960f5319bc,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69477b2f9adaa364587bfbd2,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69477b2e9adaa364587bfba0,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+6948569c56a7d5960f5319bd,3rd Quarter Moneyline,Basketball,moneyline,0.8903895152095571
+69364ae5d0e2a7ec7b860071,1st Half Spread,Basketball,spread,0.9985321388352426
+69364ae5d0e2a7ec7b860073,1st Half Total,Basketball,total,0.9995752864127978
+69355dd1096db98a078219cc,Team Total Points,Basketball,total,0.9995947282738071
+69477b2e9adaa364587bfbb5,Total Goals,Soccer,total,0.9898129974194154
+69355dd1096db98a078219d2,Team Total Points,Basketball,total,0.9995094106250724
+69477b2e9adaa364587bfb99,Moneyline,Ice Hockey,moneyline,0.9582074815135165
+6948569c56a7d5960f5319cf,3rd Quarter Moneyline,American Football,moneyline,0.9573221660010952
+69364ae5d0e2a7ec7b860062,Spread,Basketball,spread,0.9741083148213415
+693ced230cc0f2bfea409d66,1st Half Total,Basketball,total,0.9995752864127978
+693f96ed1cda31133c90ad19,Total Points,Basketball,total,0.9999000632473499
+69364ae5d0e2a7ec7b860074,1st Half Spread,Basketball,spread,0.9982989561085464
+6948569c56a7d5960f5319b9,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+6933be6c803342f75b5128a7,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+6935aad74bb364d7e95da90e,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693f96ec1cda31133c90acfd,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693ea8b59a07fb7b8c7da1f2,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693ea8b59a07fb7b8c7da1f1,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69355dd1096db98a07821990,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+69355dd1096db98a078219b2,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693e3c9518569d598765e51b,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+693e594618569d59876ab4ef,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+693ced230cc0f2bfea409d43,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+6943857a64cac35c54117a82,2nd Quarter Moneyline,Basketball,moneyline,0.9326718060398786
+693ea8b59a07fb7b8c7da1f3,2nd Quarter Moneyline,Basketball,moneyline,0.9326718060398786
+69355dd1096db98a0782199b,1st Half Spread,Basketball,spread,0.9985321388352426
+693ced230cc0f2bfea409d4d,2nd Quarter Moneyline,Basketball,moneyline,0.9326718060398786
+69477b2f9adaa364587bfbea,3rd Quarter Total,Basketball,total,0.9753572526642484
+693ced230cc0f2bfea409d4f,2nd Quarter Moneyline,Basketball,moneyline,0.9326718060398786
+69355dd1096db98a0782197e,Spread,Basketball,spread,0.9932533864083699
+69355dd1096db98a0782197f,Spread,Basketball,spread,0.9741083148213415
+69355dd1096db98a078219a5,3rd Quarter Total,Basketball,total,0.9818717656495511
+6948569c56a7d5960f5319ba,3rd Quarter Moneyline,Basketball,moneyline,0.8903895152095571
+69355dd1096db98a078219a1,Total Points,Basketball,total,0.9999000632473499
+693f96ed1cda31133c90ad05,3rd Quarter Moneyline,Basketball,moneyline,0.8903895152095571
+693ced230cc0f2bfea409d4e,3rd Quarter Moneyline,Basketball,moneyline,0.8903895152095571
+69355dd1096db98a07821998,1st Half Spread,Basketball,spread,0.9985321388352426
+69355dd1096db98a078219c7,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219ce,1st Half Spread,Basketball,spread,0.9985321388352426
+693ced230cc0f2bfea409d49,3rd Quarter Moneyline,Basketball,moneyline,0.8903895152095571
+6937ab2ce1aeac2a55d62b85,1st Half Moneyline,Basketball,moneyline,0.9970369864302797
+69355dd1096db98a078219ba,1st Half Moneyline,Basketball,moneyline,0.99787380825141
+69364ae5d0e2a7ec7b860082,1st Half Moneyline,American Football,moneyline,0.9886871629406433
+69364ae5d0e2a7ec7b86008b,1st Half Moneyline,American Football,moneyline,0.9836871629406433
+69364ae5d0e2a7ec7b86008c,1st Half Moneyline,American Football,moneyline,0.9886871629406433
+693ced230cc0f2bfea409d5b,1st Half Moneyline,Basketball,moneyline,0.9976755918728907
+693f96ed1cda31133c90ad12,1st Half Moneyline,Basketball,moneyline,0.9976755918728907
+69355dd1096db98a078219c1,1st Half Moneyline,Basketball,moneyline,0.99787380825141
+6937ab2ce1aeac2a55d62b83,1st Half Moneyline,Basketball,moneyline,0.9970369864302797
+69364ae5d0e2a7ec7b86007a,1st Half Moneyline,American Football,moneyline,0.9886871629406433
+6933be6d803342f75b5128d1,Spread,Basketball,spread,0.9650054616147647
+6933be6d803342f75b5128cf,Spread,Basketball,spread,0.9650054616147647
+6933be6d803342f75b5128ce,Spread,Basketball,spread,0.9650054616147647
+6933be6d803342f75b5128e0,3rd Quarter Total,Basketball,total,0.9753572526642484
+6933be6d803342f75b5128e2,3rd Quarter Total,Basketball,total,0.9753572526642484
+6937ab2ce1aeac2a55d62b87,1st Half Moneyline,Basketball,moneyline,0.9970369864302797
+6937ab2ce1aeac2a55d62b81,1st Half Moneyline,Basketball,moneyline,0.9970369864302797
+69477b2f9adaa364587bfc11,1st Half Moneyline,Basketball,moneyline,0.99787380825141
+69364ae2d0e2a7ec7b860032,1st Half Moneyline,American Football,moneyline,0.9836871629406433
+693265ae16938c31aaccdc6b,Moneyline,Basketball,moneyline,0.9943176290080232
+693265ae16938c31aaccdc74,Player Points,Basketball,total,0.9849541867452521
+6940d5be62015631e388505d,1st Period Total,Ice Hockey,total,0.9928895159383161
+693e3c9518569d598765e50d,Other,Ice Hockey,prop,0.7355422035628385
+69364ae5d0e2a7ec7b860063,Total,American Football,total,0.969693086381057
+69364ae5d0e2a7ec7b860087,Moneyline,Basketball,moneyline,0.9882725028724865
+6933be69803342f75b512833,1st Set Winner,Tennis,prop,0.48465576546377503
+692f96d621f3579cd6508c96,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d621f3579cd6508cbc,1st Set Winner,Tennis,spread,0.9274213252944041
+6933be69803342f75b512832,1st Set Winner,Tennis,prop,0.48465576546377503
+6933be6c803342f75b5128b0,1st Set Winner,Tennis,prop,0.48465576546377503
+69355dd1096db98a078219a7,1st Set Winner,Tennis,prop,0.48465576546377503
+69373156bf3e13a3cc036da3,1st Set Winner,Tennis,prop,0.48465576546377503
+69373156bf3e13a3cc036da4,1st Set Winner,Tennis,prop,0.48465576546377503
+693217d916938c31aab985e0,1st Set Winner,Tennis,prop,0.48465576546377503
+693e3c9618569d598765e53e,1st Half Team Total,Basketball,total,0.9973431281354925
+69452903b835c3e3783386c6,1st Half Team Total,Basketball,total,0.9871372768728864
+693a4bbca3bf037db9fdd1d6,Spread,Basketball,spread,0.9903849009356663
+693ced230cc0f2bfea409d3c,1st Set Winner,Tennis,prop,0.48465576546377503
+6939774d5b0fb5b0a6f630cb,Moneyline,Tennis,moneyline,0.8929782044384956
+693ced230cc0f2bfea409d47,1st Set Winner,Tennis,prop,0.48465576546377503
+6940d5be62015631e3885053,1st Set Winner,Tennis,prop,0.48465576546377503
+6937ab2ce1aeac2a55d62b80,Total Points,Basketball,total,0.9985296370690894
+69364ae5d0e2a7ec7b86005d,Moneyline,American Football,moneyline,0.9837691107392743
+69364ae5d0e2a7ec7b860080,Spread,American Football,spread,0.9772221607982654
+69355dd1096db98a078219c0,2nd Half Moneyline,Basketball,moneyline,0.97758675589382
+69355dd1096db98a0782198c,Moneyline,Basketball,moneyline,0.9882725028724865
+69355dd1096db98a07821985,Moneyline,Basketball,moneyline,0.9882725028724865
+6933be6c803342f75b5128aa,Spread,Basketball,spread,0.9903849009356663
+6933be6d803342f75b5128c8,Spread,Basketball,spread,0.9903849009356663
+6940d5be62015631e3885049,1st Set Winner,Tennis,prop,0.48465576546377503
+6943857a64cac35c54117a83,1st Set Winner,Tennis,prop,0.48465576546377503
+693265ae16938c31aaccdc6f,Spread,American Football,spread,0.9501318754051173
+69355dd1096db98a07821996,1st Set Winner,Tennis,prop,0.48465576546377503
+69355dd1096db98a0782199e,1st Set Winner,Tennis,prop,0.48465576546377503
+692f96d621f3579cd6508c97,1st Set Winner,Tennis,spread,0.9274213252944041
+6933be69803342f75b512830,Moneyline,Tennis,moneyline,0.8929782044384956
+69364ae4d0e2a7ec7b86005c,Spread,Basketball,spread,0.9853849009356663
+693f96ec1cda31133c90acff,Total Points,Basketball,total,0.9605998189436156
+692cb02a42620669f74a6c14,2nd Set Winner,Tennis,prop,0.6938721254700198
+692cb02a42620669f74a6c19,2nd Set Winner,Tennis,prop,0.6938721254700198
+693e594618569d59876ab4f4,Spread,Basketball,spread,0.9903849009356663
+692cb02a42620669f74a6c15,2nd Set Winner,Tennis,prop,0.6938721254700198
+692f96d621f3579cd6508c9e,2nd Set Winner,Tennis,spread,0.9469300052896726
+693b5749363c04ea4b572733,2nd Set Winner,Tennis,prop,0.7333244988665497
+693b5749363c04ea4b572734,2nd Set Winner,Tennis,prop,0.7333244988665497
+69355dd1096db98a078219c9,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219d0,Total Points,Basketball,total,0.9999000632473499
+69364ae5d0e2a7ec7b860078,1st Half Total,Basketball,total,0.9995752864127978
+6939774d5b0fb5b0a6f630c9,Moneyline,Tennis,moneyline,0.8929782044384956
+693a4bbca3bf037db9fdd1de,Total Points,Basketball,total,0.9999000632473499
+693a4bbca3bf037db9fdd1e8,Team Total Points,Basketball,total,0.9995947282738071
+69387471dc54fd132b4215a9,Moneyline,Tennis,moneyline,0.8929782044384956
+693e3c9518569d598765e526,Total Points,Basketball,total,0.9999000632473499
+693e3c9618569d598765e52b,Total Points,Basketball,total,0.9999000632473499
+6936e3e5bf3e13a3ccfa14b5,Moneyline,Tennis,moneyline,0.8929782044384956
+692f96d621f3579cd6508cb2,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d621f3579cd6508cb6,1st Set Winner,Tennis,spread,0.9274213252944041
+693217d916938c31aab985de,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+693a4bbca3bf037db9fdd1df,Total Goals,Ice Hockey,total,0.9882186466205282
+693b5749363c04ea4b572723,2nd Set Winner,Tennis,prop,0.7333244988665497
+6940d5be62015631e388504e,2nd Set Winner,Tennis,prop,0.7333244988665497
+69355dd1096db98a078219b5,2nd Set Winner,Tennis,prop,0.7333244988665497
+693f96ec1cda31133c90ad02,Spread,Basketball,spread,0.9903849009356663
+693f96ed1cda31133c90ad09,Spread,Basketball,spread,0.9862182342689998
+6937ab2ce1aeac2a55d62b7a,1st Half Total,Basketball,total,0.9995752864127978
+693ea8b59a07fb7b8c7da1ee,Spread,Basketball,spread,0.9903849009356663
+693e3c9518569d598765e512,Moneyline,Basketball,spread,0.5527686925427964
+693e3c9518569d598765e51c,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693ced230cc0f2bfea409d4a,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+6933be6d803342f75b5128cc,Moneyline,Basketball,moneyline,0.8860252717658694
+6933be6d803342f75b5128c6,Moneyline,Basketball,moneyline,0.8860252717658694
+6933be6d803342f75b5128ca,Moneyline,Basketball,moneyline,0.8860252717658694
+6933be6d803342f75b5128c1,1st Half Spread,Basketball,spread,0.9885892325068102
+693217d916938c31aab985d9,Moneyline,Basketball,moneyline,0.8860252717658694
+69387471dc54fd132b4215aa,Moneyline,Tennis,moneyline,0.8929782044384956
+693b5749363c04ea4b57272b,Moneyline,Tennis,moneyline,0.8929782044384956
+6933be69803342f75b512831,Moneyline,Tennis,moneyline,0.8929782044384956
+6942944dc63a5c2d95171ac7,Total Points,Basketball,total,0.9999000632473499
+693ea8b59a07fb7b8c7da1f9,1st Quarter Moneyline,Basketball,moneyline,0.8744613768471882
+6933fa15bb95b43c1dec018e,Moneyline,Basketball,moneyline,0.8860252717658694
+6933be6c803342f75b5128ab,Moneyline,Basketball,moneyline,0.8860252717658694
+693a4bbca3bf037db9fdd1ce,Spread,Basketball,spread,0.9903849009356663
+693a4bbca3bf037db9fdd1c9,1st Half Spread,Basketball,spread,0.9885892325068102
+69373156bf3e13a3cc036da5,Spread,Basketball,spread,0.9862182342689998
+69373156bf3e13a3cc036dac,Spread,Basketball,spread,0.9853849009356663
+69373156bf3e13a3cc036dab,Spread,Basketball,spread,0.9903849009356663
+693569e8d63b2595486c8c4d,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+6933be6d803342f75b5128b9,Spread,Basketball,spread,0.9903849009356663
+6933be6d803342f75b5128b5,1st Half Moneyline,Basketball,moneyline,0.8707379245921818
+693217d916938c31aab985cc,Spread,Basketball,spread,0.9903849009356663
+693217d916938c31aab985d6,Spread,Basketball,spread,0.9903849009356663
+69355dd1096db98a07821975,Spread,Basketball,spread,0.9920033106158738
+6940d5be62015631e3885050,1st Set Winner,Tennis,prop,0.48465576546377503
+6940d5be62015631e3885052,1st Set Winner,Tennis,prop,0.48465576546377503
+6942944dc63a5c2d95171ac9,2nd Half Total,Basketball,total,0.9662173252493657
+6936e3e5bf3e13a3ccfa14af,Moneyline,Tennis,moneyline,0.8929782044384956
+692d237f42620669f76581e2,1st Set Winner,Tennis,prop,0.6016863379189719
+6933be6d803342f75b5128b2,2nd Set Winner,Tennis,prop,0.7333244988665497
+6940d5be62015631e388504f,Moneyline,Tennis,moneyline,0.8929782044384956
+6940d5be62015631e3885054,Moneyline,Tennis,moneyline,0.8929782044384956
+6940d5be62015631e3885057,Moneyline,Tennis,moneyline,0.8929782044384956
+693e3c9518569d598765e513,Total Points,Basketball,total,0.9605998189436156
+69387471dc54fd132b4215b6,Moneyline,Tennis,moneyline,0.8929782044384956
+69452903b835c3e3783386be,1st Quarter Total,Basketball,total,0.9987013443889892
+69452903b835c3e3783386c2,1st Quarter Total,Basketball,total,0.9987013443889892
+69477b2f9adaa364587bfc0d,1st Quarter Total,Basketball,total,0.9987013443889892
+693265ae16938c31aaccdc7b,Player Assists,Basketball,total,0.9871149295397724
+69355dd1096db98a078219a3,1st Half Team Total,Basketball,total,0.9973431281354925
+69364ae5d0e2a7ec7b860088,1st Half Team Total,Basketball,total,0.9973431281354925
+693e3c9518569d598765e527,1st Half Team Total,Basketball,total,0.9973431281354925
+693e3c9618569d598765e529,1st Half Team Total,Basketball,total,0.9973431281354925
+693217d916938c31aab985d2,1st Set Winner,Tennis,prop,0.48465576546377503
+69355dd1096db98a078219d8,1st Half Team Total,Basketball,total,0.9973431281354925
+6940d5be62015631e3885061,1st Half Team Total,Basketball,total,0.9972534743134196
+6940d5be62015631e388505f,1st Half Team Total,Basketball,total,0.9922534743134196
+693f96ed1cda31133c90ad1c,1st Half Team Total,Basketball,total,0.9973431281354925
+6943857a64cac35c54117a90,1st Half Team Total,Basketball,total,0.9972534743134196
+69452903b835c3e3783386b9,1st Half Team Total,Basketball,total,0.9972534743134196
+69462065e75d89f03660a3b7,1st Half Team Total,Basketball,total,0.9973431281354925
+6948569c56a7d5960f5319d5,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfbe2,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfc00,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfc03,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfc0e,1st Half Team Total,Basketball,total,0.9972534743134196
+69477b2f9adaa364587bfbdf,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfbec,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2e9adaa364587bfbaf,1st Half Team Total,Basketball,total,0.9973431281354925
+69355dd1096db98a078219d9,1st Half Team Total,Basketball,total,0.9973431281354925
+6948569c56a7d5960f5319c6,Total Points,American Football,total,0.998532091020515
+6948569c56a7d5960f5319d8,Team Total Points,Basketball,total,0.9939574999437462
+6948569c56a7d5960f5319c3,Total,Basketball,total,0.913222133299986
+69477b2f9adaa364587bfbe1,Total Points,Basketball,total,0.9985296370690894
+69477b2f9adaa364587bfbff,1st Half Team Total,Basketball,total,0.9871372768728864
+693f96ed1cda31133c90ad14,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfc10,Team Total Points,American Football,total,0.9941682048195684
+6938cb7ce7cf57cf9cfd4579,Player PRA,Basketball,total,0.9898771435333812
+693b5749363c04ea4b572737,1st Half Total,Basketball,total,0.9511419482876846
+6938cb7ce7cf57cf9cfd4576,Total Points,Basketball,total,0.9985296370690894
+6935aad74bb364d7e95da90d,1st Half Total,Basketball,total,0.9511419482876846
+69477b2f9adaa364587bfc01,Total Goals,Ice Hockey,total,0.9898742315811435
+69364ae5d0e2a7ec7b86006e,Total Points,Basketball,total,0.9999000632473499
+6933be6d803342f75b5128d8,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2f9adaa364587bfbca,Team Total Goals,Ice Hockey,total,0.9649041717607428
+693f96ed1cda31133c90ad21,1st Half Team Total,American Football,total,0.9746474560735847
+693f96ed1cda31133c90ad0d,Total Points,Basketball,total,0.9999000632473499
+693f96ed1cda31133c90ad0e,Total Points,Basketball,total,0.9999000632473499
+693f96ed1cda31133c90ad1a,Total Points,Basketball,total,0.9999000632473499
+693f96ed1cda31133c90ad1e,1st Half Team Total,Basketball,total,0.9934589865063405
+693e3c9618569d598765e53b,1st Half Team Total,Basketball,total,0.9973431281354925
+693e3c9518569d598765e516,Total Points,Basketball,total,0.9999000632473499
+693e3c9618569d598765e52c,3rd Quarter Total,Basketball,total,0.9905657878512187
+69364ae5d0e2a7ec7b86007c,1st Half Team Total,Basketball,total,0.9871372768728864
+693f96ed1cda31133c90ad0a,Team Total Goals,Ice Hockey,total,0.9434562604639501
+69477b2f9adaa364587bfbe0,1st Half Team Total,Basketball,total,0.9871372768728864
+6935aad74bb364d7e95da90f,Player Assists,Basketball,total,0.9964773541333289
+69355dd1096db98a078219a6,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219dd,1st Half Total,Basketball,total,0.9995752864127978
+69355dd1096db98a078219e1,Team Total Points,Basketball,total,0.9995094106250724
+693ced230cc0f2bfea409d6d,Team Total Points,American Football,total,0.9993082264797085
+6933be6c803342f75b5128ae,Team Total Goals,Ice Hockey,total,0.9434562604639501
+6943857a64cac35c54117a70,Total Goals,Ice Hockey,total,0.9882186466205282
+6943857a64cac35c54117a85,1st Half Team Total,MMA,total,0.9883412441617112
+6939059ae7cf57cf9c09c040,Team Total Points,Basketball,total,0.9995094106250724
+6938cb7ce7cf57cf9cfd4577,Team Total Points,Basketball,total,0.9995947282738071
+693b5749363c04ea4b572735,Total Sets,Tennis,total,0.9582562352009919
+6936e3e5bf3e13a3ccfa14ae,Total Games,Tennis,total,0.9840859249241798
+693ced230cc0f2bfea409d40,Total Games,Tennis,total,0.9837292399235595
+6943857a64cac35c54117a7a,3rd Quarter Total,Basketball,total,0.9882699439652246
+6938cb7ce7cf57cf9cfd4573,Total Points,Basketball,total,0.9999000632473499
+6943857a64cac35c54117a80,3rd Quarter Total,Basketball,total,0.9882699439652246
+6943857a64cac35c54117a87,3rd Quarter Total,Basketball,total,0.9882699439652246
+6943857a64cac35c54117a75,Total Points,Basketball,total,0.9605998189436156
+6939059ae7cf57cf9c09c041,Team Total Points,Basketball,total,0.9995094106250724
+69373156bf3e13a3cc036da1,Total Points,Basketball,total,0.9605998189436156
+693ea8b59a07fb7b8c7da1fe,1st Half Team Total,Basketball,total,0.9887198717600699
+6933be6d803342f75b5128bd,1st Half Team Total,Basketball,total,0.9887198717600699
+6935aad74bb364d7e95da90a,Total Points,Basketball,total,0.9605998189436156
+6935aad74bb364d7e95da906,Total Points,Basketball,total,0.9999000632473499
+693f96ed1cda31133c90ad06,Total Points,Basketball,total,0.9605998189436156
+693f96ed1cda31133c90ad08,Total Points,Basketball,total,0.9605998189436156
+693ea8b59a07fb7b8c7da1f7,Total Points,Basketball,total,0.9605998189436156
+693e3c9518569d598765e514,Total Points,Basketball,total,0.9605998189436156
+6942944cc63a5c2d95171abf,Total Points,Basketball,total,0.9605998189436156
+693f96ed1cda31133c90ad22,1st Half Team Total,American Football,total,0.9944648786650931
+69355dd1096db98a078219e5,1st Half Team Total,Soccer,total,0.9872298904247913
+693f96ed1cda31133c90ad20,1st Half Team Total,American Football,total,0.9945545324871661
+6933be6d803342f75b5128b7,Total Goals,Ice Hockey,total,0.9734859435544346
+6942944cc63a5c2d95171abd,3rd Quarter Total,Basketball,total,0.9882699439652246
+693e3c9518569d598765e50c,Total Goals,Ice Hockey,total,0.9734859435544346
+6942944cc63a5c2d95171ac0,1st Half Team Total,Basketball,total,0.9887198717600699
+693f96ed1cda31133c90ad04,Total Points,Basketball,total,0.9605998189436156
+69477b2f9adaa364587bfbd5,Team Total Goals,Ice Hockey,total,0.9434562604639501
+693ea8b59a07fb7b8c7da1ff,1st Half Team Total,Basketball,total,0.9887198717600699
+6935aad74bb364d7e95da911,Player Receptions,American Football,total,0.9848029397761638
+6935aad74bb364d7e95da905,Total Points,Basketball,total,0.9999000632473499
+6933be6d803342f75b5128c3,1st Half Team Total,Basketball,total,0.9887198717600699
+69452903b835c3e3783386c3,Total Goals,Ice Hockey,total,0.9882186466205282
+69452903b835c3e3783386c5,Team Total Points,Basketball,total,0.9995094106250724
+69452903b835c3e3783386c0,1st Half Team Total,Basketball,total,0.9972534743134196
+69452903b835c3e3783386b6,Total Goals,Ice Hockey,total,0.9734859435544346
+69452903b835c3e3783386b0,Total Points,Basketball,total,0.9605998189436156
+69462064e75d89f03660a2e4,2nd Half Total,Basketball,total,0.9662173252493657
+69462064e75d89f03660a33d,Team Total Points,Basketball,total,0.9995094106250724
+69462065e75d89f03660a3b8,1st Half Team Total,Basketball,total,0.9973431281354925
+69355dd2096db98a078219ec,Parlay,Parlay,parlay,0.9996019148340858
+6948569c56a7d5960f5319b3,Total,Basketball,total,0.8392568426224227
+6948569c56a7d5960f5319c2,Total,Basketball,total,0.9810268581345748
+6948569c56a7d5960f5319d4,1st Half Team Total,Basketball,total,0.9973431281354925
+6948569c56a7d5960f5319c1,Total,Basketball,total,0.9810268581345748
+694801750f260f8d974ad779,Total,Basketball,total,0.9174487161193392
+6948569c56a7d5960f5319c0,Total,Basketball,total,0.8392568426224227
+6948569c56a7d5960f5319c5,Total,Basketball,total,0.8392568426224227
+694801750f260f8d974ad771,Total,Basketball,total,0.9810268581345748
+69477b2f9adaa364587bfc09,Total Points,Basketball,total,0.9999000632473499
+69477b2f9adaa364587bfc0c,Total Points,Basketball,total,0.9999000632473499
+69477b2f9adaa364587bfbcf,Total,Basketball,total,0.8392568426224227
+69364ae5d0e2a7ec7b860069,Total Points,Basketball,total,0.9999000632473499
+69477b2f9adaa364587bfbed,Total Points,Basketball,total,0.9999000632473499
+69477b2e9adaa364587bfbb2,1st Half Team Total,Basketball,total,0.9973431281354925
+69477b2e9adaa364587bfba5,Total,Basketball,total,0.9042494886622439
+69477b2e9adaa364587bfba4,Total,Basketball,total,0.8392568426224227
+693a4bbca3bf037db9fdd1e9,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219af,Player Assists,Basketball,total,0.9964773541333289
+69355dd1096db98a078219b3,Player Assists,Basketball,total,0.9964773541333289
+69355dd1096db98a078219cb,Team Total Points,Basketball,total,0.9995947282738071
+69355dd1096db98a078219df,Total Points,Basketball,total,0.9999000632473499
+69355dd1096db98a078219dc,Team Total Points,Basketball,total,0.9995094106250724
+69355dd1096db98a078219da,Total Points,Basketball,total,0.9999000632473499
+6933be6d803342f75b5128dd,Team Total Points,Basketball,total,0.9995094106250724
+693265ae16938c31aaccdc79,1st Half Team Total,Basketball,total,0.9973431281354925
+693e3c9518569d598765e509,Team Total Goals,Ice Hockey,total,0.9434562604639501
+6935aad74bb364d7e95da907,Total Games,Tennis,total,0.9840859249241798
+693a4bbca3bf037db9fdd1d7,Total Points,Basketball,total,0.9605998189436156
+69388819dc54fd132b47410d,1st Half Total,Basketball,total,0.9890490441393978
+69355dd1096db98a078219e8,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219bf,Total Games,Tennis,total,0.9837292399235595
+69355dd1096db98a078219a8,Total Games,Tennis,total,0.9840859249241798
+6935aad74bb364d7e95da912,3rd Quarter Total,Basketball,total,0.9882699439652246
+6935aad74bb364d7e95da904,1st Half Total,Basketball,total,0.9977692693346657
+69355dd1096db98a07821983,1st Half Total,Basketball,total,0.9890490441393978
+693e3c9518569d598765e518,Total Points,Basketball,total,0.9605998189436156
+693e3c9518569d598765e51e,Total Points,Basketball,total,0.9605998189436156
+693e3c9518569d598765e51f,Total Points,Basketball,total,0.9605998189436156
+693e3c9518569d598765e520,Total Points,Basketball,total,0.9605998189436156
+693ced230cc0f2bfea409d4b,1st Half Total,Basketball,total,0.9890490441393978
+693b5749363c04ea4b572738,Total Points,Basketball,total,0.9605998189436156
+693a4bbca3bf037db9fdd1c8,Total Points,Basketball,total,0.9605998189436156
+693a4bbca3bf037db9fdd1cc,1st Half Total,Basketball,total,0.9890490441393978
+693a4bbca3bf037db9fdd1d3,2nd Quarter Total,Basketball,total,0.9684098566716033
+693a4bbca3bf037db9fdd1da,3rd Quarter Total,Basketball,total,0.9882699439652246
+693a4bbca3bf037db9fdd1db,Total Points,Basketball,total,0.9605998189436156
+69388819dc54fd132b47410b,Total Points,Basketball,total,0.9605998189436156
+6938cb7ce7cf57cf9cfd4572,Total Points,Basketball,total,0.9605998189436156
+69387471dc54fd132b4215ab,Total Points,Basketball,total,0.9605998189436156
+6937ab2ce1aeac2a55d62b78,Total Goals,Soccer,total,0.9620294313268714
+6933be6d803342f75b5128c4,Total Points,Basketball,total,0.9605998189436156
+693569e8d63b2595486c8c4c,Total Points,Basketball,total,0.9605998189436156
+693569e8d63b2595486c8c4e,2nd Quarter Total,Basketball,total,0.9684098566716033
+69355dd1096db98a07821980,1st Half Total,Basketball,total,0.9890490441393978
+6933be6d803342f75b5128cd,1st Half Total,Basketball,total,0.9890490441393978
+693ced230cc0f2bfea409d56,Parlay,Parlay,parlay,0.9846019148340858
+69355dd1096db98a078219e2,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a078219e6,Team Total Points,Basketball,total,0.9939574999437462
+69364ae5d0e2a7ec7b860085,Team Total Points,Basketball,total,0.9939102385821148
+69364ae5d0e2a7ec7b860089,Team Total Points,Basketball,total,0.9939102385821148
+69364ae5d0e2a7ec7b860075,Player Points,Basketball,total,0.9860504570454798
+6938cb7ce7cf57cf9cfd4578,Team Total Points,Basketball,total,0.9939102385821148
+69364ae5d0e2a7ec7b860077,Player PRA,Basketball,total,0.9898771435333812
+693e3c9618569d598765e534,Team Total Points,Basketball,total,0.9939102385821148
+693e594618569d59876ab4f3,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219de,Total Goals,Soccer,total,0.9778281308605871
+69364ae5d0e2a7ec7b860068,1st Half Total,American Football,total,0.9957509838692407
+693ced230cc0f2bfea409d61,Total Points,Basketball,total,0.9985296370690894
+693ced230cc0f2bfea409d6e,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a0782198e,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a07821999,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219b4,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a078219e4,Team Total Points,Basketball,total,0.9939102385821148
+69364ae5d0e2a7ec7b86007b,Team Total Points,Basketball,total,0.9939102385821148
+693e3c9618569d598765e53a,Total Points,Basketball,total,0.9985296370690894
+69355dd1096db98a07821993,Total Goals,Ice Hockey,total,0.9898742315811435
+693e3c9518569d598765e515,Total Goals,Ice Hockey,total,0.9898742315811435
+693217d916938c31aab985d0,Total Goals,Ice Hockey,total,0.9642925869795499
+6933be6d803342f75b5128b8,Total Goals,Ice Hockey,total,0.9642925869795499
+69355dd1096db98a078219c5,1st Half Total,Basketball,total,0.9985522679602726
+69355dd1096db98a07821989,Total Goals,Ice Hockey,total,0.9642925869795499
+6935aad74bb364d7e95da903,Total Goals,Ice Hockey,total,0.9898742315811435
+693e3c9518569d598765e50b,Total Goals,Ice Hockey,total,0.9642925869795499
+693e594618569d59876ab4f2,Total Goals,Ice Hockey,total,0.9642925869795499
+69364ae5d0e2a7ec7b860081,1st Half Total,Basketball,total,0.9985522679602726
+693f96ec1cda31133c90acfa,Total Goals,Ice Hockey,total,0.9642925869795499
+69355dd1096db98a078219b8,1st Half Total,Basketball,total,0.9985522679602726
+69355dd1096db98a078219c6,1st Half Total,Basketball,total,0.9985522679602726
+6942944cc63a5c2d95171ac3,Total Points,Basketball,total,0.9497716156643121
+69364ae5d0e2a7ec7b860084,2nd Half Total,Basketball,total,0.9615813273692345
+6943857a64cac35c54117a8c,2nd Half Total,Basketball,total,0.9615813273692345
+6948569c56a7d5960f5319d7,2nd Half Total,Basketball,total,0.9615813273692345
+693e3c9518569d598765e525,1st Quarter Total,Basketball,total,0.9837115092463489
+693e3c9618569d598765e52d,1st Quarter Total,Basketball,total,0.9837115092463489
+69452903b835c3e3783386c1,1st Quarter Total,Basketball,total,0.9835502312985466
+69462065e75d89f03660a3bd,1st Quarter Total,Basketball,total,0.9837115092463489
+69477b2f9adaa364587bfc07,1st Quarter Total,Basketball,total,0.9837115092463489
+69364ae5d0e2a7ec7b86006c,1st Quarter Total,Basketball,total,0.9835502312985466
+693ced230cc0f2bfea409d5a,2nd Quarter Total,Basketball,total,0.981616444465428
+693f96ed1cda31133c90ad0f,3rd Quarter Total,Basketball,total,0.9753572526642484
+69462065e75d89f03660a3be,3rd Quarter Total,Basketball,total,0.9818717656495511
+69462065e75d89f03660a3b9,3rd Quarter Total,Basketball,total,0.9818717656495511
+69477b2f9adaa364587bfbdd,3rd Quarter Total,Basketball,total,0.9818717656495511
+693e3c9618569d598765e532,1st Half Team Total,Basketball,total,0.9871372768728864
+693e3c9618569d598765e53c,1st Half Team Total,Basketball,total,0.9871372768728864
+693e3c9618569d598765e538,1st Half Team Total,Basketball,total,0.9871372768728864
+693e3c9618569d598765e52a,1st Half Team Total,Basketball,total,0.9871372768728864
+693e3c9618569d598765e535,1st Half Team Total,Basketball,total,0.9871372768728864
+6943857a64cac35c54117a8b,1st Half Team Total,Basketball,total,0.9871372768728864
+69452903b835c3e3783386bb,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbe6,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbe3,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbe4,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbfe,1st Half Team Total,Basketball,total,0.9771372768728864
+69477b2f9adaa364587bfc06,1st Half Team Total,Basketball,total,0.9855202914960586
+69477b2f9adaa364587bfc02,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbfc,1st Half Team Total,Basketball,total,0.9871372768728864
+6940d5be62015631e3885062,1st Half Team Total,Basketball,total,0.9871372768728864
+6940d5be62015631e3885063,1st Quarter Total,Basketball,total,0.9837115092463489
+69364ae5d0e2a7ec7b86008a,1st Half Team Total,Basketball,total,0.9871372768728864
+69355dd1096db98a078219a2,Total Points,Basketball,total,0.9985296370690894
+693ced230cc0f2bfea409d53,Total Points,Basketball,total,0.9985296370690894
+6935aad74bb364d7e95da90b,Total Points,Basketball,total,0.9985296370690894
+6940d5be62015631e388505c,Team Total Points,Basketball,total,0.9939574999437462
+6940d5be62015631e388505b,1st Half Team Total,Basketball,total,0.9567299348215154
+693f96ed1cda31133c90ad13,3rd Quarter Total,Basketball,total,0.9818717656495511
+6938dcf9e7cf57cf9c01e43d,Total Points,Basketball,total,0.9985296370690894
+693a4bbca3bf037db9fdd1cf,Team Total Goals,Ice Hockey,total,0.9649041717607428
+693ced230cc0f2bfea409d51,Total Points,Basketball,total,0.9985296370690894
+693ced230cc0f2bfea409d5f,3rd Quarter Total,Basketball,total,0.9818717656495511
+693ced230cc0f2bfea409d64,Total Points,Basketball,total,0.9985296370690894
+6935aad74bb364d7e95da910,Player Points,Basketball,total,0.9860504570454798
+6933be6d803342f75b5128e3,Total Goals,Soccer,total,0.9778281308605871
+693ced230cc0f2bfea409d67,Team Total Points,Basketball,total,0.9939102385821148
+693265ae16938c31aaccdc72,Player 3-Pointers,Basketball,total,0.9604429342806609
+69355dd1096db98a07821986,Team Total Goals,Ice Hockey,total,0.9649041717607428
+693a4bbca3bf037db9fdd1cd,Team Total Goals,Ice Hockey,total,0.9649041717607428
+6943857a64cac35c54117a8d,Player Points,Basketball,total,0.9856777820151501
+6943857a64cac35c54117a92,1st Half Team Total,Basketball,total,0.9871372768728864
+693e594618569d59876ab4f0,Team Total Goals,Ice Hockey,total,0.9649041717607428
+69355dd1096db98a078219bd,Team Total Goals,Ice Hockey,total,0.9649041717607428
+69462064e75d89f03660a2e3,1st Period Total Goals,Ice Hockey,total,0.9438752820772294
+693e3c9518569d598765e50f,Total Points,Basketball,total,0.9497716156643121
+693ced230cc0f2bfea409d44,Total Points,Basketball,total,0.9497716156643121
+693ced230cc0f2bfea409d4c,1st Half Total,Basketball,total,0.9511419482876846
+693217d916938c31aab985e1,Team Total Points,Basketball,total,0.9799867524293054
+693ea8b59a07fb7b8c7da1ec,3rd Quarter Total,Basketball,total,0.947960977015599
+693a4bbca3bf037db9fdd1d0,3rd Quarter Total,Basketball,total,0.947960977015599
+693f96ed1cda31133c90ad03,Total Points,Basketball,total,0.9497716156643121
+6943857a64cac35c54117a72,Total Points,Unknown,total,0.9300471984562422
+6943857a64cac35c54117a76,Total Points,Unknown,total,0.9300471984562422
+69373156bf3e13a3cc036dae,Team Total Goals,Soccer,total,0.9853194100337719
+6940d5be62015631e3885058,1st Half Team Total,Basketball,total,0.9567299348215154
+693217d916938c31aab985d5,2nd Quarter Total,Basketball,total,0.9200950552697325
+693ea8b59a07fb7b8c7da1fb,1st Quarter Total,Basketball,total,0.9141477449186806
+6938cb7ce7cf57cf9cfd457d,Team Total Goals,Soccer,total,0.9853194100337719
+693e594618569d59876ab4f1,Total Points,Basketball,total,0.9497716156643121
+6938cb7ce7cf57cf9cfd4575,Total Points,Basketball,total,0.9497716156643121
+69387470dc54fd132b4215a6,Total Points,Basketball,total,0.9497716156643121
+69387471dc54fd132b4215ac,Total Points,Basketball,total,0.9497716156643121
+693f96ec1cda31133c90acfc,1st Half Total Goals,Basketball,total,0.8686251835545103
+6937ab2ce1aeac2a55d62b79,Total Points,Basketball,total,0.9985296370690894
+693e594618569d59876ab4f9,Total Goals,Ice Hockey,total,0.9642925869795499
+693ea8b59a07fb7b8c7da1eb,1st Half Team Total,Basketball,total,0.9567299348215154
+69477b2e9adaa364587bfb9e,Team Total Goals,Ice Hockey,total,0.9649041717607428
+693a4bbca3bf037db9fdd1d2,3rd Quarter Total,Basketball,total,0.947960977015599
+693e7e73d13a888a8e8695cf,Total Points,Basketball,total,0.9497716156643121
+69452903b835c3e3783386bd,1st Half Team Total,Basketball,total,0.9871372768728864
+69452903b835c3e3783386c8,Total Points,Basketball,total,0.9985296370690894
+69452903b835c3e3783386c7,Total Points,Basketball,total,0.9985296370690894
+69452903b835c3e3783386b1,Total Goals,Ice Hockey,total,0.9642925869795499
+69452903b835c3e3783386c4,Total Games,Tennis,total,0.9769430944580196
+69452903b835c3e3783386b2,1st Half Team Total,Basketball,total,0.9567299348215154
+69452903b835c3e3783386b7,3rd Quarter Total,Basketball,total,0.947960977015599
+69452903b835c3e3783386b8,Total Points,Basketball,total,0.9497716156643121
+6937ab2ce1aeac2a55d62b7d,Total Points,Basketball,total,0.9985296370690894
+6937ab2ce1aeac2a55d62b7f,Team Total Points,Basketball,total,0.9913803195395242
+69462064e75d89f03660a2e1,Total Goals,Ice Hockey,total,0.9642925869795499
+6937ab2ce1aeac2a55d62b82,Total Points,Basketball,total,0.9985296370690894
+69462065e75d89f03660a3bc,Total Points,Basketball,total,0.9985296370690894
+6948569c56a7d5960f5319b8,Total,Basketball,total,0.9537747419372355
+6948569c56a7d5960f5319b5,Total,Basketball,total,0.8461783041928167
+69462064e75d89f03660a2e2,Total Points,Basketball,total,0.9497716156643121
+6948569c56a7d5960f5319bb,Total,Basketball,total,0.9537747419372355
+6948569c56a7d5960f5319be,Total,Basketball,total,0.9537747419372355
+694801750f260f8d974ad777,Total,Basketball,total,0.9537747419372355
+694801750f260f8d974ad77b,Total,Basketball,total,0.8461783041928167
+69477b2f9adaa364587bfc0f,Team Total Points,Basketball,total,0.9939574999437462
+694801750f260f8d974ad77c,Total,Basketball,total,0.9537747419372355
+69364ae5d0e2a7ec7b860072,Team Total Points,Basketball,total,0.9939102385821148
+694801750f260f8d974ad77a,Total,Basketball,total,0.9537747419372355
+69477b2f9adaa364587bfbd3,Total,Basketball,total,0.8760530044505228
+69477b2f9adaa364587bfc0a,1st Half Team Total,Basketball,total,0.9871372768728864
+69477b2f9adaa364587bfbc7,Total Goals,Ice Hockey,total,0.9642925869795499
+69477b2e9adaa364587bfba1,Total Goals,Ice Hockey,total,0.9642925869795499
+69355dd1096db98a078219a4,3rd Quarter Total,Basketball,total,0.9818717656495511
+69355dd1096db98a078219b7,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a07821994,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a078219d1,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a078219cd,Team Total Points,Basketball,total,0.9939102385821148
+69355dd1096db98a078219ca,Team Total Points,Basketball,total,0.9939102385821148
+6933be6d803342f75b5128dc,Total Points,Basketball,total,0.9985296370690894
+6933be6d803342f75b5128d9,Team Total Points,Basketball,total,0.9889179547129524
+6933be6d803342f75b5128df,1st Quarter Total,Basketball,total,0.9835502312985466
+693265ae16938c31aaccdc6c,Team Total Points,Basketball,total,0.9939102385821148
+693265ae16938c31aaccdc70,Team Total Points,Basketball,total,0.9939102385821148
+693265ae16938c31aaccdc75,Player Points,Basketball,total,0.9849541867452521
+69355dd1096db98a07821981,Total Goals,Ice Hockey,total,0.9642925869795499
+693f96ed1cda31133c90ad10,1st Quarter Total,American Football,total,0.9921889579544028
+693e594618569d59876ab4ea,Total Points,Basketball,total,0.9497716156643121
+6933be6d803342f75b5128c7,1st Half Team Total,Basketball,total,0.9567299348215154
+6933be6d803342f75b5128c2,Total Points,Basketball,total,0.9497716156643121
+693f96ec1cda31133c90acfe,Total Points,Basketball,total,0.9497716156643121
+693ced230cc0f2bfea409d3a,Total Games,Tennis,total,0.9641393540369664
+69355dd1096db98a0782197c,Team Total Points,Basketball,total,0.9799867524293054
+69355dd1096db98a078219a9,Team Total Points,Basketball,total,0.9799867524293054
+69387471dc54fd132b4215b9,1st Half Total,Basketball,total,0.9511419482876846
+693f96ec1cda31133c90ad00,1st Quarter Total,Basketball,total,0.9141477449186806
+693f96ec1cda31133c90ad01,Total Points,Basketball,total,0.9497716156643121
+693f96ed1cda31133c90ad07,1st Quarter Total,Basketball,total,0.9141477449186806
+693ea8b59a07fb7b8c7da1fa,1st Quarter Total,Basketball,total,0.9141477449186806
+693e594618569d59876ab4f6,Total Points,Basketball,total,0.9497716156643121
+693e594618569d59876ab4fa,1st Quarter Total,Basketball,total,0.9141477449186806
+693e7e73d13a888a8e8695d0,Total Points,Basketball,total,0.9497716156643121
+6938cb7ce7cf57cf9cfd4574,Total Points,Basketball,total,0.9497716156643121
+6933be6d803342f75b5128d0,Total Points,Basketball,total,0.9497716156643121
+69387471dc54fd132b4215a8,Total Points,Basketball,total,0.9497716156643121
+69373156bf3e13a3cc036da8,2nd Quarter Total,Basketball,total,0.9200950552697325
+693569e8d63b2595486c8c4b,Total Points,Basketball,total,0.9985296370690894
+693265ae16938c31aaccdc77,Team Total Points,Basketball,total,0.9939102385821148
+693265ae16938c31aaccdc7c,Total Points,Basketball,total,0.9985296370690894
+6851f4022cc916296ea5682c,Both Teams to Score,Soccer,prop,0.6346170257125426
+692f96f921f3579cd6509eec,Draw No Bet,Soccer,prop,0.5533081651635395
+6828df486eb3dc723bbc87f4,Draw No Bet,Soccer,prop,0.5533081651635395
+67e8a4e41d7319a364ca4104,Draw No Bet,Soccer,prop,0.5533081651635395
+67f584fb7ea0e7a702735237,Both Teams to Score,Soccer,prop,0.6394737770827469
+67e314a56f6b5343dc23c675,Spread,Basketball,spread,0.9749883364488997
+683df7bcb029635844bb92dc,Both Teams to Score,Soccer,prop,0.6394737770827469
+67e8167f34ff1a53ed6b920c,Draw No Bet,Soccer,prop,0.5533081651635395
+67f584f17ea0e7a7027094a4,Draw No Bet,Soccer,prop,0.5965618478971868
+67f584fa7ea0e7a702734c40,Draw No Bet,Soccer,prop,0.5533081651635395
+67f584fa7ea0e7a702734dbf,Draw No Bet,Soccer,prop,0.5533081651635395
+67f584fa7ea0e7a702734ff3,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96f221f3579cd6509bc1,Draw No Bet,Soccer,prop,0.5341733824269406
+63abe2f64baa85f0d3df92c7,Spread,Tennis,spread,0.9772283099856577
+63abe2fb4baa85f0d3e02c5b,Super Boost,American Football,spread,0.6384363252828917
+63abe2fd4baa85f0d3e0473c,Super Boost,American Football,spread,0.5846289802143206
+67deef319e95773c2e02b67a,Spread,Basketball,spread,0.9700186622650605
+6529edc38416ad7b2935d4e9,1st Half Moneyline,American Football,moneyline,0.7160581774462546
+65bd86e848e6e8dcdc2fe1df,Spread,Tennis,spread,0.9772283099856577
+65d1a0be6b01b82bd1aab0af,Moneyline,Ice Hockey,moneyline,0.6203334385286385
+6464f116bbc44f5061c14623,Spread,Tennis,spread,0.9860436771678438
+63abe2fb4baa85f0d3e02657,Spread,Tennis,spread,0.9772283099856577
+65c3c7fd206e09be44997a05,Parlay,Multi-Sport,parlay,0.9646019148340857
+692f96df21f3579cd6509150,2nd Set Winner,Tennis,spread,0.9469300052896726
+6429b5fcc9059105fd81f941,1st Inning Runs (Yes/No),Baseball,total,0.513066319681652
+6799077820eff3663c3f9bbe,Player Double-Double,Basketball,total,0.5683430255960595
+68340fec00002d84ff3a9a31,Draw No Bet,Soccer,prop,0.5243622231512483
+692f96e521f3579cd650954b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd65093e8,Parlay,Parlay,parlay,0.9996019148340858
+692f96ec21f3579cd65098f5,2nd Set Winner,Tennis,spread,0.9469300052896726
+64ab4fdc65de49a1b8d7cb86,Moneyline,Basketball,moneyline,0.6350783116545365
+64683a0692d71a5fe0b8f42f,Moneyline,Ice Hockey,moneyline,0.5318826526042691
+6884bffca2d28881bb33ca97,Both Teams to Score,Soccer,prop,0.6394737770827469
+66e74f2e6a14af96bdd762be,Player Anytime TD,American Football,total,0.5486046228273969
+68917aa456bc540476127a72,Parlay,Tennis,parlay,0.9645787510451038
+68b96cbdcec28892d28ac0c9,Parlay,Parlay,parlay,0.9946019148340858
+63abe2b34baa85f0d3d8e5b7,Player Hits,Baseball,spread,0.5761628491979415
+63abe2b44baa85f0d3d90404,Player Hits,Baseball,spread,0.5761628491979415
+63abe3a34baa85f0d3f2450e,Player Goals,Ice Hockey,total,0.7935529987689008
+64fa6a2a73dfd2b579643735,Parlay,American Football,parlay,0.97729000859091
+66bc0e0d455ca5e1ae1be059,Game Props,Baseball,prop,0.6183268454000003
+6413cb7898e0aaae90c7a374,Player Double-Double,Basketball,spread,0.5724276124494025
+691dee49785c6b1ce5489f1a,Parlay,Parlay,parlay,0.9946019148340858
+68f9923c981d1f162b8f4e6f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ddd7159750395b26f27fe2,Parlay,Parlay,parlay,0.9496019148340857
+65079b593440a8a11325c443,Player Anytime TD,American Football,total,0.5486046228273969
+690b868651125081f900f0bd,Parlay,Parlay,parlay,0.9496019148340857
+692f96e521f3579cd6509550,Parlay,Parlay,parlay,0.9496019148340857
+683df7bcb029635844bb90c7,Both Teams to Score,Soccer,prop,0.6394737770827469
+645926d15590f95e3493165b,Winning Margin,Ice Hockey,prop,0.49886814907735216
+66927a044fc63d9ef6452251,Game Props,Baseball,prop,0.6183268454000003
+690a6a9bd40aecb68db711ba,Parlay,Parlay,parlay,0.9996019148340858
+692f96e821f3579cd65096f1,Parlay,Parlay,parlay,0.9946019148340858
+64343a4ec3a2f5867cdca092,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+68917aa456bc540476127fd2,Parlay,Parlay,parlay,0.9496019148340857
+68b96cbdcec28892d28ac016,Parlay,Parlay,parlay,0.9946019148340858
+68e2a9e70b5002019255fef1,2nd Set Winner,Tennis,spread,0.9469300052896726
+63f41572b809187de271e88e,Moneyline,Tennis,spread,0.7834688113990463
+63abe35e4baa85f0d3e9e6c8,Moneyline,Tennis,spread,0.6631303435845833
+63abe4024baa85f0d30bd5f9,Moneyline,Tennis,spread,0.6631303435845833
+63abe35e4baa85f0d3e9e74a,Moneyline,Tennis,spread,0.6631303435845833
+682963e2a1a74ca562796f20,Fight Props,MMA,total,0.574975664626904
+6884bffea2d28881bb340f96,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f7258,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cb133fbad066878376538f,2nd Set Winner,Tennis,spread,0.9469300052896726
+690640fca5d2d3e184c7c884,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cc0cec28892d28b21f7,2nd Set Winner,Tennis,spread,0.9469300052896726
+69224ad0e7f0968acc50f009,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe2b14baa85f0d3d8c6b7,Player Anytime TD,American Football,total,0.5486046228273969
+68bc7914f73483f50124bfd4,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ddd7159750395b26f27bcf,2nd Set Winner,Tennis,spread,0.9469300052896726
+689510919fcd0afc3dc5b4f9,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e684f,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340ae7,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c53276af7f7e4680c6aa06,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513716,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe16f4baa85f0d3b62797,Moneyline,Tennis,spread,0.6631303435845833
+691f986fb0e9cf54cfe043d4,1st Set Winner,Tennis,spread,0.9274213252944041
+690469c2c5a95cc235450323,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f11bea5e9a7c0c687a5981,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1704baa85f0d3b6351b,Moneyline,Tennis,spread,0.6631303435845833
+6927191d813aaa103994c0d8,1st Set Winner,Tennis,spread,0.9274213252944041
+68ea5cc715eee74d025bd144,1st Set Winner,Tennis,spread,0.9274213252944041
+689646d010678d4b7db0ff5a,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2f34baa85f0d3df3fc1,Moneyline,Tennis,spread,0.572755752182822
+68cd159c7ceeff812a1c4f84,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe35e4baa85f0d3e9e645,Moneyline,Tennis,spread,0.6631303435845833
+642c8698b004f8456cfa199d,1st Set Winner,Tennis,prop,0.5187641394219883
+68c53276af7f7e4680c6a97b,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2f84baa85f0d3dfc860,Spread,Tennis,spread,0.9772283099856577
+689510929fcd0afc3dc5bd7b,1st Set Winner,Tennis,spread,0.9274213252944041
+68c04fbfde0a9ad08a38ebef,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c53276af7f7e4680c6a983,Moneyline,Tennis,moneyline,0.5729652848631421
+68fa27fdbe9e5fdfde64cde7,Moneyline,Tennis,moneyline,0.5729652848631421
+68fba81f2e67f6954aa9d773,2nd Set Winner,Tennis,spread,0.9469300052896726
+690640fca5d2d3e184c7cabe,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe1704baa85f0d3b637cf,Moneyline,Tennis,spread,0.6631303435845833
+63abe2f34baa85f0d3df4797,Moneyline,Tennis,spread,0.572755752182822
+63abe35e4baa85f0d3e9e7c2,Moneyline,Tennis,spread,0.6631303435845833
+6594a2717f9e2527f9617714,Moneyline,Tennis,spread,0.572755752182822
+6594b7967f9e2527f9381a6a,Moneyline,Tennis,spread,0.572755752182822
+63abe3564baa85f0d3e94af1,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+6594b7967f9e2527f9381c03,Moneyline,Tennis,spread,0.572755752182822
+65c51096ae9f086a97f3e43f,Moneyline,Tennis,spread,0.6631303435845833
+65c51afcae9f086a97653109,Moneyline,Tennis,spread,0.572755752182822
+6828df436eb3dc723bbb7226,Draw No Bet,Soccer,prop,0.5533081651635395
+65b04d81ec1fef3af3928afa,Player Double-Double,Basketball,spread,0.5724276124494025
+692f96f221f3579cd6509c18,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96f121f3579cd6509b70,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96d721f3579cd6508d31,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f121f3579cd6509b83,Both Teams to Score,Soccer,prop,0.6394737770827469
+683df7aeb029635844b8dba1,Draw No Bet,Soccer,prop,0.5965618478971868
+680d52f76452173394718f1f,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96f221f3579cd6509bc0,Both Teams to Score,Soccer,prop,0.6394737770827469
+682b4ea82bf6cce702f947cd,Draw No Bet,Soccer,prop,0.5533081651635395
+6815229d8276954c32684885,Both Teams to Score,Soccer,prop,0.6394737770827469
+692b49f9aebea6ace14edb41,Draw No Bet,Soccer,prop,0.5744995569682687
+6865aa55efc8d95328ff745d,Draw No Bet,Soccer,prop,0.5341733824269406
+683df7bcb029635844bb8dc7,Draw No Bet,Soccer,prop,0.5533081651635395
+6884c005a2d28881bb347cdd,Draw No Bet,Soccer,prop,0.5334998712592663
+67f1788a06a99ad36894c64f,Draw No Bet,Soccer,prop,0.5533081651635395
+67804c1eb1ebda88f7e6ed2b,Player Double-Double,Basketball,total,0.5683430255960595
+67f584f17ea0e7a702709445,Draw No Bet,Soccer,prop,0.5965618478971868
+67f584f17ea0e7a70270949d,Draw No Bet,Soccer,prop,0.5533081651635395
+63d069a84af55df46c1e1816,Player Points,Basketball,total,0.5864717286027943
+692f96da21f3579cd6508ec8,2nd Set Winner,Tennis,spread,0.9469300052896726
+6865aa55efc8d95328ff7447,Draw No Bet,Soccer,prop,0.5341733824269406
+689646d010678d4b7db100f7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508eb3,2nd Set Winner,Tennis,spread,0.9469300052896726
+689646d010678d4b7db10187,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508ecb,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96f021f3579cd6509b3c,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96f021f3579cd6509b3b,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96ef21f3579cd6509a4b,Both Teams to Score,Soccer,prop,0.6394737770827469
+68b96cbdcec28892d28aae1e,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cc0cec28892d28b2083,1st Set Winner,Tennis,spread,0.9274213252944041
+68c096b3de0a9ad08a4b487a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508f58,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c53276af7f7e4680c6a849,1st Set Winner,Tennis,spread,0.9274213252944041
+68df811d45f8fd4c98778bf8,2nd Set Winner,Tennis,spread,0.9469300052896726
+68113b8effa56d9b28a96b30,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96ed21f3579cd650999e,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96ed21f3579cd65099b0,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96ed21f3579cd6509935,Both Teams to Score,Soccer,prop,0.6394737770827469
+6693f6e772f41a4cb0f66564,Other Player Props,Tennis,prop,0.6926435767966181
+692f96ee21f3579cd65099fe,2nd Set Winner,Tennis,spread,0.9469300052896726
+67e1f1c6cd6f9ca1031c2e15,Player Double-Double,Basketball,total,0.5683430255960595
+692f96de21f3579cd65090b7,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd6509120,2nd Set Winner,Tennis,spread,0.9469300052896726
+692003fd842ddd493078445a,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9950f981d1f162b83ef33,Moneyline,Basketball,moneyline,0.7162894517074062
+692f96e021f3579cd65091cd,2nd Set Winner,Tennis,spread,0.9469300052896726
+680d543c6452173394d470d5,Player Double-Double,Basketball,total,0.6634745715709133
+68fa27fdbe9e5fdfde64cb95,2nd Set Winner,Basketball,prop,0.6509489070432336
+689510929fcd0afc3dc5bdb7,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc03595d,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da746178324,1st Set Winner,Tennis,spread,0.9274213252944041
+68f3aeb811c1f84ee0fd75b1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508eb1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96de21f3579cd65090b4,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd65091da,Moneyline,Tennis,moneyline,0.5729652848631421
+67fafe89d9c9747114a1012c,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96e221f3579cd650939d,2nd Set Winner,Tennis,spread,0.9469300052896726
+65c51096ae9f086a97f3e317,Moneyline,Tennis,spread,0.6631303435845833
+67fa0481cbf1dae0480082bc,Player Double-Double,Basketball,total,0.5683430255960595
+63bf382c372d2b938feabad9,1st Set Winner,Tennis,prop,0.5187641394219883
+63d9a462aa1adc117ee5520d,1st Set Winner,Tennis,prop,0.5646428652583554
+67f7028b1b7e157b146ad5ca,Player Double-Double,Basketball,total,0.5683430255960595
+63abe2f84baa85f0d3dfc6a1,Moneyline,Baseball,moneyline,0.5678247076060572
+692f96e921f3579cd6509780,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd6509793,1st Set Winner,Tennis,spread,0.9274213252944041
+6413a34198e0aaae90eac1cc,Spread,Basketball,spread,0.9749883364488997
+64377e299b276eb471cf36ed,Odds Boost,Baseball,total,0.5350719866326286
+682963e3a1a74ca562798bda,Both Teams to Score,Soccer,prop,0.6346170257125426
+682963e3a1a74ca562799213,Both Teams to Score,Soccer,prop,0.6394737770827469
+63d70588d4a8ec117d42ace9,Player Anytime TD,American Football,total,0.5486046228273969
+63d6b45e828f0557dd86caac,Player Anytime TD,American Football,total,0.6060118734078225
+658995345a5104661592d106,Player Anytime TD,American Football,total,0.5486046228273969
+67ed7dc3ebea9ddae337f971,Both Teams to Score,Soccer,prop,0.6394737770827469
+68c04fbfde0a9ad08a38ebc1,2nd Set Winner,Tennis,spread,0.9469300052896726
+67d79f80faae60e67ea52c17,Player Double-Double,Basketball,total,0.5683430255960595
+692f96ee21f3579cd65099f3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509345,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1704baa85f0d3b628a1,Moneyline,Tennis,spread,0.6631303435845833
+692f96e321f3579cd6509447,2nd Set Winner,Tennis,spread,0.9469300052896726
+67e8d4c61d7319a364a489bb,Draw No Bet,Soccer,prop,0.5533081651635395
+67e8a4ea1d7319a364cd3468,Draw No Bet,Soccer,prop,0.5533081651635395
+68f21bbf24b2a8d3be1eadf4,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f562d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094c1,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f6a12,2nd Set Winner,Tennis,spread,0.9469300052896726
+67e07dd59df2e90d983cbae7,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96de21f3579cd65090b6,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd65091c8,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd650922b,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e221f3579cd650934d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650952a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093a1,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650979c,Moneyline,Tennis,moneyline,0.5729652848631421
+63cde25be32a51df3488a8a6,Moneyline,Tennis,moneyline,0.5122003247069412
+68ddd7159750395b26f27de0,First Run,Baseball,prop,0.6272913772287328
+67f97f75a751acf9f2ca125b,Both Teams to Score,Soccer,prop,0.6394737770827469
+64275bc72eace26348819616,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96e721f3579cd65095f3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095fa,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd650967a,2nd Set Winner,Tennis,spread,0.9469300052896726
+6456c85c7bbc0442c576d4d9,Moneyline,Tennis,spread,0.7440655847480605
+6456c85c7bbc0442c576d544,Moneyline,Tennis,spread,0.7440655847480605
+692f96e821f3579cd65096c4,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab50c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7914f73483f50124b9b9,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f5169,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e821f3579cd650970f,Both Teams to Score,Soccer,prop,0.6832936771734833
+65726d23b1017411ff471f5c,Player Anytime TD,American Football,total,0.5486046228273969
+686d83e429c566f2d415f548,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96e821f3579cd650971d,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1704baa85f0d3b64387,Moneyline,Tennis,spread,0.6631303435845833
+6868542e2d487c510c159d54,Draw No Bet,Soccer,prop,0.5533081651635395
+686d83e429c566f2d415f540,Both Teams to Score,Soccer,prop,0.6394737770827469
+68bc7910f73483f50123b7b5,Draw No Bet,Soccer,prop,0.5965618478971868
+692f96e921f3579cd650978a,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffca2d28881bb33cc5c,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96db21f3579cd6508fd9,Parlay,Parlay,parlay,0.9946019148340858
+692f96e921f3579cd65097e5,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe3544baa85f0d3e935b4,Moneyline,Tennis,spread,0.6631303435845833
+692f96ea21f3579cd6509818,Both Teams to Score,Soccer,prop,0.6394737770827469
+63ce1721e32a51df34021f48,Moneyline,Tennis,spread,0.6631303435845833
+680d52e664521733946b961c,1st Set Winner,Tennis,prop,0.47238306898390275
+6491d5f60708342d13de5f5f,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96ea21f3579cd650984c,Draw No Bet,Soccer,prop,0.5965618478971868
+64b03599068d620667a5be27,Moneyline,Tennis,spread,0.6631303435845833
+6594b7967f9e2527f93814fd,Moneyline,Tennis,spread,0.572755752182822
+6594b7967f9e2527f938171d,Moneyline,Tennis,spread,0.572755752182822
+6594b7967f9e2527f9381a55,Moneyline,Tennis,spread,0.572755752182822
+6594bd8c7f9e2527f990830a,Moneyline,Tennis,spread,0.572755752182822
+63cd807d6305a2e05a80d7ce,Moneyline,Tennis,spread,0.6631303435845833
+692f96ea21f3579cd6509846,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd6509905,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd6509229,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098fb,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ed21f3579cd6509938,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509342,1st Set Winner,Tennis,spread,0.9274213252944041
+67d9f2287ee18e06f67bc404,Other Player Props,Tennis,prop,0.6866784146484151
+65dbae86d7018bf818ba9304,Parlay,Soccer,parlay,0.9845809116599098
+692f96e321f3579cd6509434,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96e621f3579cd65095a0,1st Set Winner,Tennis,spread,0.9274213252944041
+63eb8bf1b6e7a0a4b7b1112e,Moneyline,Tennis,moneyline,0.5122003247069412
+66f96dfca3395c77b28a33b8,Parlay,American Football,parlay,0.98229000859091
+67e07dd59df2e90d983cb636,Draw No Bet,Soccer,prop,0.5533081651635395
+646cdbc6988814965cbd163e,Moneyline,Tennis,spread,0.6631303435845833
+63abe2f34baa85f0d3df4658,Moneyline,Tennis,spread,0.6631303435845833
+690c891a28a6ed1540cf7df5,Moneyline,Tennis,moneyline,0.5729652848631421
+65726d23b1017411ff4723ca,Player Anytime TD,American Football,total,0.5486046228273969
+63abe3444baa85f0d3e7f5ea,Moneyline,Tennis,spread,0.6631303435845833
+63abe1704baa85f0d3b6437e,Moneyline,Tennis,spread,0.6631303435845833
+68b96cc0cec28892d28b30c5,Parlay,Tennis,parlay,0.9283901930655618
+690469c3c5a95cc235452404,Parlay,Tennis,parlay,0.9283901930655618
+6456c85b7bbc0442c576b889,Other Player Props,Tennis,prop,0.708045255484405
+6456c85c7bbc0442c576ca9b,Moneyline,Tennis,spread,0.5248816669967757
+692f96df21f3579cd6509151,2nd Set Winner,Tennis,spread,0.9469300052896726
+6893773f2d972982d8d192f0,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28aad3e,1st Set Winner,Tennis,spread,0.9274213252944041
+68d70ab4eabedaa06b191b83,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe3554baa85f0d3e943a7,Moneyline,Tennis,spread,0.6631303435845833
+63abe16f4baa85f0d3b620ba,Moneyline,Tennis,spread,0.6631303435845833
+63abe1704baa85f0d3b6441b,Moneyline,Tennis,spread,0.6631303435845833
+63f69c4a778780993719657f,Moneyline,Tennis,moneyline,0.5122003247069412
+6408fa819bb29a1d7a376d26,Moneyline,Tennis,spread,0.5248816669967757
+685f6c970f2c6410cb2fd25d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509399,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe16f4baa85f0d3b62076,Moneyline,Tennis,spread,0.6631303435845833
+63abe2f34baa85f0d3df4825,Moneyline,Tennis,moneyline,0.5122003247069412
+63d46bc712bd83db2e2f879d,Moneyline,Tennis,moneyline,0.5122003247069412
+683df7bcb029635844bb82e0,Draw No Bet,Soccer,prop,0.5243622231512483
+690a6a9bd40aecb68db711da,Parlay,Multi-Sport,parlay,0.9496019148340857
+63abe35e4baa85f0d3e9f408,Parlay,Parlay,parlay,0.9895787510451037
+692f96dc21f3579cd6509018,Moneyline,Tennis,moneyline,0.5729652848631421
+65c3c7fd206e09be44997813,Parlay,Parlay,parlay,0.9646019148340857
+692f96ec21f3579cd65098cc,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd6509916,1st Set Winner,Tennis,spread,0.9274213252944041
+65c06a71b7306da8107447a3,Parlay,Parlay,parlay,0.9895787510451037
+68dc5fa05c7f53234484781f,Parlay,Parlay,parlay,0.9496019148340857
+63abe1704baa85f0d3b64444,Moneyline,Tennis,spread,0.6631303435845833
+67a699caa9d578daa955e010,Player Double-Double,Basketball,total,0.5683430255960595
+68cb133fbad0668783765db9,Parlay,Parlay,parlay,0.9946019148340858
+68dc5fa05c7f532344847688,Parlay,Parlay,parlay,0.9996019148340858
+690a6a9bd40aecb68db714d9,Parlay,Parlay,parlay,0.9996019148340858
+68ddd7159750395b26f27c91,Parlay,Parlay,parlay,0.9946019148340858
+68f8e2f88ddceb6fc0fc9a25,Parlay,Parlay,parlay,0.9996019148340858
+692f96e621f3579cd65095a2,Parlay,Parlay,parlay,0.9946019148340858
+68f21bbf24b2a8d3be1eadd2,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd650934c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd650944f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098e2,2nd Set Winner,Tennis,spread,0.9469300052896726
+64645613de372e50d5308a5d,Moneyline,Tennis,spread,0.7244030691594703
+646f61ed6b81e4bc8ec19262,Moneyline,Tennis,spread,0.6631303435845833
+689510929fcd0afc3dc5d494,Parlay,Parlay,parlay,0.9946019148340858
+649de786ff8b628bece28982,Moneyline,Tennis,spread,0.7834688113990463
+68b96cc0cec28892d28b2fb4,Parlay,Parlay,parlay,0.9996019148340858
+64b173fb72340c1979423228,Moneyline,Tennis,spread,0.6631303435845833
+68f8e2f88ddceb6fc0fc99d5,Parlay,Parlay,parlay,0.9996019148340858
+63abe1724baa85f0d3b66c49,Parlay,Parlay,parlay,0.8945809116599098
+64175e59d5b773f89e227fd4,1st Set Winner,Tennis,prop,0.47238306898390275
+64b93b193454f05bd21b3d48,Moneyline,Tennis,spread,0.572755752182822
+689510919fcd0afc3dc5a74b,Moneyline,Tennis,moneyline,0.5729652848631421
+689510919fcd0afc3dc5b048,Moneyline,Tennis,moneyline,0.5729652848631421
+689646d010678d4b7db0ff7c,Moneyline,Tennis,moneyline,0.5729652848631421
+691dee49785c6b1ce5489f18,Parlay,Parlay,parlay,0.9946019148340858
+68c2d7b96b9d263be93fa199,Moneyline,Tennis,moneyline,0.5729652848631421
+68e8feca3b1664a6b0d48fdd,Moneyline,Tennis,moneyline,0.5729652848631421
+68e963a0af21ed101fe39810,Moneyline,Tennis,spread,0.7834688113990463
+690b868651125081f900dd77,Moneyline,Tennis,moneyline,0.5729652848631421
+69207fc26b53c4f2544f5dd8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692a699d5a69898ec1f441b7,Moneyline,Tennis,spread,0.572755752182822
+692a699d5a69898ec1f441c0,Moneyline,Tennis,spread,0.572755752182822
+692f96ec21f3579cd65098fe,2nd Set Winner,Tennis,spread,0.9469300052896726
+64b93b193454f05bd21b3d4d,Moneyline,Tennis,spread,0.572755752182822
+68178c0511580d91fa6b4654,Both Teams to Score,Soccer,prop,0.6394737770827469
+692a699d5a69898ec1f441b9,Moneyline,Tennis,spread,0.572755752182822
+690640fca5d2d3e184c7c9f9,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe16f4baa85f0d3b62805,Moneyline,Tennis,spread,0.6631303435845833
+63abe1704baa85f0d3b628ae,Moneyline,Tennis,spread,0.6631303435845833
+6884bffea2d28881bb340c90,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e60b50020192558a97,Draw No Bet,Soccer,prop,0.5533081651635395
+68b96cc0cec28892d28b227a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191480,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd6509933,Parlay,Parlay,parlay,0.9496019148340857
+68f7fa4edf4a067db07a6fc6,2nd Set Winner,Tennis,spread,0.9469300052896726
+690469c2c5a95cc23545054e,2nd Set Winner,Tennis,spread,0.9469300052896726
+69079444294f7d7102771f43,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f512e15,2nd Set Winner,Tennis,spread,0.9469300052896726
+67fb3badd9c974711424b439,Parlay,Parlay,parlay,0.9496019148340857
+690b59fb51125081f9d84dea,1st Set Winner,Tennis,spread,0.9274213252944041
+690d5627652929c9dd8008be,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee48785c6b1ce5489efd,1st Set Winner,Tennis,spread,0.9274213252944041
+691f9870b0e9cf54cfe043eb,2nd Set Winner,Tennis,spread,0.9469300052896726
+680d52ff6452173394741322,Parlay,Parlay,parlay,0.9496019148340857
+692f96db21f3579cd6508f41,Parlay,Parlay,parlay,0.9496019148340857
+692f96d821f3579cd6508ddb,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd650925b,Parlay,Parlay,parlay,0.9996019148340858
+63f2621a163dede84127f6b0,Moneyline,Tennis,moneyline,0.5122003247069412
+63f5f50a1de44e02e05987b9,Spread,Tennis,spread,0.9772283099856577
+692f96d721f3579cd6508d77,1st Set Winner,Tennis,spread,0.8397787302837243
+692f96da21f3579cd6508eb2,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508fd7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd6509060,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508f1c,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd65091cf,Moneyline,Tennis,moneyline,0.5729652848631421
+68645b0cbedb70be0377dafb,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090bf,Moneyline,Tennis,moneyline,0.5729652848631421
+689646d010678d4b7db0fc75,1st Set Winner,Tennis,spread,0.9274213252944041
+68d3013f1425e3fc3be2d5d7,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508ea9,Moneyline,Tennis,moneyline,0.5729652848631421
+68d70ab4eabedaa06b19113d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd65097a0,Moneyline,Tennis,moneyline,0.5729652848631421
+690b868651125081f900e199,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098f2,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96eb21f3579cd6509880,Moneyline,Tennis,moneyline,0.5729652848631421
+6924ea1c0aea76b24627fefd,1st Set Winner,Tennis,spread,0.9274213252944041
+6927191d813aaa103994c0d9,1st Set Winner,Tennis,spread,0.8397787302837243
+692f96d921f3579cd6508e78,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650979a,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd65091f6,2nd Set Winner,Tennis,spread,0.8695826202112602
+670c788dca70d987dfc67b93,Player Anytime TD,American Football,total,0.5486046228273969
+692f96e021f3579cd65091fa,2nd Set Winner,Tennis,spread,0.8695826202112602
+692f96ec21f3579cd65098ec,Moneyline,Tennis,moneyline,0.5729652848631421
+670bffbaca70d987df98b558,Player Anytime TD,American Football,total,0.5486046228273969
+692f96e021f3579cd65091db,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd650920d,1st Set Winner,Tennis,spread,0.9274213252944041
+645972456f2cfa9163eebec0,Moneyline,Tennis,spread,0.572755752182822
+692f96e321f3579cd65093f2,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1714baa85f0d3b65fd5,Parlay,Parlay,parlay,0.9895787510451037
+692f96e221f3579cd65093a9,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e421f3579cd65094bc,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094c5,2nd Set Winner,Tennis,spread,0.9469300052896726
+690469c3c5a95cc235452654,Parlay,Parlay,parlay,0.9946019148340858
+692f96e521f3579cd650952b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19140b,2nd Set Winner,Tennis,spread,0.8745408278637027
+64837f40b677138c0344c316,Other Player Props,Tennis,prop,0.708045255484405
+68b96cbdcec28892d28ab403,First Run,Baseball,prop,0.6192918056022332
+68dc5fa05c7f532344847182,First Run,Baseball,prop,0.6272913772287328
+68b96cbdcec28892d28abb07,First Run,Baseball,prop,0.6192627235311418
+63cd94146305a2e05aff9aa3,Moneyline,Tennis,spread,0.6631303435845833
+63ce1724e32a51df340265fd,Moneyline,Tennis,spread,0.572755752182822
+68f164b55e9a7c0c680301a4,1st Set Winner,Tennis,spread,0.9274213252944041
+690640fca5d2d3e184c7c11e,Moneyline,Tennis,moneyline,0.5729652848631421
+68f164b55e9a7c0c6803173b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508ed8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dc21f3579cd650902e,2nd Set Winner,Tennis,spread,0.9469300052896726
+67fc487564b333af54f6129d,Both Teams to Score,Soccer,prop,0.6346170257125426
+6828df436eb3dc723bbb58f8,Moneyline,Tennis,spread,0.5532694468330768
+692f96e521f3579cd650954f,2nd Set Winner,Tennis,spread,0.9469300052896726
+67f97f96a751acf9f2d51f12,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96e721f3579cd65095f5,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095f6,2nd Set Winner,Tennis,spread,0.9469300052896726
+65c06a71b7306da810744bea,Parlay,Parlay,parlay,0.9895787510451037
+692f96e821f3579cd65096c6,2nd Set Winner,Tennis,spread,0.9469300052896726
+65c06a71b7306da810744c23,Parlay,Parlay,parlay,0.9895787510451037
+692f96e821f3579cd65096d3,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe35e4baa85f0d3e9edef,Parlay,Parlay,parlay,0.9895787510451037
+68b96cc0cec28892d28b222f,First Run,Baseball,prop,0.635378553008572
+692f96e821f3579cd650970c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd65093fd,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509845,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd6509a01,1st Set Winner,Tennis,spread,0.9274213252944041
+66ef64424df61c99f0b099c4,Player Anytime TD,American Football,total,0.5486046228273969
+68b96cc0cec28892d28b1f5b,1st Set Winner,Tennis,spread,0.9274213252944041
+67fb3ba9d9c974711423013e,Parlay,Parlay,parlay,0.9496019148340857
+692f96dc21f3579cd6509007,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96dd21f3579cd6509081,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd650909c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd65090ab,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3aaf7f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd6509442,Moneyline,Tennis,moneyline,0.5729652848631421
+63ce1721e32a51df34021e4f,Moneyline,Tennis,spread,0.6631303435845833
+65c51afdae9f086a97657316,Moneyline,Tennis,spread,0.572755752182822
+689510919fcd0afc3dc5b073,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96ed21f3579cd6509972,Parlay,Parlay,parlay,0.9996019148340858
+692f96e021f3579cd6509226,Parlay,Parlay,parlay,0.9996019148340858
+692f96dc21f3579cd6509006,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e321f3579cd65093ff,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd6509794,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96ec21f3579cd65098cd,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96ec21f3579cd65098ee,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96ec21f3579cd65098f0,Moneyline,Tennis,moneyline,0.5729652848631421
+66e7188050b61654ec40b0bb,Player Anytime TD,American Football,total,0.5486046228273969
+63f5f50a1de44e02e0598831,Spread,Tennis,spread,0.9772283099856577
+68cd159c7ceeff812a1c4fe8,1st Set Winner,Tennis,spread,0.9274213252944041
+66bc0c7a455ca5e1ae3bb1ca,Moneyline,Tennis,spread,0.6123274521988101
+687c3876ed6ca8144200fc31,Both Teams to Score,Soccer,prop,0.6394737770827469
+6865aa55efc8d95328ff78db,Both Teams to Score,Soccer,prop,0.6394737770827469
+6828df436eb3dc723bbb5935,Both Teams to Score,Soccer,prop,0.6346170257125426
+65ac1ed86477567b818b2089,Moneyline,Ice Hockey,moneyline,0.5875048529873683
+6456c85c7bbc0442c576d379,Moneyline,Tennis,spread,0.7834688113990463
+68d70ab5eabedaa06b19249d,Parlay,Parlay,parlay,0.9496019148340857
+68c2d7b96b9d263be93fa3ab,First Run,Baseball,prop,0.635378553008572
+65c06a71b7306da810744e08,Parlay,Parlay,parlay,0.9895787510451037
+68dc5fa05c7f532344846d9a,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe2f34baa85f0d3df43e3,Moneyline,Tennis,spread,0.572755752182822
+63abe16f4baa85f0d3b627ba,Moneyline,Tennis,spread,0.6631303435845833
+63abe35e4baa85f0d3e9e609,Moneyline,Tennis,spread,0.6631303435845833
+692f96ec21f3579cd650991a,Parlay,Parlay,parlay,0.9946019148340858
+63abe4024baa85f0d30bdb42,Moneyline,Tennis,spread,0.6631303435845833
+63d6b458828f0557dd85c149,Moneyline,Tennis,moneyline,0.5122003247069412
+68c9dc90f0d825ab0101e0f1,Both Teams to Score,Soccer,prop,0.6832936771734833
+692a699d5a69898ec1f441ba,Moneyline,Tennis,spread,0.572755752182822
+692f96ec21f3579cd65098f3,Moneyline,Tennis,moneyline,0.5729652848631421
+6545822fe20f4a26e386ad6a,Player Double-Double,Basketball,spread,0.5724276124494025
+692f96f221f3579cd6509c11,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe35e4baa85f0d3e9e726,Moneyline,Tennis,spread,0.6631303435845833
+63abe35e4baa85f0d3e9e7c4,Moneyline,Tennis,spread,0.6631303435845833
+63c8b95d996768d586cc0b0c,Moneyline,Tennis,spread,0.7834688113990463
+64c04f360e5503359c47f408,Moneyline,Tennis,spread,0.6631303435845833
+692f96e321f3579cd6509448,1st Set Winner,Tennis,spread,0.9274213252944041
+6868542e2d487c510c159c36,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96dc21f3579cd6508fe1,Parlay,Parlay,parlay,0.9946019148340858
+692f96dc21f3579cd6508fe2,Parlay,Parlay,parlay,0.9946019148340858
+69160af2c5711ffc0441f7a0,1st Set Winner,Tennis,spread,0.9274213252944041
+68f8e2f88ddceb6fc0fc9877,Parlay,Parlay,parlay,0.9996019148340858
+690a6a9bd40aecb68db712c1,Parlay,Parlay,parlay,0.9996019148340858
+682963e1a1a74ca562792e35,Both Teams to Score,Soccer,prop,0.6394737770827469
+68e963a0af21ed101fe3976b,Moneyline,Tennis,spread,0.7834688113990463
+68efe34f76615da746178331,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e65e9,2nd Set Winner,Tennis,spread,0.9469300052896726
+63eb8bf1b6e7a0a4b7b111e3,Spread,Tennis,spread,0.9772283099856577
+692f96e321f3579cd6509435,1st Set Winner,Tennis,spread,0.9274213252944041
+689510919fcd0afc3dc5b30e,2nd Set Winner,Tennis,spread,0.9469300052896726
+656cf1b832abe058b9a65343,Parlay,Parlay,parlay,0.9995787510451037
+68d04ac26660e6d491a79ef8,First Run,Baseball,prop,0.6192882859033298
+68df811d45f8fd4c98778c5d,1st Set Winner,Tennis,spread,0.9274213252944041
+68e2a9e70b5002019255deab,2nd Set Winner,Tennis,spread,0.9469300052896726
+690640fca5d2d3e184c7bf29,2nd Set Winner,Tennis,spread,0.9469300052896726
+691f986fb0e9cf54cfe043d1,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5dd5,2nd Set Winner,Tennis,spread,0.9469300052896726
+64c04f360e5503359c47f3f8,Moneyline,Tennis,spread,0.6631303435845833
+670c788eca70d987dfc6972c,Parlay,Parlay,parlay,0.9995787510451037
+692f96e421f3579cd65094d7,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340c16,2nd Set Winner,Tennis,spread,0.9469300052896726
+689510919fcd0afc3dc5b067,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe16e4baa85f0d3b5f34f,Parlay,Parlay,parlay,0.8945809116599098
+68c2d7b96b9d263be93fa38c,First Run,Baseball,prop,0.635378553008572
+685b4b7711f6b954679ebc59,Spread,Tennis,spread,0.9795680414554225
+66d79c3bec0972da087842f8,Parlay,Parlay,parlay,0.9646019148340857
+67f702921b7e157b146e12b3,Player Double-Double,Basketball,total,0.5683430255960595
+63abe1724baa85f0d3b66bfe,Parlay,Parlay,parlay,0.8945809116599098
+63abe35e4baa85f0d3e9f2da,Parlay,Parlay,parlay,0.9045809116599098
+68bc7914f73483f50124cb3a,First Run,Baseball,prop,0.630378553008572
+692f96e421f3579cd65094bd,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe35e4baa85f0d3e9e6ca,Moneyline,Tennis,spread,0.6631303435845833
+690469c2c5a95cc235450409,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd650913c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd6509233,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7915f73483f50124d0a4,First Run,Baseball,prop,0.630378553008572
+68e963a1af21ed101fe398d1,Moneyline,Tennis,spread,0.7834688113990463
+692f96e221f3579cd65093a4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093af,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098d8,2nd Set Winner,Tennis,spread,0.9469300052896726
+6464560ade372e50d52e10fa,Moneyline,Ice Hockey,moneyline,0.5171731323506229
+6884bffba2d28881bb33c648,Draw No Bet,Soccer,prop,0.5533081651635395
+6884bffea2d28881bb340f4e,2nd Set Winner,Tennis,spread,0.9469300052896726
+64b93b193454f05bd21b3d4a,Moneyline,Tennis,spread,0.572755752182822
+64c04f360e5503359c47f400,Moneyline,Tennis,spread,0.6631303435845833
+64c04f360e5503359c47f405,Moneyline,Tennis,spread,0.6631303435845833
+690f8dc85e940a27423fb376,Moneyline,Table Tennis,spread,0.6631303435845833
+63abe2fe4baa85f0d3e06c0e,Spread,Tennis,spread,0.9772283099856577
+68b96cc0cec28892d28b2148,1st Set Winner,Tennis,spread,0.9274213252944041
+6464bfaf4d65640a8a1160c2,Moneyline,Tennis,spread,0.572755752182822
+689646d010678d4b7db10196,Parlay,Parlay,parlay,0.9496019148340857
+692a699d5a69898ec1f441bb,Moneyline,Tennis,spread,0.572755752182822
+692a699d5a69898ec1f441c6,Moneyline,Tennis,spread,0.572755752182822
+692f96e921f3579cd650977f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509535,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe2f34baa85f0d3df4317,Moneyline,Tennis,spread,0.572755752182822
+68b96cc0cec28892d28b2309,First Run,Baseball,prop,0.6344800633205461
+65c3c7fc206e09be44996142,Parlay,Parlay,parlay,0.9646019148340857
+65c3c7fd206e09be4499786e,Parlay,Parlay,parlay,0.9646019148340857
+64ac5f789c0a586da0a442a6,Moneyline,Basketball,moneyline,0.7632418433352751
+64b1e972ac95d09a24ffee64,Moneyline,Basketball,moneyline,0.7632418433352751
+65c06a71b7306da810744c01,Parlay,Parlay,parlay,0.9895787510451037
+68f9923c981d1f162b8f4faa,2nd Set Winner,Tennis,spread,0.8695826202112602
+68f9923c981d1f162b8f6be5,1st Set Winner,Tennis,spread,0.9274213252944041
+669096124b7a63c6312e1db8,Spread,Basketball,spread,0.9749883364488997
+68c2d7b96b9d263be93fa319,Moneyline,Tennis,moneyline,0.5729652848631421
+690640fca5d2d3e184c7c9bf,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5dd3,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5de0,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c6926ad1ed142dbc0359c0,2nd Set Winner,Tennis,spread,0.9469300052896726
+68efe34f76615da746177fa0,2nd Set Winner,Tennis,spread,0.9469300052896726
+651b5ec6f746e1b68a4a9f53,Parlay,Parlay,parlay,0.9995787510451037
+65248cfcbe580a9c8e9f97e5,Parlay,Parlay,parlay,0.9995787510451037
+65299da586e9acf8e6523631,Spread,Basketball,spread,0.9749883364488997
+68cd159c7ceeff812a1c4ea7,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cd159c7ceeff812a1c4f9c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d04ac26660e6d491a79f0a,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab3f1,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee48785c6b1ce5489efb,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1714baa85f0d3b64fb8,Parlay,Parlay,parlay,0.9995787510451037
+68e584b1d2395c5b6e3ab3d1,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2d507,2nd Set Winner,Tennis,spread,0.9469300052896726
+680d52ff64521733947414e1,Parlay,Parlay,parlay,0.9496019148340857
+69160af2c5711ffc0441f6c5,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe35e4baa85f0d3e9ecd4,Parlay,Parlay,parlay,0.9895787510451037
+691f986fb0e9cf54cfe043d3,Moneyline,Tennis,moneyline,0.5729652848631421
+6927191d813aaa103994c0dc,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d721f3579cd6508d70,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f10,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96da21f3579cd6508f18,Moneyline,Tennis,moneyline,0.5729652848631421
+691f027d497fa43e8e3c8cbe,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dc21f3579cd6508fe7,1st Set Winner,Tennis,spread,0.8444980161074883
+692f96dc21f3579cd6509003,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd6509228,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd650922c,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96dc21f3579cd6508fe8,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd6509265,1st Set Winner,Tennis,spread,0.9274213252944041
+646636fa7c6bdc06cf9f8cc8,Parlay,Parlay,parlay,0.9895787510451037
+692f96e621f3579cd65095c2,Other,Baseball,prop,0.4959330354427436
+692f96e621f3579cd65095a4,2nd Set Winner,Tennis,spread,0.9469300052896726
+68917aa456bc54047612706e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65096aa,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096d5,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd650979d,Moneyline,Tennis,moneyline,0.5729652848631421
+68b96cc0cec28892d28b208c,Moneyline,Tennis,moneyline,0.5729652848631421
+68e2a9e60b50020192558701,Moneyline,Tennis,spread,0.7834688113990463
+692f96e721f3579cd65095f0,1st Set Winner,Tennis,spread,0.9274213252944041
+690e5a63c207057e62e6ca47,Moneyline,Tennis,moneyline,0.5729652848631421
+69160af2c5711ffc0441f6a3,Moneyline,Tennis,moneyline,0.5729652848631421
+69207fc26b53c4f2544f5dda,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd650960f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd650917f,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e721f3579cd65095f9,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd6509632,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd65096c2,Parlay,Parlay,parlay,0.9496019148340857
+692f96ea21f3579cd650984e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd650987f,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe2f84baa85f0d3dfd2fa,Player Double-Double,Basketball,total,0.6072212522682083
+68e2a9e60b50020192558713,Moneyline,Tennis,spread,0.7834688113990463
+68e2a9e60b5002019255878e,Moneyline,Tennis,spread,0.7834688113990463
+68f8e2f88ddceb6fc0fc9647,Moneyline,Tennis,moneyline,0.5729652848631421
+691f986fb0e9cf54cfe043d7,Moneyline,Tennis,moneyline,0.5729652848631421
+680d54376452173394d32d9f,Spread,Basketball,spread,0.9749883364488997
+6925a64e722b1436ea28f0a5,Moneyline,Tennis,spread,0.7834688113990463
+692f96dd21f3579cd6509064,2nd Set Winner,Tennis,spread,0.9469300052896726
+656cf1b832abe058b9a65338,Parlay,Parlay,parlay,0.9995787510451037
+63abe3554baa85f0d3e94591,Moneyline,Tennis,spread,0.6631303435845833
+692f96e921f3579cd65097a7,1st Set Winner,Tennis,spread,0.9274213252944041
+687c3876ed6ca8144200f8f7,Both Teams to Score,Soccer,prop,0.6394737770827469
+645fbdf73d6023a5346a8897,Spread,Australian Football,spread,0.9573685071642742
+645fbdf73d6023a5346a86ac,Spread,Australian Football,spread,0.9573685071642742
+6794d4cddea476d3eae934bc,Spread,Basketball,spread,0.9749883364488997
+63de9134251e06687eb48ce6,Moneyline,Tennis,moneyline,0.5122003247069412
+67e8167f34ff1a53ed6b9469,Moneyline,Tennis,spread,0.5532694468330768
+63abe2f94baa85f0d3dfe2c7,1st Inning Total,Baseball,total,0.7414624728121508
+68b96cc0cec28892d28b1d52,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad06687837656ca,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe34d4baa85f0d3e8d0e5,1st Inning Total,Baseball,total,0.7746191686705397
+68b96cbdcec28892d28ab6e3,Parlay,Parlay,parlay,0.9496019148340857
+692f96e921f3579cd6509797,Parlay,Parlay,parlay,0.9496019148340857
+64ab865465de49a1b82fbb0c,Parlay,Parlay,parlay,0.9646019148340857
+692f96eb21f3579cd650987d,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe4024baa85f0d30bd8d8,Moneyline,Ice Hockey,moneyline,0.7541923481948969
+692f96e821f3579cd6509719,Other,Baseball,prop,0.5003192377764378
+692f96dd21f3579cd650905a,Parlay,Parlay,parlay,0.9996019148340858
+692f96e821f3579cd650970e,1st Set Winner,Tennis,spread,0.9274213252944041
+68c2d7b96b9d263be93fa375,Moneyline,Tennis,moneyline,0.5729652848631421
+65aca74081071df192222d3a,Moneyline,Ice Hockey,moneyline,0.6203334385286385
+64676e0bf61ff68888cc85ba,Parlay,Parlay,parlay,0.9895787510451037
+677b05ba7437c98ea8b462dc,Player Double-Double,Basketball,total,0.5683430255960595
+63abe1724baa85f0d3b66c5a,Parlay,Parlay,parlay,0.8945809116599098
+68cb133fbad066878376556b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692a699d5a69898ec1f441d1,Moneyline,Tennis,spread,0.572755752182822
+63abe1714baa85f0d3b64fab,Parlay,Parlay,parlay,0.9995787510451037
+692f96e921f3579cd650976b,1st Set Winner,Tennis,spread,0.9274213252944041
+648238715bb28ca80f207aac,Player Home Runs,Baseball,total,0.5326248742228541
+68fd10e5a2702fe213a38d02,Parlay,Parlay,parlay,0.9996019148340858
+692f96dd21f3579cd650905f,Parlay,Parlay,parlay,0.9996019148340858
+692f96e921f3579cd6509770,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe4024baa85f0d30be982,Moneyline,American Football,moneyline,0.7141171456276143
+63abe2fe4baa85f0d3e06fc0,Player Anytime TD,American Football,total,0.5486046228273969
+63abe3574baa85f0d3e958bd,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+63abe3564baa85f0d3e94bb6,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+63abe2fe4baa85f0d3e0739c,Player Anytime TD,American Football,total,0.5486046228273969
+64ac5f649c0a586da0a2f45c,1st Set Winner,Tennis,prop,0.47238306898390275
+68b96cbdcec28892d28ab099,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe3f94baa85f0d309d6ee,Moneyline,American Football,moneyline,0.7141171456276143
+692f96ea21f3579cd6509812,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd650981b,Other,Baseball,prop,0.48164143778055213
+683df7aeb029635844b8deef,Draw No Bet,Soccer,prop,0.5533081651635395
+6467e676566c0607b4b6cd74,Parlay,Parlay,parlay,0.9995787510451037
+68c2d7b96b9d263be93fa413,Parlay,Parlay,parlay,0.9496019148340857
+68c7f317d39ddee35ab88071,Parlay,Parlay,parlay,0.9996019148340858
+692f96ea21f3579cd6509857,Other,Baseball,prop,0.5004081284599695
+64765b1a08d824ac7634b506,Player Home Runs,Baseball,total,0.5551930472156892
+68f9923c981d1f162b8f4e94,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509852,Parlay,Parlay,parlay,0.9946019148340858
+692b844eaebea6ace15d5f64,Moneyline,Tennis,spread,0.572755752182822
+66d79c3bec0972da087843f6,Parlay,Parlay,parlay,0.9646019148340857
+692f96eb21f3579cd650988d,Other,Baseball,prop,0.49740362367803775
+684ec3f438ebc76355d4ca63,Fight Props,MMA,total,0.574975664626904
+63abe2f44baa85f0d3df54f2,1st Set Winner,Tennis,prop,0.5646428652583554
+692f96eb21f3579cd6509890,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd6509892,Other,Baseball,prop,0.4950080800389099
+68fbb8692e67f6954ac8573c,Moneyline,Tennis,moneyline,0.5729652848631421
+69207fc26b53c4f2544f5dcc,Moneyline,Tennis,moneyline,0.5729652848631421
+68f8e2f88ddceb6fc0fc9786,Moneyline,Tennis,moneyline,0.5729652848631421
+68f9923c981d1f162b8f51a2,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe16f4baa85f0d3b626c3,Moneyline,Tennis,spread,0.6631303435845833
+67e8167f34ff1a53ed6b9471,Moneyline,Tennis,spread,0.5532694468330768
+692f96ec21f3579cd65098df,Other,Baseball,prop,0.49164143778055214
+691f986fb0e9cf54cfe043d6,Moneyline,Tennis,moneyline,0.5729652848631421
+68c2d7b96b9d263be93fa385,Moneyline,Tennis,moneyline,0.5729652848631421
+63abe1704baa85f0d3b629cf,Moneyline,Tennis,spread,0.6631303435845833
+63abe1704baa85f0d3b62ad5,Moneyline,Tennis,spread,0.6631303435845833
+692f96ec21f3579cd65098e6,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe35e4baa85f0d3e9e6c4,Moneyline,Tennis,spread,0.6631303435845833
+692f96ec21f3579cd65098e4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098e0,1st Set Winner,Tennis,spread,0.9274213252944041
+63dae22b7a66bbf926c9546b,Moneyline,Tennis,moneyline,0.5122003247069412
+692a699d5a69898ec1f441b8,Moneyline,Tennis,spread,0.572755752182822
+63abe35e4baa85f0d3e9e7c9,Moneyline,Tennis,spread,0.6631303435845833
+63abe1704baa85f0d3b648ec,Moneyline,Tennis,spread,0.6631303435845833
+692f96ef21f3579cd6509a62,Both Teams to Score,Soccer,prop,0.6394737770827469
+651b5ec6f746e1b68a4aa16b,Parlay,Parlay,parlay,0.9995787510451037
+692b844eaebea6ace15d5f65,Moneyline,Tennis,spread,0.572755752182822
+691dee49785c6b1ce5489f2d,Parlay,Parlay,parlay,0.9496019148340857
+691dee49785c6b1ce5489f06,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee49785c6b1ce5489f0e,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f17,Parlay,Parlay,parlay,0.9946019148340858
+680d52ff645217339473f415,Parlay,Parlay,parlay,0.9496019148340857
+6917474fdbca561cb258df7f,1st Set Winner,Tennis,spread,0.9274213252944041
+69224ad0e7f0968acc50f00d,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe3564baa85f0d3e94aad,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+692f96f221f3579cd6509c1a,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe3564baa85f0d3e94aa6,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+63abe3564baa85f0d3e94667,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+65638b86c220ea0f0c3dd9ca,Player Triple-Double,Basketball,spread,0.5724276124494025
+692f96e221f3579cd6509398,2nd Set Winner,Tennis,spread,0.9469300052896726
+691f9870b0e9cf54cfe043e2,Moneyline,Tennis,moneyline,0.5729652848631421
+69095b0ee617ac0e7f514d16,Parlay,Parlay,parlay,0.9996019148340858
+691dee49785c6b1ce5489f0d,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee48785c6b1ce5489efc,1st Set Winner,Tennis,spread,0.8444980161074883
+692f96e521f3579cd6509523,1st Set Winner,Tennis,spread,0.9274213252944041
+691203a391c9e9dc8d2edb02,Moneyline,Tennis,moneyline,0.6644739745296313
+691dee48785c6b1ce5489f01,1st Set Winner,Tennis,spread,0.8444980161074883
+63abe35b4baa85f0d3e9b2a2,Puck Line,Ice Hockey,spread,0.9531570115585442
+692f96da21f3579cd6508ebe,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f17,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508f01,1st Set Winner,Tennis,spread,0.9274213252944041
+67e6b991d6013b86e770305f,Parlay,Parlay,parlay,0.9496019148340857
+692f96da21f3579cd6508f1b,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096da,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd650970d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd6509704,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd6509701,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd6509774,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2b34baa85f0d3d8e126,Moneyline,American Football,moneyline,0.6492207150602971
+692f96f221f3579cd6509bc2,Draw No Bet,Soccer,prop,0.5341733824269406
+63abe35f4baa85f0d3e9f607,Parlay,Parlay,parlay,0.9895787510451037
+64c444f1401970ba2f8d1574,Spread,Tennis,spread,0.9652728742841319
+63abe35e4baa85f0d3e9e64d,Moneyline,Tennis,spread,0.6631303435845833
+692f96dc21f3579cd6508fe3,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508fec,1st Set Winner,Tennis,spread,0.8444980161074883
+692f96dc21f3579cd6509008,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd650980d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd650983f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd650983d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509844,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd650986b,1st Set Winner,Tennis,spread,0.9274213252944041
+690469c2c5a95cc235450f48,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd6509055,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098ca,1st Set Winner,Tennis,spread,0.9274213252944041
+689510919fcd0afc3dc5b7b7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96f321f3579cd6509c72,1st Set Winner,Tennis,spread,0.9274213252944041
+690469c1c5a95cc23544d438,Parlay,Parlay,parlay,0.9946019148340858
+692f96f421f3579cd6509ca7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091e2,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2f64baa85f0d3df8e38,Moneyline,Tennis,spread,0.572755752182822
+68fba81f2e67f6954aa9dd44,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d821f3579cd6508ddd,Moneyline,Tennis,moneyline,0.5729652848631421
+64ab683665de49a1b89baf01,Moneyline,Basketball,moneyline,0.6350783116545365
+63abe16b4baa85f0d3b517d9,Moneyline,Tennis,spread,0.6631303435845833
+68f9923c981d1f162b8f52a7,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab365,2nd Set Winner,Tennis,spread,0.9469300052896726
+65b91bf30e5d5b8edf553d2c,1st Set Winner,Tennis,spread,0.9274213252944041
+6924ea1c0aea76b24627fef8,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e321f3579cd65093ee,1st Set Winner,Tennis,spread,0.9274213252944041
+690b868651125081f900e1ab,1st Set Winner,Tennis,spread,0.9274213252944041
+68c096b3de0a9ad08a4b41cb,1st Set Winner,Tennis,spread,0.9274213252944041
+68f8bb3b74c183d094245b93,Player Double-Double,Basketball,total,0.5683430255960595
+68e584b1d2395c5b6e3ab39f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ef6539012db54026ce7735,1st Set Winner,Tennis,prop,0.47238306898390275
+63f3cca9056b2417d2f5b53f,Moneyline,Ice Hockey,moneyline,0.5171731323506229
+690640fca5d2d3e184c7c9b2,1st Set Winner,Tennis,spread,0.9274213252944041
+690640fca5d2d3e184c7c9d9,1st Set Winner,Tennis,spread,0.9274213252944041
+68645b0bbedb70be03778e0e,1st Set Winner,Tennis,spread,0.9274213252944041
+68c53276af7f7e4680c6adf5,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc035961,1st Set Winner,Tennis,spread,0.9274213252944041
+68e584b1d2395c5b6e3ab2ba,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da74617834a,1st Set Winner,Tennis,spread,0.9274213252944041
+68f00b0876615da7464d78b8,1st Set Winner,Tennis,spread,0.9274213252944041
+68f11bea5e9a7c0c687a5829,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f4f82,1st Set Winner,Tennis,spread,0.9274213252944041
+68fba81f2e67f6954aa9dd4a,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96df21f3579cd650917b,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96df21f3579cd6509186,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090b3,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96df21f3579cd650913a,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd65091d5,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e221f3579cd650934e,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28aaef5,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e421f3579cd65094d5,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd6509775,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2f34baa85f0d3df382e,1st Set Winner,Tennis,prop,0.5646428652583554
+63d44ba112bd83db2e77bb52,1st Set Winner,Tennis,prop,0.5646428652583554
+6491d5f70708342d13de6794,1st Set Winner,Tennis,prop,0.6578329752932609
+68f3aeb811c1f84ee0fd75ee,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f3aeb811c1f84ee0fd75c5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e5c7c,1st Set Winner,Tennis,spread,0.9274213252944041
+68f2dbdf837943abcc6e658d,2nd Set Winner,Tennis,spread,0.9469300052896726
+640a087d0f134e574f69e10c,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96e221f3579cd6509350,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd65093eb,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd6509795,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f621f3579cd6509da0,Other,MMA,prop,0.4848022627039471
+692f96f221f3579cd6509bda,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f221f3579cd6509bdb,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe16d4baa85f0d3b5afcf,1st Set Winner,Tennis,prop,0.47238306898390275
+6893773f2d972982d8d19336,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cc0cec28892d28b2137,1st Set Winner,Tennis,spread,0.9274213252944041
+685f6c980f2c6410cb2fd60f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650976f,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe2f64baa85f0d3df8dbd,1st Set Winner,Tennis,prop,0.5646428652583554
+6491d5f60708342d13de5d75,1st Set Winner,Tennis,prop,0.5187641394219883
+64b035a0068d620667a6c253,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96ea21f3579cd6509800,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd6509912,1st Set Winner,Tennis,spread,0.9274213252944041
+68f7fa4edf4a067db07a73ec,1st Set Winner,Tennis,spread,0.9274213252944041
+690640fca5d2d3e184c7c520,1st Set Winner,Tennis,spread,0.9274213252944041
+690640fca5d2d3e184c7c6b9,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f12,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd6509458,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd65097a6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd65097a8,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098e1,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f421f3579cd6509cad,1st Set Winner,Tennis,spread,0.9274213252944041
+64b03599068d620667a5be46,1st Set Winner,Tennis,spread,0.9274213252944041
+64b81b54128156d1cc4bcec5,1st Set Winner,Tennis,prop,0.5187641394219883
+68c04fbfde0a9ad08a38ed21,1st Set Winner,Tennis,spread,0.9274213252944041
+692a699d5a69898ec1f441be,1st Set Winner,Tennis,prop,0.6016863379189719
+692f96ec21f3579cd6509911,1st Set Winner,Tennis,spread,0.9274213252944041
+685f6c970f2c6410cb2fce47,1st Set Winner,Tennis,spread,0.9274213252944041
+689646d010678d4b7db0fe2f,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad06687837654ff,1st Set Winner,Tennis,spread,0.9274213252944041
+68d70ab4eabedaa06b19141c,1st Set Winner,Tennis,spread,0.9274213252944041
+68ed380f7077ea7cf8bd673f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e8feca3b1664a6b0d48ed0,1st Set Winner,Tennis,spread,0.9274213252944041
+68f2dbdf837943abcc6e6ca8,1st Set Winner,Tennis,spread,0.9274213252944041
+68f8e2f88ddceb6fc0fc95ee,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513754,1st Set Winner,Tennis,spread,0.9274213252944041
+6921d0b8bdb8b7daab2dab69,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab3fb,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f6941,1st Set Winner,Tennis,spread,0.9274213252944041
+69207fc26b53c4f2544f5ddb,1st Set Winner,Tennis,spread,0.9274213252944041
+69224ad0e7f0968acc50f010,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab4f2,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee41785c6b1ce5489c74,1st Set Winner,Tennis,spread,0.9274213252944041
+6924ea1c0aea76b24627ff00,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd650920a,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd650921e,1st Set Winner,Tennis,spread,0.9274213252944041
+64669c27be7c5342f1d24d0f,First Basket,Basketball,prop,0.6023515780315896
+68b96cc0cec28892d28b1fdf,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f5176,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508fef,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6509014,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6509023,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096c9,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096d6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098c3,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ee21f3579cd6509a02,1st Set Winner,Tennis,spread,0.9274213252944041
+683df7aeb029635844b8ded2,1st Set Winner,Tennis,prop,0.47238306898390275
+68c6926ad1ed142dbc035a35,1st Set Winner,Tennis,spread,0.9274213252944041
+68d70ab4eabedaa06b191450,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f543c,1st Set Winner,Tennis,spread,0.8453462711232232
+69207fc26b53c4f2544f5ddd,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d721f3579cd6508d6d,1st Set Winner,Tennis,spread,0.8397787302837243
+692f96d821f3579cd6508ddc,1st Set Winner,Tennis,spread,0.9274213252944041
+691203a391c9e9dc8d2ed9ca,Moneyline,Tennis,moneyline,0.6644739745296313
+692f96dd21f3579cd65090b0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090b1,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090b8,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090c0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd65091d1,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd6509240,1st Set Winner,Tennis,spread,0.9274213252944041
+68df811d45f8fd4c98778d69,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da7461783bf,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f03,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508ff0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd650944e,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e421f3579cd65094dd,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f6c4c,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65095e6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65095fe,1st Set Winner,Tennis,spread,0.9274213252944041
+680d543d6452173394d4c4ba,Draw No Bet,Soccer,prop,0.5533081651635395
+68c9dc90f0d825ab0101dc2a,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f0f,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96e021f3579cd65091d0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd65091f7,1st Set Winner,Tennis,spread,0.8453462711232232
+692f96e021f3579cd650921c,1st Set Winner,Tennis,spread,0.9274213252944041
+685f6c970f2c6410cb2fc97a,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab327,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f4fe5,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f5466,1st Set Winner,Tennis,spread,0.9274213252944041
+69079444294f7d7102771d4e,1st Set Winner,Tennis,spread,0.9274213252944041
+68e2a9e70b5002019255ffaa,1st Set Winner,Tennis,spread,0.9274213252944041
+69079444294f7d7102771d84,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513748,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513e85,1st Set Winner,Tennis,spread,0.9274213252944041
+69207fc26b53c4f2544f5dd9,1st Set Winner,Tennis,spread,0.9274213252944041
+692a699d5a69898ec1f441d2,1st Set Winner,Tennis,prop,0.6016863379189719
+692f96d921f3579cd6508e77,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96d921f3579cd6508e7a,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508efe,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f02,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508fd1,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508fdb,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508fee,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd65093f6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd650943b,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd6509443,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd6509603,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd6509609,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096f9,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd6509764,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509833,1st Set Winner,Tennis,spread,0.9274213252944041
+68e2a9e60b50020192558da9,Draw No Bet,Soccer,prop,0.5533081651635395
+68e2a9e70b5002019255f76a,1st Set Winner,Tennis,spread,0.9274213252944041
+689646d010678d4b7db1008b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093bf,1st Set Winner,Tennis,spread,0.9274213252944041
+68d70ab4eabedaa06b1915c9,1st Set Winner,Tennis,spread,0.9274213252944041
+690a492ad40aecb68d1000ee,1st Set Winner,Tennis,spread,0.9274213252944041
+65c06a71b7306da810744bf3,Parlay,Parlay,parlay,0.9895787510451037
+692f96e721f3579cd65095f7,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65096a9,1st Set Winner,Tennis,spread,0.9274213252944041
+68dc5fa05c7f53234484617c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aad46,2nd Set Winner,Tennis,spread,0.9469300052896726
+68dc5fa05c7f532344846f1a,1st Set Winner,Tennis,spread,0.9274213252944041
+6884bffea2d28881bb341218,1st Set Winner,Tennis,spread,0.9274213252944041
+690a492ad40aecb68d10024e,2nd Set Winner,Tennis,spread,0.9469300052896726
+64670fd8be7c5342f1ed5e1d,Moneyline,Ice Hockey,moneyline,0.5171731323506229
+6466ff1fbe7c5342f1446a6c,Moneyline,Ice Hockey,moneyline,0.5171731323506229
+6466ff1fbe7c5342f1446a8f,Moneyline,Ice Hockey,moneyline,0.5171731323506229
+68d70ab4eabedaa06b191455,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cd159c7ceeff812a1c4e3b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cc0cec28892d28b2005,1st Set Winner,Tennis,spread,0.9274213252944041
+66d79c3bec0972da0878404e,Parlay,Parlay,parlay,0.9646019148340857
+67fbd6a3a921219895501ad7,Player Double-Double,Basketball,total,0.5683430255960595
+646637167c6bdc06cfa24ffb,Moneyline,Baseball,moneyline,0.8614248036762416
+692f96e821f3579cd65096d4,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd6509702,1st Set Winner,Tennis,spread,0.9274213252944041
+63f629e71de44e02e071b0e5,1st Set Winner,Tennis,prop,0.5187641394219883
+6464f111bbc44f5061c03a0d,Moneyline,Tennis,spread,0.6631303435845833
+6464f111bbc44f5061c03a2b,Moneyline,Tennis,spread,0.6631303435845833
+68f8e2f88ddceb6fc0fc9792,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee48785c6b1ce5489eff,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65095f8,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f08,1st Set Winner,Tennis,spread,0.9274213252944041
+6927191d813aaa103994c0d3,1st Set Winner,Tennis,spread,0.8397787302837243
+692f96dd21f3579cd65090ad,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098de,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098f7,1st Set Winner,Tennis,spread,0.9274213252944041
+6464bf994d65640a8a0f38bd,Moneyline,Tennis,spread,0.6631303435845833
+6464bfa14d65640a8a1032bb,1st Set Winner,Tennis,prop,0.5187641394219883
+68e2a9e70b5002019255f704,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da746177d4e,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da746178027,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e321f3579cd6509406,1st Set Winner,Tennis,spread,0.9274213252944041
+64837f40b677138c0344c267,1st Set Winner,Tennis,prop,0.5187641394219883
+64c444f1401970ba2f8d156f,1st Set Winner,Tennis,prop,0.5646428652583554
+64c6b1510357355262f41eea,1st Set Winner,Tennis,prop,0.5187641394219883
+689510919fcd0afc3dc5b411,1st Set Winner,Tennis,spread,0.9274213252944041
+68c9dc90f0d825ab0101daec,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad06687837654ae,1st Set Winner,Tennis,spread,0.9274213252944041
+68cd159c7ceeff812a1c4f8c,1st Set Winner,Tennis,spread,0.9274213252944041
+67fa047bcbf1dae048ff61c8,Player Double-Double,Basketball,total,0.5683430255960595
+692f96db21f3579cd6508fdc,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c260,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c50c,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc0358d1,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc035922,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc035972,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650976c,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650976d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509835,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509839,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509842,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd650926e,1st Set Winner,Tennis,spread,0.9274213252944041
+691f986fb0e9cf54cfe043d9,1st Set Winner,Tennis,spread,0.9274213252944041
+691f986fb0e9cf54cfe043de,1st Set Winner,Tennis,spread,0.9274213252944041
+692c7ea142620669f7399d94,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f08,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508f16,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e521f3579cd6509555,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab323,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508f5a,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e621f3579cd65095bb,1st Set Winner,Tennis,spread,0.9274213252944041
+6884bffea2d28881bb341169,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad06687837655d9,1st Set Winner,Tennis,spread,0.9274213252944041
+68cd159c7ceeff812a1c4f24,1st Set Winner,Tennis,spread,0.9274213252944041
+68d306b41425e3fc3bf67879,1st Set Winner,Tennis,spread,0.9274213252944041
+68d04ac26660e6d491a7a0b5,1st Set Winner,Tennis,spread,0.9274213252944041
+68f691d9c57d84d8133a85b2,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad066878376591a,First Run,Baseball,prop,0.6192627235311418
+68c9dc90f0d825ab0101dab8,1st Set Winner,Tennis,spread,0.9274213252944041
+68f691d9c57d84d8133a87c4,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee48785c6b1ce5489f00,1st Set Winner,Tennis,spread,0.8444980161074883
+692f96d721f3579cd6508d71,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508fe6,1st Set Winner,Tennis,spread,0.8444980161074883
+68cb133fbad0668783765324,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508fd0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd650925f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096db,1st Set Winner,Tennis,spread,0.9274213252944041
+68c9dc90f0d825ab0101dd12,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc035b3c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191433,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f51375e,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513874,1st Set Winner,Tennis,spread,0.9274213252944041
+69095b0de617ac0e7f513c03,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dd21f3579cd6509061,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dd21f3579cd6509065,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dd21f3579cd6509068,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd65097a4,1st Set Winner,Tennis,spread,0.9274213252944041
+68c7f317d39ddee35ab87bf4,1st Set Winner,Tennis,spread,0.9274213252944041
+68c7f317d39ddee35ab87cd3,1st Set Winner,Tennis,spread,0.9274213252944041
+64b035a0068d620667a6c244,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96e921f3579cd6509769,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc0359c9,1st Set Winner,Tennis,spread,0.9274213252944041
+68f8e2f88ddceb6fc0fc9746,1st Set Winner,Tennis,spread,0.9274213252944041
+68c53276af7f7e4680c6ac93,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee48785c6b1ce5489f02,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f11,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dc21f3579cd6508fed,1st Set Winner,Tennis,spread,0.9274213252944041
+68113b8fffa56d9b28a9ae34,Parlay,Parlay,parlay,0.9496019148340857
+692f96e021f3579cd6509230,1st Set Winner,Tennis,spread,0.9274213252944041
+68c53276af7f7e4680c6a542,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096cf,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd6509881,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd6509882,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd6509889,1st Set Winner,Tennis,spread,0.9274213252944041
+69207fc26b53c4f2544f5dd0,1st Set Winner,Tennis,spread,0.9274213252944041
+69207fc26b53c4f2544f5dd1,1st Set Winner,Tennis,spread,0.9274213252944041
+69207fc26b53c4f2544f5dd2,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96da21f3579cd6508ec0,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd650976e,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098bc,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098bf,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098b9,1st Set Winner,Tennis,spread,0.9274213252944041
+646cdbcd988814965cbdcbde,Moneyline,Tennis,spread,0.7834688113990463
+6848c3a275ecb720b2cc4bf6,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96ec21f3579cd65098e5,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96df21f3579cd6509131,1st Set Winner,Tennis,spread,0.9274213252944041
+68d3013f1425e3fc3be2d552,1st Set Winner,Tennis,spread,0.9274213252944041
+6844db4cba7e8bb6288fb646,Fight Props,MMA,total,0.574975664626904
+6844db42ba7e8bb6288d0566,Fight Props,MMA,spread,0.590228305856795
+692f96e021f3579cd650920c,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd6509214,1st Set Winner,Tennis,spread,0.9274213252944041
+691dee49785c6b1ce5489f0c,1st Set Winner,Tennis,spread,0.9274213252944041
+68645b0bbedb70be03778adb,2nd Set Winner,Basketball,prop,0.6509489070432336
+68c6926ad1ed142dbc03592a,1st Set Winner,Tennis,spread,0.9274213252944041
+68c096b3de0a9ad08a4b465b,1st Set Winner,Tennis,spread,0.9274213252944041
+63d44ba112bd83db2e77bb3d,1st Set Winner,Tennis,prop,0.5646428652583554
+692f96e321f3579cd650942a,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c287,3rd Set Winner,Tennis,spread,0.9189905128371059
+692f96da21f3579cd6508ebf,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65095ec,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65096ac,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd6509708,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508f61,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd6509799,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96db21f3579cd6508fde,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96f221f3579cd6509bd9,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f221f3579cd6509bd6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96de21f3579cd65090c4,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f321f3579cd6509c71,1st Set Winner,Tennis,spread,0.9274213252944041
+68f2dbdf837943abcc6e6560,1st Set Winner,Tennis,spread,0.9274213252944041
+68f164b55e9a7c0c680301da,1st Set Winner,Tennis,spread,0.9274213252944041
+68efe34f76615da74617832e,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e421f3579cd65094da,1st Set Winner,Tennis,spread,0.9274213252944041
+68e8feca3b1664a6b0d48ffc,1st Set Winner,Tennis,spread,0.9274213252944041
+68f9923c981d1f162b8f51c3,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f921f3579cd6509eeb,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96e721f3579cd650960e,1st Set Winner,Tennis,spread,0.9274213252944041
+68d306b41425e3fc3bf6787f,1st Set Winner,Tennis,spread,0.9274213252944041
+68d306b41425e3fc3bf6796f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd6509605,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28abb0d,First Run,Baseball,prop,0.6192882859033298
+68bc7914f73483f50124c736,1st Set Winner,Tennis,spread,0.9274213252944041
+6456c85c7bbc0442c576d7f8,Moneyline,Tennis,spread,0.48224054099399266
+64ac5f6a9c0a586da0a347e0,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96e821f3579cd65096d9,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28aadc6,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd65096fd,1st Set Winner,Tennis,spread,0.9274213252944041
+68645b0bbedb70be03778f20,1st Set Winner,Tennis,spread,0.9274213252944041
+68645b0bbedb70be037790d2,1st Set Winner,Tennis,spread,0.9274213252944041
+645972456f2cfa9163eebf7e,1st Set Winner,Tennis,prop,0.6016863379189719
+68b96cc0cec28892d28b1c98,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cc0cec28892d28b1ab8,1st Set Winner,Tennis,spread,0.9274213252944041
+63f3970a056b2417d28ca26b,1st Set Winner,Tennis,prop,0.5646428652583554
+68b96cc0cec28892d28b1d5d,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd6509868,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cc0cec28892d28b1f2b,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96dd21f3579cd650906d,1st Set Winner,Tennis,spread,0.9274213252944041
+68f691d9c57d84d8133a8484,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd65098c8,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd650990a,1st Set Winner,Tennis,spread,0.9274213252944041
+68ddd7159750395b26f27c67,1st Set Winner,Tennis,spread,0.9274213252944041
+68cb133fbad06687837654e4,1st Set Winner,Tennis,spread,0.9274213252944041
+68c6926ad1ed142dbc0358ca,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c7f0,1st Set Winner,Tennis,spread,0.9274213252944041
+68b96cbdcec28892d28ab353,2nd Set Winner,Tennis,spread,0.9469300052896726
+6456c85c7bbc0442c576d812,Moneyline,Tennis,spread,0.7440655847480605
+68b96cc0cec28892d28b2280,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f5138b5,2nd Set Winner,Tennis,spread,0.9469300052896726
+6456c85c7bbc0442c576d726,Moneyline,Tennis,spread,0.7440655847480605
+68e2a9e70b5002019255e035,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e6a6d,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2d53d,2nd Set Winner,Tennis,spread,0.9469300052896726
+645b12ceeb17c66024d98dc9,1st Half Moneyline,Basketball,moneyline,0.7117395097584237
+68f2dbdf837943abcc6e5a51,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aadcf,1st Set Winner,Tennis,spread,0.9274213252944041
+68f2dbdf837943abcc6e5a93,2nd Set Winner,Tennis,spread,0.9469300052896726
+68fba81e2e67f6954aa9d0f8,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5dd6,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5ddf,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508fc8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091df,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ef6539012db54026ce77ca,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508f2e,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f21bbf24b2a8d3be1eab90,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab19c,1st Set Winner,Tennis,spread,0.9274213252944041
+689646d010678d4b7db100c8,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee49785c6b1ce5489f10,2nd Set Winner,Tennis,spread,0.9469300052896726
+689646d010678d4b7db100df,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509853,Parlay,Parlay,parlay,0.9946019148340858
+692f96eb21f3579cd650988c,Parlay,Parlay,parlay,0.9996019148340858
+645926d15590f95e34931670,Winning Margin,Ice Hockey,prop,0.49886814907735216
+645926d15590f95e349315ee,Winning Margin,Ice Hockey,prop,0.49234003093557044
+63abe35e4baa85f0d3e9e654,Moneyline,Basketball,moneyline,0.7632418433352751
+68917aa456bc540476126fe5,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96dc21f3579cd6509015,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96de21f3579cd65090b5,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd650917d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091d7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091e1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091e5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68917b6d56bc5404763223a3,Moneyline,Tennis,spread,0.7834688113990463
+692f96e021f3579cd65091e6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e121f3579cd6509263,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee48785c6b1ce5489efa,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508fc7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dc21f3579cd6508fe4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dc21f3579cd6508ff3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd6509433,2nd Set Winner,Tennis,spread,0.9469300052896726
+64343a4ec3a2f5867cdca09b,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+692f96e721f3579cd6509601,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65096b7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd65097e6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509834,2nd Set Winner,Tennis,spread,0.9469300052896726
+69224ad0e7f0968acc50f006,2nd Set Winner,Tennis,spread,0.9469300052896726
+6456c85c7bbc0442c576d72d,Moneyline,Tennis,spread,0.7440655847480605
+692f96e221f3579cd650939f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab1fe,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e621f3579cd65095b1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095e7,2nd Set Winner,Tennis,spread,0.8745408278637027
+692f96e821f3579cd65096c5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68df811d45f8fd4c98778d6e,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee49785c6b1ce5489f0b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509813,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd65098c5,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee49785c6b1ce5489f0a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ed21f3579cd6509944,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098e3,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f21bbf24b2a8d3be1eade7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd65096d7,1st Set Winner,Tennis,spread,0.9274213252944041
+68f6a09413142dade42023ea,2nd Set Winner,Tennis,spread,0.9469300052896726
+691dee41785c6b1ce5489c76,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191a51,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f09f87280fa60e69c71571,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e6439,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e65d5,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508eb9,2nd Set Winner,Tennis,spread,0.9469300052896726
+690640fca5d2d3e184c7c9ca,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e021f3579cd65091d8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509346,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509374,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f8e2f88ddceb6fc0fc9607,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e221f3579cd650938c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd650939c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd65093f8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094d0,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509848,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340bfd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509357,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2dacd,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19135f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191448,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19155d,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191567,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e517,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340eea,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab081,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ea5cc715eee74d025bd22d,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f09f87280fa60e69c717bf,2nd Set Winner,Tennis,spread,0.9469300052896726
+690640fca5d2d3e184c7bee9,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340e38,2nd Set Winner,Tennis,spread,0.9469300052896726
+691f027d497fa43e8e3c8cc4,2nd Set Winner,Tennis,spread,0.9469300052896726
+690b868651125081f900e12c,Moneyline,Tennis,moneyline,0.5729652848631421
+69207fc26b53c4f2544f5de3,2nd Set Winner,Tennis,spread,0.9469300052896726
+6920e8aa9a1782ba42232cb3,2nd Set Winner,Tennis,spread,0.9469300052896726
+6927191d813aaa103994c0d2,2nd Set Winner,Tennis,spread,0.8640150793717613
+692f96e521f3579cd6509539,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd650982a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd650990e,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffca2d28881bb33cbc5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68917aa456bc540476126e79,2nd Set Winner,Tennis,spread,0.9469300052896726
+689510919fcd0afc3dc5b60a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cc0cec28892d28b214f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c096b3de0a9ad08a4b3d4b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19134c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191352,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191554,2nd Set Winner,Tennis,spread,0.9469300052896726
+68df811d45f8fd4c98778dbc,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255decc,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e2c6,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255f5a2,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab20f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e6cbb,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f552156e79d6af4c1bff5c,2nd Set Winner,Tennis,spread,0.9469300052896726
+690469c2c5a95cc235450e4e,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f512e02,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f512e50,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96d721f3579cd6508d30,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96d721f3579cd6508d81,2nd Set Winner,Tennis,spread,0.8640150793717613
+692f96d921f3579cd6508e6a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508eca,2nd Set Winner,Tennis,spread,0.9469300052896726
+64260767ccf7be087cbf00f5,Asian Handicap,Soccer,spread,0.7896422386267514
+692f96da21f3579cd6508ed9,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508f00,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508f0e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508f47,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508f4f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ed21f3579cd65099bb,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ed21f3579cd65099bc,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ed21f3579cd65099bd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd65099fd,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7914f73483f50124bfee,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093ac,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd65093f1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd65093f4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093ae,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094c0,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094c3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094d4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094d9,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd65094f3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd65099f6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd6509a03,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96f221f3579cd6509c12,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509538,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650954e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095e3,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095ee,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095fc,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe1704baa85f0d3b6444b,Moneyline,Tennis,spread,0.6631303435845833
+692f96e821f3579cd65096d2,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd65096e4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd6509717,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd6509871,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd65098bb,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd65098c1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098f8,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd65099ff,2nd Set Winner,Tennis,spread,0.9469300052896726
+67fb3badd9c974711424b77a,Parlay,Parlay,parlay,0.9496019148340857
+680d52ff64521733947414fa,Parlay,Parlay,parlay,0.9496019148340857
+64c444f1401970ba2f8d1571,Moneyline,Tennis,moneyline,0.5122003247069412
+690a492ad40aecb68d10023c,2nd Set Winner,Tennis,spread,0.9469300052896726
+690d5626652929c9dd7ff18a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd6509071,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd650914f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd6509159,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509359,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098fd,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cc0cec28892d28b2fbb,Parlay,Parlay,parlay,0.9496019148340857
+692f96ec21f3579cd6509900,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e65cd,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e65f5,2nd Set Winner,Tennis,spread,0.9469300052896726
+6920e8aa9a1782ba42232cb4,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aad42,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cb133fbad06687837655cd,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cb133fbad06687837656c1,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19153a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68df811d45f8fd4c987789c0,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e50a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab2ab,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f144b65e9a7c0c681b810c,2nd Set Winner,Tennis,spread,0.9469300052896726
+691f027d497fa43e8e3c8cc0,2nd Set Winner,Tennis,spread,0.9469300052896726
+6920e8aa9a1782ba42232cb2,2nd Set Winner,Tennis,spread,0.9469300052896726
+69207fc26b53c4f2544f5dd7,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7914f73483f50124c9a6,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19154b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255f098,2nd Set Winner,Tennis,spread,0.9469300052896726
+6884bffea2d28881bb340ee1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd6509768,1st Set Winner,Tennis,spread,0.9274213252944041
+689510919fcd0afc3dc5b7e7,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96d921f3579cd6508e6b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96de21f3579cd650911f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094c2,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094ca,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094cd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e421f3579cd65094d1,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509542,2nd Set Winner,Tennis,spread,0.9469300052896726
+68700a6b36f6383284b59749,Both Teams to Score,Soccer,prop,0.6346170257125426
+692f96e721f3579cd65095ef,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd6509227,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e121f3579cd6509237,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255f28a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255f4e4,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f144b65e9a7c0c681b7fc5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f144b65e9a7c0c681b8425,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd6509349,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093a6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093aa,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093ad,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098d7,2nd Set Winner,Tennis,spread,0.9469300052896726
+68df811d45f8fd4c98778e4a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7914f73483f50124c4fe,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509801,2nd Set Winner,Tennis,spread,0.9469300052896726
+68dc5fa05c7f532344846da4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd6509829,2nd Set Winner,Tennis,spread,0.9469300052896726
+689510919fcd0afc3dc5b2eb,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255fffc,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650952e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098fa,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509561,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab100,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2dac5,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aad29,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2d41c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d3013f1425e3fc3be2d43f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f4e84,2nd Set Winner,Tennis,spread,0.9469300052896726
+67d2200535819fa2a77b5269,Parlay,Parlay,parlay,0.9496019148340857
+690c891b28a6ed1540cf8521,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255dec1,2nd Set Winner,Tennis,spread,0.9469300052896726
+6924ea1c0aea76b24627fefc,2nd Set Winner,Tennis,spread,0.9469300052896726
+6927191d813aaa103994c0db,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508eda,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e621f3579cd65095be,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd6509132,2nd Set Winner,Tennis,spread,0.9469300052896726
+68645b0bbedb70be03778fa8,1st Set Winner,Tennis,spread,0.9274213252944041
+68e2a9e70b5002019255f943,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7910f73483f50123b7ad,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509521,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650952d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509536,2nd Set Winner,Tennis,spread,0.9469300052896726
+68645b18bedb70be037a6ed0,Moneyline,Tennis,spread,0.6614555452233222
+692f96e721f3579cd65095e9,2nd Set Winner,Tennis,spread,0.8745408278637027
+692f96e721f3579cd65095eb,2nd Set Winner,Tennis,spread,0.8745408278637027
+692f96e721f3579cd6509600,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd6509604,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96d821f3579cd6508de5,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd650960c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd6509680,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e2be,2nd Set Winner,Tennis,spread,0.9469300052896726
+68917aa456bc540476126f95,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f4c92,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f513740,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd6509066,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091c6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e621f3579cd65095a7,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f51345f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96da21f3579cd6508ebd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd65097b4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd650981e,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098dc,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ec21f3579cd65098dd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692b6674aebea6ace156b671,2nd Set Winner,Tennis,prop,0.6938721254700198
+692f96eb21f3579cd65098c4,2nd Set Winner,Tennis,spread,0.9469300052896726
+6860161999b5ed5bd4efa60c,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96e221f3579cd6509397,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093bd,2nd Set Winner,Tennis,spread,0.9469300052896726
+69095b0de617ac0e7f513bea,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab500,2nd Set Winner,Tennis,spread,0.9469300052896726
+689646dc10678d4b7db3a22f,Moneyline,Tennis,spread,0.7834688113990463
+68efe34f76615da74617810e,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cd159c7ceeff812a1c4e30,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e6aad,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e584b1d2395c5b6e3ab0ce,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f5454,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f5446,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255ffe1,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f9923c981d1f162b8f4f93,2nd Set Winner,Tennis,spread,0.8695826202112602
+68cd159c7ceeff812a1c4e7d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd6509063,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cb133fbad066878376534f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab2b0,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cc0cec28892d28b213a,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd6509187,Parlay,Parlay,parlay,0.9996019148340858
+692f96ed21f3579cd6509936,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091e4,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ee21f3579cd65099d9,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96d621f3579cd6508cc3,2nd Set Winner,Tennis,spread,0.8640150793717613
+692f96d721f3579cd6508d80,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96db21f3579cd6508fc6,2nd Set Winner,Tennis,spread,0.9469300052896726
+685f6c970f2c6410cb2fc6ac,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e021f3579cd650919f,Parlay,Parlay,parlay,0.9946019148340858
+692f96dd21f3579cd650906b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e021f3579cd65091ab,Parlay,Parlay,parlay,0.9996019148340858
+692f96de21f3579cd65090db,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd6509178,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96df21f3579cd6509185,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e221f3579cd65093ab,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e621f3579cd650959d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96ea21f3579cd650984a,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe16f4baa85f0d3b61e8c,Moneyline,Tennis,spread,0.6631303435845833
+692f96eb21f3579cd65098c6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509529,2nd Set Winner,Tennis,spread,0.9469300052896726
+646cdbc6988814965cbd163b,1st Set Winner,Tennis,prop,0.47238306898390275
+692f96df21f3579cd650913b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68fba81f2e67f6954aa9d51b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650953c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd650955f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e552,2nd Set Winner,Tennis,spread,0.9469300052896726
+68e2a9e70b5002019255e43b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191576,2nd Set Winner,Tennis,spread,0.8745408278637027
+692f96e621f3579cd65095a8,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b19142f,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095e2,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cd159c7ceeff812a1c4e4f,2nd Set Winner,Tennis,spread,0.9469300052896726
+68cb133fbad06687837654ce,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aad3a,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28ab70d,3rd Set Winner,Tennis,spread,0.9189905128371059
+692f96e721f3579cd6509610,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e721f3579cd65095fd,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd65096e6,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e821f3579cd6509765,Parlay,Parlay,parlay,0.9996019148340858
+692f96ea21f3579cd6509851,Parlay,Parlay,parlay,0.9996019148340858
+68515ad5dfb3a82aa7a5aafd,Both Teams to Score,Soccer,prop,0.6394737770827469
+66ea0620aff68221fe09d726,Game Props,Baseball,prop,0.6183268454000003
+6456c85c7bbc0442c576d809,1st Set Winner,Tennis,prop,0.5187641394219883
+64ac5f789c0a586da0a44124,1st Set Winner,Tennis,prop,0.6016863379189719
+63abe2f64baa85f0d3df8df7,Moneyline,Tennis,spread,0.572755752182822
+63abe35f4baa85f0d3e9f515,Parlay,Parlay,parlay,0.9895787510451037
+692f96da21f3579cd6508f13,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96dc21f3579cd6509010,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96dc21f3579cd650900e,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96e921f3579cd650979f,Moneyline,Tennis,moneyline,0.5729652848631421
+692f96ec21f3579cd65098f1,Moneyline,Tennis,moneyline,0.5729652848631421
+64837f40b677138c0344c3de,Moneyline,Tennis,spread,0.5026327476737397
+692f96dd21f3579cd65090a9,Moneyline,Tennis,moneyline,0.5729652848631421
+63d6b45e828f0557dd86ca18,Player Anytime TD,American Football,total,0.6060118734078225
+692f96dd21f3579cd650904b,Parlay,Parlay,parlay,0.9496019148340857
+692a69855a69898ec1f43708,2nd Set Winner,Tennis,spread,0.8640150793717613
+692f96ea21f3579cd6509847,1st Set Winner,Tennis,spread,0.9274213252944041
+6491d5f60708342d13de5d70,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96ec21f3579cd650990d,2nd Set Winner,Tennis,spread,0.9469300052896726
+680d52ff64521733947414ec,Parlay,Parlay,parlay,0.9496019148340857
+6476d0579b049512f332056a,1st Set Winner,Tennis,prop,0.5646428652583554
+6929e88d63efb1fec5ca0fba,2nd Set Winner,Tennis,spread,0.9469300052896726
+6476d0579b049512f3320601,Moneyline,Tennis,moneyline,0.5122003247069412
+692859120634e1d3c7393c05,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ed21f3579cd6509943,Parlay,Parlay,parlay,0.9946019148340858
+6783f5d2e791bb484c404a43,Player Double-Double,Basketball,total,0.5683430255960595
+692f96ee21f3579cd6509a00,2nd Set Winner,Tennis,spread,0.9469300052896726
+67804c1eb1ebda88f7e6ecea,Player Double-Double,Basketball,total,0.5683430255960595
+68b96cbdcec28892d28abedd,Parlay,Parlay,parlay,0.9996019148340858
+6917474fdbca561cb258dfaa,1st Set Winner,Tennis,spread,0.9274213252944041
+650b1caf71a3ecc9bf4d402d,Game Props,Baseball,prop,0.4955711637420568
+691203a391c9e9dc8d2ed9f3,Moneyline,Tennis,moneyline,0.6644739745296313
+690f8dc85e940a27423fb44e,Moneyline,Tennis,spread,0.6631303435845833
+63fc198861933956361a3b8d,Moneyline,Tennis,moneyline,0.5122003247069412
+63abe35e4baa85f0d3e9f2a6,Parlay,Parlay,parlay,0.9895787510451037
+63abe35f4baa85f0d3e9f51a,Parlay,Parlay,parlay,0.9895787510451037
+690640fca5d2d3e184c7c6b0,1st Set Winner,Tennis,spread,0.9274213252944041
+690640fca5d2d3e184c7c285,1st Set Winner,Tennis,spread,0.9274213252944041
+63abe35e4baa85f0d3e9e578,Moneyline,Tennis,spread,0.6631303435845833
+690640fca5d2d3e184c7c29d,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe35e4baa85f0d3e9e644,Moneyline,Tennis,spread,0.6631303435845833
+63abe35e4baa85f0d3e9e6c6,Moneyline,Tennis,spread,0.6631303435845833
+63abe35e4baa85f0d3e9e73b,Moneyline,Tennis,spread,0.6631303435845833
+680d543d6452173394d4c4e3,Draw No Bet,Soccer,prop,0.5533081651635395
+692f96dc21f3579cd650902d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd65090a7,2nd Set Winner,Tennis,spread,0.9469300052896726
+690469c2c5a95cc235450554,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96dd21f3579cd65090a8,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96dd21f3579cd65090aa,1st Set Winner,Tennis,spread,0.9274213252944041
+690469c3c5a95cc235452bb7,Parlay,Parlay,parlay,0.9996019148340858
+64793d3ad911a8be22e0d2ce,Parlay,Parlay,parlay,0.9995787510451037
+692f96df21f3579cd6509188,Parlay,Parlay,parlay,0.9996019148340858
+64ac5f789c0a586da0a440bd,Moneyline,Tennis,spread,0.572755752182822
+65c3c7fb206e09be44992cbe,Parlay,Parlay,parlay,0.9646019148340857
+68f8e2f88ddceb6fc0fc973b,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e121f3579cd6509248,Player Double-Double,Basketball,total,0.5683430255960595
+692f96e221f3579cd65093a5,1st Set Winner,Tennis,spread,0.9274213252944041
+64fa6a2b73dfd2b579647315,Parlay,Parlay,parlay,0.9945787510451037
+692f96e321f3579cd650945c,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e321f3579cd650945d,2nd Set Winner,Tennis,spread,0.9469300052896726
+68113b8fffa56d9b28a9ae30,Parlay,Parlay,parlay,0.9496019148340857
+65b91bf30e5d5b8edf553eb2,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e421f3579cd65094d8,2nd Set Winner,Tennis,spread,0.9469300052896726
+68f2dbdf837943abcc6e67fc,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509562,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e521f3579cd6509560,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e521f3579cd6509554,Other,Baseball,prop,0.49664143778055214
+692f96e621f3579cd65095b5,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e721f3579cd65096ba,Other,Baseball,prop,0.49740362367803775
+67835b65657643770f35969c,Player Double-Double,Basketball,total,0.5683430255960595
+6472c8248d4fa58d37491f11,Player Triple-Double,Basketball,spread,0.6096811118351589
+68f09f87280fa60e69c71d44,Parlay,Parlay,parlay,0.9996019148340858
+68f00b0876615da7464d768c,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e821f3579cd650971b,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd6509779,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96e921f3579cd6509791,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96e921f3579cd65097af,Other,Baseball,prop,0.49164143778055214
+692f96e921f3579cd65097b0,Other,Baseball,prop,0.49164143778055214
+692f96ea21f3579cd650981a,Other,Baseball,prop,0.48164143778055213
+692f96ea21f3579cd6509819,3rd Set Winner,Tennis,spread,0.9189905128371059
+68ee6183d9b471177413a5fb,Parlay,Parlay,parlay,0.9895787510451037
+692f96ea21f3579cd650981d,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96f721f3579cd6509de5,1st Set Winner,Tennis,prop,0.47238306898390275
+68ea5cc715eee74d025bd200,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ea21f3579cd6509858,3rd Set Winner,Tennis,spread,0.9189905128371059
+692f96eb21f3579cd650988e,Other,Baseball,prop,0.5003192377764378
+68ea5cc715eee74d025bd33f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96eb21f3579cd650988f,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd65098d9,2nd Set Winner,Tennis,spread,0.9469300052896726
+692f96eb21f3579cd65098be,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96ec21f3579cd6509909,1st Set Winner,Tennis,spread,0.9274213252944041
+692f96f121f3579cd6509b6f,Both Teams to Score,Soccer,prop,0.6346170257125426
+68e963a1af21ed101fe39960,Moneyline,Tennis,spread,0.7834688113990463
+68e963a1af21ed101fe39958,Moneyline,Tennis,spread,0.7834688113990463
+677151baea6e5946f4a2de4d,Player Double-Double,Basketball,total,0.5683430255960595
+68e963a1af21ed101fe398ee,Moneyline,Tennis,spread,0.7834688113990463
+692f96f321f3579cd6509c73,1st Set Winner,Tennis,spread,0.9274213252944041
+64dd9111ffc38b0a0c17f158,Game Props,Baseball,prop,0.49434221616878915
+63ca086a7932ed035395a2d0,Moneyline,Ice Hockey,moneyline,0.7541923481948969
+64676e0bf61ff68888cc87e6,Parlay,Parlay,parlay,0.9895787510451037
+692f96f721f3579cd6509e35,Other,MMA,prop,0.6239042986124229
+692f96f921f3579cd6509eee,Draw No Bet,Soccer,prop,0.5965618478971868
+68e2a9e70b5002019255f6df,2nd Set Winner,Tennis,spread,0.9469300052896726
+63abe3564baa85f0d3e94a4c,1st Inning Runs (Yes/No),Baseball,total,0.5072604879598848
+64ecc58683a7f4de7f00173b,Moneyline,Tennis,moneyline,0.5122003247069412
+692f96db21f3579cd6508fdd,Parlay,Parlay,parlay,0.9946019148340858
+6769d6128b40ea143ddb49d2,Player Double-Double,Basketball,total,0.5683430255960595
+68dc5fa05c7f532344846bff,1st Set Winner,Tennis,spread,0.9274213252944041
+68ddd7159750395b26f27b52,2nd Set Winner,Tennis,spread,0.9469300052896726
+68ddd7159750395b26f27c7b,2nd Set Winner,Tennis,spread,0.9469300052896726
+68dc5fa05c7f532344846be9,2nd Set Winner,Tennis,spread,0.9469300052896726
+68d70ab4eabedaa06b191534,2nd Set Winner,Tennis,spread,0.8745408278637027
+68d70ab4eabedaa06b1911b7,1st Set Winner,Tennis,spread,0.9274213252944041
+6769d4ba8b40ea143d812cd0,Parlay,Parlay,parlay,0.9646019148340857
+68d70ab4eabedaa06b1915dc,2nd Set Winner,Tennis,spread,0.9469300052896726
+6464bfbe4d65640a8a12cbaf,Match Result,Tennis,spread,0.5677482184283454
+66d79c3bec0972da08784565,Parlay,Parlay,parlay,0.9646019148340857
+692f96df21f3579cd6509196,Parlay,Parlay,parlay,0.9946019148340858
+68cd159c7ceeff812a1c4f29,1st Set Winner,Tennis,spread,0.9274213252944041
+68cd159c7ceeff812a1c4f0c,1st Set Winner,Tennis,spread,0.9274213252944041
+64dd52443bf31dafdca80073,Game Props,Baseball,prop,0.5043178951715793
+66bc0e0d455ca5e1ae1bf59f,Game Props,Baseball,prop,0.6183268454000003
+68c7f317d39ddee35ab87baa,1st Set Winner,Tennis,spread,0.9274213252944041
+669096174b7a63c6312fb412,Player Shots,Soccer,total,0.6151294243952394
+68c9dc91f0d825ab01021893,Moneyline,Tennis,spread,0.7834688113990463
+68c53276af7f7e4680c6a781,Moneyline,Tennis,moneyline,0.5729652848631421
+669096174b7a63c6312fb7b0,Player Shots,Soccer,total,0.6151294243952394
+669096174b7a63c6312fb79a,Player Shots,Soccer,total,0.6151294243952394
+68bc7914f73483f50124c6db,Both Teams to Score,Soccer,prop,0.6394737770827469
+68bc7914f73483f50124be51,1st Set Winner,Tennis,spread,0.9274213252944041
+64aebf1d3614d3d3b71b5d0c,1st Set Winner,Tennis,prop,0.5187641394219883
+68bc7914f73483f50124bffb,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c2cb,2nd Set Winner,Tennis,spread,0.9469300052896726
+68bc7914f73483f50124c2ae,1st Set Winner,Tennis,spread,0.9274213252944041
+68bc7914f73483f50124c56c,2nd Set Winner,Tennis,spread,0.9469300052896726
+68b96cbdcec28892d28aad4e,2nd Set Winner,Tennis,spread,0.9469300052896726
+68c2d8506b9d263be954c23b,Moneyline,Tennis,spread,0.7834688113990463
+689510919fcd0afc3dc5b058,Moneyline,Tennis,moneyline,0.5729652848631421
+689510919fcd0afc3dc5a669,Moneyline,Tennis,moneyline,0.5729652848631421
+689510919fcd0afc3dc5b308,1st Set Winner,Tennis,spread,0.9274213252944041
+689510919fcd0afc3dc5b4fe,2nd Set Winner,Tennis,spread,0.9469300052896726
+6456c85c7bbc0442c576d4e4,Moneyline,Tennis,spread,0.7440655847480605
+6884bffea2d28881bb340a0a,2nd Set Winner,Tennis,spread,0.9469300052896726
+687c387ded6ca8144202f56d,Moneyline,Tennis,spread,0.7834688113990463
+68645b0cbedb70be0377d9ad,1st Set Winner,Tennis,spread,0.9274213252944041
+63dc492950ab197a2d57a8e3,Moneyline,Tennis,spread,0.572755752182822
+66bc0c7a455ca5e1ae3bb1e4,Moneyline,Tennis,spread,0.6123274521988101
+67d31ee57de5252d83a7fe4d,Moneyline,Tennis,spread,0.5532694468330768
+67952ebf01fe81aae439a104,Spread,Basketball,spread,0.9699883364488997
+689646dc10678d4b7db3a26a,Moneyline,Tennis,spread,0.7834688113990463
+651b5ec6f746e1b68a4aa00f,Parlay,Parlay,parlay,0.9995787510451037
+63abe2f64baa85f0d3df8f68,Moneyline,Tennis,spread,0.572755752182822
+6549af7a3871b27945a1d638,Parlay,Parlay,parlay,0.9995787510451037
+6851f3f52cc916296ea18098,Both Teams to Score,Soccer,prop,0.6394737770827469
+63abe2fd4baa85f0d3e04b1c,Super Boost,American Football,spread,0.6026523753898407
+692f96ed21f3579cd65099b5,Both Teams to Score,Soccer,prop,0.6394737770827469
+692f96f621f3579cd6509d5b,Both Teams to Score,Soccer,prop,0.6394737770827469
+690f8dc85e940a27423fb487,Moneyline,Table Tennis,spread,0.6631303435845833
+64c444f1401970ba2f8d156c,Spread,Tennis,spread,0.9652728742841319
+63d069a84af55df46c1e178a,Player Points,Basketball,total,0.5864717286027943
+64b1e972ac95d09a24ffecfe,Moneyline,Basketball,moneyline,0.7632418433352751
+690b59fb51125081f9d855fb,Parlay,Parlay,parlay,0.9996019148340858
+692f96dd21f3579cd6509059,Parlay,Parlay,parlay,0.9996019148340858
+64aebf1d3614d3d3b71b5cc2,1st Set Winner,Tennis,prop,0.5187641394219883
+692f96e621f3579cd65095ae,Parlay,Parlay,parlay,0.9996019148340858
+64ac5f789c0a586da0a44126,Moneyline,Tennis,spread,0.572755752182822
+64ac89669c0a586da0a08c9d,Moneyline,Basketball,moneyline,0.7632418433352751
+64ac5f6a9c0a586da0a347e4,1st Set Winner,Tennis,prop,0.5187641394219883
+64ab683665de49a1b89bafe9,Moneyline,Basketball,moneyline,0.7632418433352751
+6467f85d566c0607b48635ba,Odds Boost,Baseball,total,0.5300032690344699
+64a841372271a6943c410df4,Other Player Props,Tennis,prop,0.708045255484405
+64676e0bf61ff68888cc85ec,Parlay,Parlay,parlay,0.9895787510451037
+64fa6a2b73dfd2b5796472fd,Parlay,Parlay,parlay,0.9945787510451037
+64fa6a2b73dfd2b57964797c,Parlay,Parlay,parlay,0.9945787510451037
+6491d5f70708342d13de6d24,1st Set Winner,Tennis,prop,0.6578329752932609
+63c76d56419fadd67a16c308,Player Rebounds,Basketball,total,0.9556149828436165
+669096174b7a63c6312fb71e,Player Shots,Soccer,total,0.6151294243952394
+68b96cbdcec28892d28ac23f,Parlay,Parlay,parlay,0.9496019148340857
+649875fbca82fa60349fa731,1st Set Winner,Tennis,prop,0.5187641394219883
+6496208450fc255bfb1745af,Player Home Runs,Baseball,total,0.5319955504373779
+63abe1724baa85f0d3b66c2e,Parlay,Parlay,parlay,0.8946040754488916
+654aec591be7f870c19a010e,Moneyline,Ice Hockey,moneyline,0.5433532408395633
+64fa6a2a73dfd2b57964590e,Parlay,Parlay,parlay,0.9995787510451037
+6456c85c7bbc0442c576d4b5,Moneyline,Tennis,spread,0.7440655847480605
+65c06a71b7306da81074478f,Parlay,Parlay,parlay,0.9895787510451037
+66d79c3bec0972da087846d2,Parlay,Parlay,parlay,0.9646019148340857
+68917aa456bc540476127a57,Parlay,Parlay,parlay,0.9946019148340858
+692f96e621f3579cd65095c0,Parlay,Parlay,parlay,0.9496019148340857
+642f92e3132b3b9c2fde63e9,Puck Line,Ice Hockey,spread,0.9531570115585442
+692f96eb21f3579cd6509893,Parlay,Parlay,parlay,0.9496019148340857
+63abe2b24baa85f0d3d8d6d2,Parlay,Parlay,parlay,0.9845809116599098
+63abe35e4baa85f0d3e9ed82,Parlay,Parlay,parlay,0.9895787510451037
+68113b8fffa56d9b28a9ad93,Parlay,Parlay,parlay,0.9496019148340857
+68f691d9c57d84d8133a8c62,Parlay,Parlay,parlay,0.9996019148340858
+692f96eb21f3579cd650988b,Parlay,Parlay,parlay,0.9996019148340858
+64676e0bf61ff68888cc85fb,Parlay,Parlay,parlay,0.9895787510451037
+692f96dd21f3579cd650908d,Parlay,Parlay,parlay,0.9996019148340858
+692f96e021f3579cd650921f,Parlay,Parlay,parlay,0.9996019148340858
+692f96e021f3579cd650922f,Parlay,Parlay,parlay,0.9996019148340858
+692f96e821f3579cd6509762,Parlay,Parlay,parlay,0.9996019148340858
+692f96eb21f3579cd65098c9,Parlay,Parlay,parlay,0.9496019148340857
+651b5ec6f746e1b68a4a9ede,Parlay,Parlay,parlay,0.9995787510451037
+692f96e721f3579cd65095fb,Parlay,Parlay,parlay,0.9496019148340857
+656d4ab0d543fb5d34722aa8,Parlay,Parlay,parlay,0.9995787510451037
+66e7187f50b61654ec4015f9,Game Props,Baseball,prop,0.6183268454000003
+6558ea11bf739c849809a8a1,Player Double-Double,Basketball,total,0.5683430255960595
+692f96eb21f3579cd65098c2,Parlay,Parlay,parlay,0.9496019148340857
+63abe3574baa85f0d3e964b0,Parlay,Parlay,parlay,0.9895787510451037
+64676e0bf61ff68888cc87dd,Parlay,Parlay,parlay,0.9895787510451037
+68cd159c7ceeff812a1c520b,Parlay,Parlay,parlay,0.9496019148340857
+691dee49785c6b1ce5489f19,Parlay,Parlay,parlay,0.9946019148340858
+692f96eb21f3579cd65098c7,Parlay,Parlay,parlay,0.9496019148340857
+692f96ed21f3579cd6509946,Parlay,Parlay,parlay,0.9946019148340858
+63b3adba4992f9e53304b850,Parlay,Parlay,parlay,0.9995787510451037
+65c3c7fd206e09be4499781f,Parlay,Parlay,parlay,0.9646019148340857
+65c64d9f7963985a82cf0045,Parlay,Parlay,parlay,0.9895787510451037
+692f96dd21f3579cd6509047,Parlay,Parlay,parlay,0.9496019148340857
+64ab683665de49a1b89bbfe8,Parlay,Parlay,parlay,0.9995787510451037
+64ab865465de49a1b82fbac6,Parlay,Parlay,parlay,0.9646019148340857
+64ab865465de49a1b82fbaf1,Parlay,Parlay,parlay,0.9646019148340857
+65ade348a3bb020acf60f5da,Parlay,Parlay,parlay,0.9646019148340857
+68fbd34a2e67f6954ac40a5b,Parlay,Parlay,parlay,0.9996019148340858
+690b868651125081f900f0a9,Parlay,Parlay,parlay,0.9496019148340857
+692f96df21f3579cd6509139,Parlay,Parlay,parlay,0.9996019148340858
+63abe4014baa85f0d30bbd9e,Player Rebounds,Basketball,total,0.9844943273443199
+6549af7a3871b27945a1ca96,Parlay,Parlay,parlay,0.9995787510451037
+692f96dd21f3579cd6509089,Parlay,Parlay,parlay,0.9996019148340858
+658110b819db791f2d05f5d3,Parlay,Parlay,parlay,0.9945787510451037
+680d5300645217339474370f,Parlay,Parlay,parlay,0.9496019148340857
+68917aa456bc540476128f03,Parlay,Parlay,parlay,0.9996019148340858
+68c7f317d39ddee35ab88084,Parlay,Parlay,parlay,0.9996019148340858
+692f96de21f3579cd65090df,Parlay,Parlay,parlay,0.9996019148340858
+63c8568874096629ef931a8c,Player Points,Basketball,total,0.9488081437536564
+63c9cd22d9ab4c63b979e5f2,Player Points,Basketball,total,0.9903961204120929
+63c9cd22d9ab4c63b979e602,Player Points,Basketball,total,0.9903961204120929
+63c9cd22d9ab4c63b979e5b9,Player Points,Basketball,total,0.9702200534996587
+63c8568874096629ef931aa7,Player Points,Basketball,total,0.977631904754731
+63c76d56419fadd67a16c2e1,Player Assists,Basketball,total,0.9579954997343954
+63e2d29f1536491d100cced1,Player Points,Basketball,total,0.9608121994658404
+63abe3454baa85f0d3e81d9e,Player Points,Basketball,total,0.9984941367471042
+65dbc8389f59bb6251b3f894,Parlay,Basketball,parlay,0.9806991339917883
+65da106a60de6dbf8c62137b,1st Half Total,Basketball,total,0.9995752864127978
+6923dff9d604f3f8cb2670ff,Team Total Points,Basketball,total,0.9939102385821148
+6920e8aa9a1782ba42232cbc,Team Total Points,Basketball,total,0.9995947282738071
+692a699d5a69898ec1f441b2,Total Points,Basketball,total,0.9999000632473499
+65da106960de6dbf8c61c7a6,1st Half Total,Basketball,total,0.9995752864127978
+63abe16c4baa85f0d3b54a46,Total Points,Basketball,total,0.9999000632473499
+65d81ab105852e2c7990ff06,Parlay,Parlay,parlay,0.9982892346718037
+63abe3454baa85f0d3e823a2,Player Assists,Basketball,total,0.9871149295397724
+63b7036563672a01252cd201,Total Points,Basketball,total,0.9985296370690894
+63cf13a92cba43842095f99a,Parlay,Parlay,parlay,0.9972828132586935
+69214f319a1782ba423d147d,Team Total Points,Basketball,total,0.9845758978340897
+642f544b132b3b9c2f9e1140,Player Points,Basketball,total,0.9985127235909804
+68917b6e56bc540476323399,1st Half Total,Basketball,total,0.9995752864127978
+65dbae86d7018bf818ba7cc0,Team Total Points,Basketball,total,0.9995094106250724
+65dbb6fc19397fb5c7d8b414,Parlay,Parlay,parlay,0.9982892346718037
+6838b42cd838edaa54592a43,Player PRA,Basketball,total,0.9969496105162926
+692a699e5a69898ec1f441e5,Total Points,Basketball,total,0.9985296370690894
+63ace64025c8153977f97f42,1st Quarter Total,Basketball,total,0.9987013443889892
+6837ce248536c2f29ff3ade2,Total Points,Basketball,total,0.9999000632473499
+6923dff9d604f3f8cb267109,Team Total Points,Basketball,total,0.9939102385821148
+65d90b2d1b3ba76eee1c0164,1st Half Total,Basketball,total,0.9995752864127978
+66c9f12b2fb80767f6169029,Player Rebounds,Basketball,total,0.995491148715772
+63af58488f7afd72211746bd,Team Total Points,Basketball,total,0.9939102385821148
+63abe2b44baa85f0d3d900dd,Player Rebounds,Basketball,total,0.995491148715772
+63abe3a34baa85f0d3f23bbf,Player Assists,Basketball,total,0.981046989230879
+66c9f12e2fb80767f6174c84,1st Half Total,Basketball,total,0.9995752864127978
+6430a0dbd4e8e17d29ed532c,Team Total Points,Basketball,total,0.9859552744346943
+63abe34c4baa85f0d3e8c068,Player Points,Basketball,total,0.9856777820151501
+6929f87363efb1fec5cec1b1,1st Half Total,Basketball,total,0.9995752864127978
+63adb116ccff681da9662ba8,1st Half Total,Basketball,total,0.9995752864127978
+6920e8aa9a1782ba42232cba,1st Half Total,Basketball,total,0.9995752864127978
+692003fd842ddd4930784467,1st Half Total,Basketball,total,0.9995752864127978
+6920e8aa9a1782ba42232cbf,1st Half Total,Basketball,total,0.9995752864127978
+6927bc2c0634e1d3c723a895,1st Half Total,Basketball,total,0.9995752864127978
+68378c9a8536c2f29f076b74,1st Half Total,Basketball,total,0.9995752864127978
+6928a0dd13be049a870e817a,1st Half Total,Basketball,total,0.9995752864127978
+69214f319a1782ba423d1483,1st Quarter Total,Basketball,total,0.9986489481972355
+6838d74cd838edaa54554735,1st Quarter Total,Basketball,total,0.9987013443889892
+65dbdc0fc66f23e2687713d0,Total Points,Basketball,total,0.9999000632473499
+65da759bc4cdd746c47d072a,Total Points,Basketball,total,0.9999000632473499
+691dee49785c6b1ce5489f22,Total Points,Basketball,total,0.9999000632473499
+65dbae86d7018bf818ba7c2d,Total Points,Basketball,total,0.9999000632473499
+65d90b2d1b3ba76eee1c0170,Total Points,Basketball,total,0.9999000632473499
+65d92e3bc631067b1b0be213,Total Points,Basketball,total,0.9999000632473499
+6920e8aa9a1782ba42232cbb,Team Total Points,Basketball,total,0.9939102385821148
+65da106a60de6dbf8c621550,Team Total Points,Basketball,total,0.9995947282738071
+65da106a60de6dbf8c6217db,1st Half Total,Basketball,total,0.9995752864127978
+692b6675aebea6ace156b67c,1st Half Total,Basketball,total,0.9995752864127978
+692b6675aebea6ace156b689,Total Points,Basketball,total,0.9999000632473499
+692b9463aebea6ace1613be2,Total Points,Basketball,total,0.9999000632473499
+65d69beb947a56018e7dc3cd,Total Points,Basketball,total,0.9999000632473499
+63abe3454baa85f0d3e81e0a,1st Half Team Total,Basketball,total,0.9972534743134196
+63abe3454baa85f0d3e81e9b,Player Assists,Basketball,total,0.9871149295397724
+63abe3454baa85f0d3e81efd,Player Rebounds,Basketball,total,0.9643110476391084
+63abe4424baa85f0d31c27cd,Player Rebounds,Basketball,total,0.9643110476391084
+642f3dad132b3b9c2f2abd32,Player PRA,Basketball,total,0.9902014645160946
+642f46a7132b3b9c2f888326,Player Points,Basketball,total,0.9849541867452521
+65da759bc4cdd746c47d057f,Team Total Points,Basketball,total,0.9939102385821148
+65d92e3bc631067b1b0be9db,Parlay,Parlay,parlay,0.9982892346718037
+63abe3454baa85f0d3e819ae,Player Assists,Basketball,total,0.9964773541333289
+63abe3454baa85f0d3e82394,Player Points,Basketball,total,0.9984941367471042
+63abe3aa4baa85f0d3f3fcf8,Player Points,Basketball,total,0.9984941367471042
+683f504dd4c5de47f447a99d,Player Points,Basketball,total,0.9985500905205292
+683f5059d4c5de47f44973eb,Player Points,Basketball,total,0.9984941367471042
+6923dff8d604f3f8cb2670df,Total Points,Basketball,total,0.9999000632473499
+63abe3454baa85f0d3e823b8,Player PRA,Basketball,total,0.9970020067080463
+63b5d091fd320280f5b77182,Total Points,Basketball,total,0.9999000632473499
+6923dff9d604f3f8cb267106,Team Total Points,Basketball,total,0.9995947282738071
+6923dff9d604f3f8cb26710d,Team Total Points,Basketball,total,0.9995094106250724
+63eac0e022a63749c714f03f,Player Assists,Basketball,total,0.9964773541333289
+65dbf528c66f23e26878668f,Player Rebounds,Basketball,total,0.995491148715772
+65dbf528c66f23e268786acf,Player Points,Basketball,total,0.9984941367471042
+6920e8aa9a1782ba42232cb8,Team Total Points,Basketball,total,0.9995947282738071
+6923dff8d604f3f8cb2670de,Total Points,Basketball,total,0.9999000632473499
+6927bc2c0634e1d3c723a8a4,1st Half Total,Basketball,total,0.9995752864127978
+6928899f13be049a870703c9,Total Points,Basketball,total,0.9999000632473499
+692a699d5a69898ec1f441e0,Total Points,Basketball,total,0.9999000632473499
+63abe3454baa85f0d3e81f7c,Player PRA,Basketball,total,0.9970020067080463
+63abe3454baa85f0d3e81fce,Player Points,Basketball,total,0.9984941367471042
+63abe3454baa85f0d3e81fd1,Player Rebounds,Basketball,total,0.9955842745731777
+63abe3454baa85f0d3e81fe7,Player 3-Pointers,Basketball,total,0.9888990809928841
+63abe3454baa85f0d3e82505,Player Points,Basketball,total,0.9906859079450904
+63e826fa7abdf56c779a0f46,Player Rebounds,Basketball,total,0.995491148715772
+65dbb6fc19397fb5c7d8a909,Player Points,Basketball,total,0.9985127235909804
+63abe2f84baa85f0d3dfd716,Player Points,Basketball,total,0.9856363174699685
+65dbf528c66f23e2687866a6,Player Assists,Basketball,total,0.9964773541333289
+65dbdc0fc66f23e268771462,Total Points,Basketball,total,0.9999000632473499
+6884bffca2d28881bb33da12,Player Rebounds,Basketball,total,0.995491148715772
+692003fd842ddd4930784470,Team Total Points,Basketball,total,0.9995094106250724
+6923dff9d604f3f8cb267102,1st Half Team Total,Basketball,total,0.9973431281354925
+63f12f8ce46eb9c7ac1af266,Total Points,Basketball,total,0.9999000632473499
+65dbae86d7018bf818ba7c8c,Player 3-Pointers,Basketball,total,0.9888990809928841
+6838d948d838edaa54c3dbd7,Player PRA,Basketball,total,0.9969496105162926
+63abe16d4baa85f0d3b5b103,Player PRA,Basketball,total,0.9970020067080463
+63abe34c4baa85f0d3e8bfac,Player Points,Basketball,total,0.9984941367471042
+65d7dbc605852e2c79e043d4,Player 3-Pointers,Basketball,total,0.9888990809928841
+65da106a60de6dbf8c6216c3,Team Total Points,Basketball,total,0.9995094106250724
+65da4a80c4cdd746c4343e92,Total Points,Basketball,total,0.9999000632473499
+692c34832f38a761e896b79f,Team Total Points,Basketball,total,0.9995947282738071
+692c34992f38a761e896ba8e,1st Half Total,Basketball,total,0.9995752864127978
+63e6aaaf6faf6bccc70636e1,Player Points,Basketball,total,0.9984941367471042
+65495609fcb11b4289ffdf86,Player Rebounds,Basketball,total,0.995491148715772
+654971233871b279459ff998,Player Rebounds,Basketball,total,0.9955842745731777
+65d7dbc505852e2c79e0294b,Player Rebounds,Basketball,total,0.9955842745731777
+65d7dbc505852e2c79e030a3,Player Rebounds,Basketball,total,0.995491148715772
+65d7dbc505852e2c79e030f6,Player Assists,Basketball,total,0.9964773541333289
+65d7dbc505852e2c79e0331c,Player Rebounds,Basketball,total,0.995491148715772
+6837aff58536c2f29f20d10e,Player 3-Pointers,Basketball,total,0.9888990809928841
+68388973d838edaa5418dfb9,Player PRA,Basketball,total,0.9970020067080463
+6923dff8d604f3f8cb2670f3,Team Total Points,Basketball,total,0.9995947282738071
+692a699d5a69898ec1f441ab,Total Points,Basketball,total,0.9999000632473499
+692a699d5a69898ec1f441d6,Total Points,Basketball,total,0.9999000632473499
+6923dff9d604f3f8cb267104,Team Total Points,Basketball,total,0.9939102385821148
+63abe16d4baa85f0d3b5ae1e,Player Rebounds,Basketball,total,0.9643110476391084
+63abe2f84baa85f0d3dfd822,Player Points,Basketball,total,0.9849541867452521
+6923dff9d604f3f8cb26710f,Team Total Points,Basketball,total,0.9939102385821148
+63abe3454baa85f0d3e81d3f,Total Points,Basketball,total,0.9985296370690894
+63abe3454baa85f0d3e81d3b,Player Assists,Basketball,total,0.9871149295397724
+692633f5af9e5401ed5cc829,Team Total Points,Basketball,total,0.9939102385821148
+6927bc2c0634e1d3c723a8b2,Team Total Points,Basketball,total,0.9939102385821148
+63abe3454baa85f0d3e81f04,Player Points,Basketball,total,0.9849541867452521
+65da6c19c4cdd746c42080d4,Total Points,Basketball,total,0.9985296370690894
+68b96cc0cec28892d28b2c2e,1st Half Total,Basketball,total,0.9985522679602726
+6923dff9d604f3f8cb26710c,Team Total Points,Basketball,total,0.9939102385821148
+69224ad0e7f0968acc50f041,Team Total Points,Basketball,total,0.9939102385821148
+6927bc2c0634e1d3c723a8a3,Team Total Points,Basketball,total,0.9939102385821148
+692a139f5a69898ec1dd69c8,Team Total Points,Basketball,total,0.9939102385821148
+692a69855a69898ec1f43713,Team Total Points,Basketball,total,0.9939102385821148
+69265e55af9e5401ed6772d5,Team Total Points,Basketball,total,0.9939102385821148
+692633f5af9e5401ed5cc82e,Team Total Points,Basketball,total,0.9939102385821148
+65da759bc4cdd746c47d053c,Total Points,Basketball,total,0.9985296370690894
+63b05d759c6ba00f2a402c57,1st Half Total,Basketball,total,0.9842415952903123
+65d92e3bc631067b1b0be030,Total Points,Basketball,total,0.9985296370690894
+6927bc2c0634e1d3c723a896,Team Total Points,Basketball,total,0.9939102385821148
+6923dff9d604f3f8cb267103,2nd Quarter Total,Basketball,total,0.981616444465428
+6923dff9d604f3f8cb267101,Team Total Points,Basketball,total,0.9939102385821148
+6927bc2c0634e1d3c723a8ac,Team Total Points,Basketball,total,0.9939102385821148
+6927bc2c0634e1d3c723a8af,Team Total Points,Basketball,total,0.9889179547129524
+691dee49785c6b1ce5489f25,3rd Quarter Total,Basketball,total,0.9818717656495511
+65da7a647da1154d2f900447,Parlay,Basketball,parlay,0.923632402661768
+65da7a647da1154d2f9003f4,Parlay,Basketball,parlay,0.923632402661768
+65e5f1dcfa37ae0ea17f4710,Parlay,Parlay,parlay,0.9867216606507914
+63b7036763672a01252cfcc6,Player Points,Basketball,total,0.9860504570454798
+63cd6f9ee3033dfc518781bd,Player Points,Basketball,total,0.980558753125286
+65651d7fd535130c73d3b5b4,Player Assists,Basketball,total,0.9871149295397724
+6923dff9d604f3f8cb2670f8,1st Quarter Total,Basketball,total,0.9837115092463489
+6430d540d4e8e17d29a92dd5,Player Assists,Basketball,total,0.9871149295397724
+69224ad0e7f0968acc50f03d,Team Total Points,Basketball,total,0.9939102385821148
+6923dff9d604f3f8cb2670fd,Team Total Points,Basketball,total,0.9939102385821148
+69260e5c4c4b703b38fefb2d,Total Points,Basketball,total,0.9985296370690894
+6927bc2c0634e1d3c723a87b,1st Half Total,Basketball,total,0.9985522679602726
+692a69855a69898ec1f43714,Team Total Points,Basketball,total,0.9889102385821148
+683df7bcb029635844bb916e,Player Rebounds,Basketball,total,0.9643110476391084
+6927bc2c0634e1d3c723a8ae,Total Points,Basketball,total,0.9985296370690894
+692a69855a69898ec1f43717,Total Points,Basketball,total,0.9985296370690894
+65dbb6fc19397fb5c7d8a745,Player Rebounds,Basketball,total,0.9643110476391084
+63abe16d4baa85f0d3b5b058,Player Points,Basketball,total,0.980558753125286
+65dbae86d7018bf818ba7bf9,Total Points,Basketball,total,0.9985296370690894
+6838d74cd838edaa54554653,Player PRA,Basketball,total,0.989740668343384
+65d95ccfc631067b1b8009ee,Player Points,Basketball,total,0.9853823099737352
+692a699d5a69898ec1f441d3,Team Total Points,Basketball,total,0.9889102385821148
+6923dff8d604f3f8cb2670ed,Team Total Points,Basketball,total,0.9939102385821148
+692a139f5a69898ec1dd69d3,Team Total Points,Basketball,total,0.9939102385821148
+69260e5c4c4b703b38fefb32,Team Total Points,Basketball,total,0.9939102385821148
+65dbae86d7018bf818baa4ba,Parlay,Parlay,parlay,0.9982892346718037
+65d92e3bc631067b1b0bebc9,Parlay,Parlay,parlay,0.9982892346718037
+63cf13a92cba43842095fd72,Parlay,Parlay,parlay,0.9946040754488916
+63cf13a92cba4384209609e8,Parlay,Parlay,parlay,0.9946040754488916

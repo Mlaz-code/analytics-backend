@@ -1,0 +1,191 @@
+# =============================================================================
+# Prometheus Alerting Rules for Pikkit ML API
+# Add to /root/monitoring-stack/prometheus/alerts/pikkit-ml.yml
+# =============================================================================
+
+groups:
+  - name: pikkit-ml-api
+    interval: 30s
+    rules:
+      # ---------------------------------------------------------------------------
+      # Service Health Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitMLAPIDown
+        expr: up{job="pikkit-ml-api"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          service: pikkit-ml-api
+        annotations:
+          summary: "Pikkit ML API is down"
+          description: "Pikkit ML API instance {{ $labels.instance }} has been down for more than 1 minute."
+          runbook_url: "https://wiki.internal/pikkit-ml-api-runbook#service-down"
+
+      - alert: PikkitMLAPIHighErrorRate
+        expr: |
+          sum(rate(pikkit_predictions_total{grade="error"}[5m])) /
+          sum(rate(pikkit_predictions_total[5m])) > 0.05
+        for: 5m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High error rate in Pikkit ML API"
+          description: "Error rate is {{ $value | humanizePercentage }} over the last 5 minutes."
+
+      # ---------------------------------------------------------------------------
+      # Performance Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitMLAPIHighLatency
+        expr: |
+          histogram_quantile(0.95, sum(rate(pikkit_prediction_latency_seconds_bucket[5m])) by (le))
+          > 0.5
+        for: 5m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High latency in Pikkit ML API"
+          description: "P95 latency is {{ $value | humanizeDuration }} (threshold: 500ms)"
+
+      - alert: PikkitMLAPIVeryHighLatency
+        expr: |
+          histogram_quantile(0.99, sum(rate(pikkit_prediction_latency_seconds_bucket[5m])) by (le))
+          > 1.0
+        for: 2m
+        labels:
+          severity: critical
+          service: pikkit-ml-api
+        annotations:
+          summary: "Very high latency in Pikkit ML API"
+          description: "P99 latency is {{ $value | humanizeDuration }} (threshold: 1s)"
+
+      # ---------------------------------------------------------------------------
+      # Model Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitMLModelsNotLoaded
+        expr: pikkit_model_load_timestamp == 0
+        for: 5m
+        labels:
+          severity: critical
+          service: pikkit-ml-api
+        annotations:
+          summary: "Pikkit ML models not loaded"
+          description: "ML models have not been loaded on instance {{ $labels.instance }}."
+
+      - alert: PikkitMLModelsStale
+        expr: |
+          (time() - pikkit_model_load_timestamp) > 604800
+        for: 1h
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "Pikkit ML models are stale"
+          description: "Models haven't been updated in {{ $value | humanizeDuration }}. Consider retraining."
+
+      # ---------------------------------------------------------------------------
+      # Traffic and Capacity Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitMLAPIHighRequestRate
+        expr: |
+          sum(rate(pikkit_predictions_total[1m])) > 100
+        for: 5m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High request rate to Pikkit ML API"
+          description: "Request rate is {{ $value }} req/s. Consider scaling."
+
+      - alert: PikkitMLAPIHighConcurrency
+        expr: pikkit_active_requests > 50
+        for: 5m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High concurrent requests in Pikkit ML API"
+          description: "{{ $value }} concurrent requests. May need scaling."
+
+      # ---------------------------------------------------------------------------
+      # Business Logic Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitNoHighGradeBets
+        expr: |
+          increase(pikkit_high_grade_bets_total[1h]) == 0
+        for: 6h
+        labels:
+          severity: info
+          service: pikkit-ml-api
+        annotations:
+          summary: "No high-grade bets detected"
+          description: "No A or B grade bets have been detected in the past 6 hours."
+
+      - alert: PikkitHighGradeBetSpike
+        expr: |
+          increase(pikkit_high_grade_bets_total{grade="A"}[15m]) > 10
+        for: 1m
+        labels:
+          severity: info
+          service: pikkit-ml-api
+        annotations:
+          summary: "Spike in A-grade bets"
+          description: "{{ $value }} A-grade bets detected in the past 15 minutes."
+
+      # ---------------------------------------------------------------------------
+      # Canary Alerts
+      # ---------------------------------------------------------------------------
+      - alert: PikkitCanaryHighErrorRate
+        expr: |
+          sum(rate(pikkit_predictions_total{deployment="canary",grade="error"}[5m])) /
+          sum(rate(pikkit_predictions_total{deployment="canary"}[5m])) > 0.02
+        for: 5m
+        labels:
+          severity: critical
+          service: pikkit-ml-api
+        annotations:
+          summary: "Canary deployment has high error rate"
+          description: "Canary error rate is {{ $value | humanizePercentage }}. Consider rollback."
+
+      - alert: PikkitCanaryPerformanceDegradation
+        expr: |
+          histogram_quantile(0.95,
+            sum(rate(pikkit_prediction_latency_seconds_bucket{deployment="canary"}[5m])) by (le)
+          ) >
+          1.5 * histogram_quantile(0.95,
+            sum(rate(pikkit_prediction_latency_seconds_bucket{deployment="blue"}[5m])) by (le)
+          )
+        for: 10m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "Canary deployment performance degradation"
+          description: "Canary P95 latency is 50% higher than production."
+
+      # ---------------------------------------------------------------------------
+      # Resource Alerts (via cAdvisor)
+      # ---------------------------------------------------------------------------
+      - alert: PikkitMLAPIHighMemory
+        expr: |
+          container_memory_usage_bytes{name=~"pikkit-ml-api.*"} /
+          container_spec_memory_limit_bytes{name=~"pikkit-ml-api.*"} > 0.85
+        for: 5m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High memory usage in Pikkit ML API"
+          description: "Container {{ $labels.name }} memory usage is {{ $value | humanizePercentage }}."
+
+      - alert: PikkitMLAPIHighCPU
+        expr: |
+          rate(container_cpu_usage_seconds_total{name=~"pikkit-ml-api.*"}[5m]) * 100 > 80
+        for: 10m
+        labels:
+          severity: warning
+          service: pikkit-ml-api
+        annotations:
+          summary: "High CPU usage in Pikkit ML API"
+          description: "Container {{ $labels.name }} CPU usage is {{ $value }}%."

@@ -1,0 +1,37 @@
+id,bet_type,original_sport,original_market,pick_name,predicted_market,market_confidence,predicted_sport,sport_confidence,predicted_league,league_confidence
+69477b2e9adaa364587bfba0,straight,Basketball,1st Half Moneyline,Brose Bamberg · Live Moneyline 1st Half,1st Half Moneyline,0.9999999999997193,Basketball,0.99999005714074,NBA,0.25350803925445103
+69477b2e9adaa364587bfba4,straight,Basketball,Total,Over 173.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+69477b2e9adaa364587bfba5,straight,Basketball,Total,Over 38.5 · Live Total 1st Quarter,Moneyline,0.1387638121093721,Basketball,0.99999005714074,French Pro A,1.0
+69477b2f9adaa364587bfbcb,straight,Basketball,Spread,Science City Jena +10.5 · Live Spread,Spread,0.9999995900490286,Basketball,0.99999005714074,NBL,1.0
+69477b2f9adaa364587bfbcf,straight,Basketball,Total,Over 162.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+69477b2f9adaa364587bfbd0,straight,Basketball,Moneyline,JL Bourg · Live Moneyline,Moneyline,0.9999995767490417,Unknown,1.0,Review,1.0
+69477b2f9adaa364587bfbd2,straight,Basketball,1st Half Moneyline,JL Bourg · Live Moneyline 1st Half,1st Half Moneyline,0.9999999999997193,Basketball,0.99999005714074,NBA,0.25350803925445103
+69477b2f9adaa364587bfbd3,straight,Basketball,Total,Under 43.5 · Live Total 1st Quarter,Moneyline,0.1387638121093721,Basketball,0.99999005714074,French Pro A,1.0
+694801750f260f8d974ad771,straight,Basketball,Total,Over 36.5 · Live Hamburg Towers: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+694801750f260f8d974ad772,straight,Basketball,Spread,Qingdao +6.5 · Live Spread,Spread,0.999999590056577,Basketball,0.99999005714074,NBL,1.0
+694801750f260f8d974ad773,straight,Basketball,Moneyline,Jiangsu Dragons · Live Moneyline,Moneyline,0.9999995767490417,Unknown,1.0,Review,1.0
+694801750f260f8d974ad774,straight,Basketball,Total,Under 40.5 · Live Total 1st Quarter,Moneyline,0.1387638121093721,Basketball,0.99999005714074,French Pro A,1.0
+694801750f260f8d974ad775,straight,Basketball,Moneyline,FC Barcelona · Live Moneyline,Moneyline,0.9999995767490417,Unknown,1.0,Review,1.0
+694801750f260f8d974ad776,straight,Basketball,Spread,Qingdao +10.5 · Live Spread,Spread,0.9999995900490286,Basketball,0.99999005714074,NBL,1.0
+694801750f260f8d974ad777,straight,Basketball,Total,Under 44.5 · Live Qingdao: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+694801750f260f8d974ad779,straight,Basketball,Total,Over 40.5 · Live Total 3rd Quarter,Moneyline,0.1387638121093721,Basketball,0.99999005714074,NBA,0.2503784617392752
+694801750f260f8d974ad77a,straight,Basketball,Total,Under 35.5 · Live Lighthouse Trapani: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+694801750f260f8d974ad77b,straight,Basketball,Total,Under 193.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+694801750f260f8d974ad77c,straight,Basketball,Total,Under 58.5 · Live Zhejiang Guangsha: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319b3,straight,Basketball,Total,Over 139.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+6948569c56a7d5960f5319b4,straight,Basketball,1st Half Moneyline,Trieste · Live Moneyline 1st Half,1st Half Moneyline,0.9999999999997193,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319b5,straight,Basketball,Total,Under 169.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+6948569c56a7d5960f5319b8,straight,Basketball,Total,Under 43.5 · Live Reggiana: Team Total Points - 1st Half,Team Total Points,0.9998157795803191,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319b9,straight,Basketball,1st Half Moneyline,Valencia Basket Club · Live Moneyline 1st Half,1st Half Moneyline,0.9999999980320611,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319ba,straight,Basketball,3rd Quarter Moneyline,Valencia Basket Club · Live Moneyline 3rd Quarter,3rd Quarter Moneyline,1.0,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319bb,straight,Basketball,Total,Under 41.5 · Live Universo Treviso: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319bc,straight,Basketball,1st Half Moneyline,Valencia Basket Club · Live Moneyline 1st Half,1st Half Moneyline,0.9999999980320611,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319bd,straight,Basketball,3rd Quarter Moneyline,Valencia Basket Club · Live Moneyline 3rd Quarter,3rd Quarter Moneyline,1.0,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319be,straight,Basketball,Total,Under 57.5 · Live Umana Reyer Venezia: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319bf,straight,Basketball,Spread,Valencia Basket Club +9.5 · Live Spread,Spread,0.9999995884651419,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319c0,straight,Basketball,Total,Over 166.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+6948569c56a7d5960f5319c1,straight,Basketball,Total,Over 41.5 · Live Le Portel: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319c2,straight,Basketball,Total,Over 40.5 · Live UCAM Murcia CB: Team Total Points - 1st Half,Team Total Points,0.9999980503278041,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319c3,straight,Basketball,Total,Under 42.5 · Live Basketball Lowen Braunschweig: Team Total Points - 1st Half,Team Total Points,0.9998718945391245,Basketball,0.99999005714074,NBA,0.25350803925445103
+6948569c56a7d5960f5319c5,straight,Basketball,Total,Over 166.5 · Live Total,Moneyline,0.13585191118102116,Unknown,1.0,BBL,1.0
+test_675f9999999999999999999,straight,,,,Moneyline,0.13674408335996635,Basketball,0.4156145102190887,NBA,0.2504076663082058

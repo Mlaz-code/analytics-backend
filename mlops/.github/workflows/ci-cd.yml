@@ -1,0 +1,573 @@
+# =============================================================================
+# Pikkit ML API - CI/CD Pipeline
+# Automated testing, model validation, and deployment to Tools VM
+# =============================================================================
+
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'mlops/**'
+      - '.github/workflows/ci-cd.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'mlops/**'
+  workflow_dispatch:
+    inputs:
+      deployment_type:
+        description: 'Deployment type'
+        required: true
+        default: 'blue-green'
+        type: choice
+        options:
+          - blue-green
+          - canary
+          - rollback
+      version:
+        description: 'Version to deploy (leave empty for auto)'
+        required: false
+        type: string
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}/pikkit-ml-api
+  TOOLS_VM_HOST: 192.168.4.80
+  TOOLS_VM_USER: root
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Job 1: Code Quality and Linting
+  # ---------------------------------------------------------------------------
+  lint:
+    name: Code Quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install linting tools
+        run: |
+          pip install black isort mypy ruff
+
+      - name: Run Black (formatting)
+        run: |
+          black --check --diff mlops/app/
+
+      - name: Run isort (import sorting)
+        run: |
+          isort --check-only --diff mlops/app/
+
+      - name: Run Ruff (linting)
+        run: |
+          ruff check mlops/app/
+
+      - name: Run MyPy (type checking)
+        run: |
+          pip install -r mlops/requirements.txt
+          mypy mlops/app/ --ignore-missing-imports
+
+  # ---------------------------------------------------------------------------
+  # Job 2: Unit Tests
+  # ---------------------------------------------------------------------------
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r mlops/requirements.txt
+          pip install pytest pytest-asyncio pytest-cov httpx
+
+      - name: Create test models
+        run: |
+          mkdir -p mlops/models
+          python -c "
+          import pickle
+          import json
+          import numpy as np
+          from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
+
+          # Create dummy models for testing
+          X = np.random.rand(100, 26)
+          y_win = np.random.randint(0, 2, 100)
+          y_roi = np.random.randn(100) * 10
+
+          win_model = GradientBoostingClassifier(n_estimators=10)
+          win_model.fit(X, y_win)
+
+          roi_model = GradientBoostingRegressor(n_estimators=10)
+          roi_model.fit(X, y_roi)
+
+          with open('mlops/models/win_probability_model_latest.pkl', 'wb') as f:
+              pickle.dump(win_model, f)
+
+          with open('mlops/models/roi_prediction_model_latest.pkl', 'wb') as f:
+              pickle.dump(roi_model, f)
+
+          metadata = {
+              'timestamp': '20251224_000000',
+              'features': [
+                  'sport_encoded', 'league_encoded', 'market_encoded',
+                  'institution_name_encoded', 'bet_type_encoded',
+                  'implied_prob', 'is_live', 'clv_percentage', 'clv_ev', 'has_clv',
+                  'sport_win_rate', 'sport_roi', 'sport_market_win_rate', 'sport_market_roi',
+                  'sport_league_win_rate', 'sport_league_roi',
+                  'sport_league_market_win_rate', 'sport_league_market_roi',
+                  'institution_name_win_rate', 'institution_name_roi',
+                  'sport_market_count', 'institution_name_count',
+                  'recent_win_rate', 'day_of_week', 'hour_of_day', 'days_since_first_bet'
+              ],
+              'encoders': {
+                  'sport': ['Basketball', 'American Football'],
+                  'league': ['NBA', 'NFL'],
+                  'market': ['Spread', 'Moneyline'],
+                  'institution_name': ['DraftKings', 'FanDuel'],
+                  'bet_type': ['straight', 'parlay']
+              }
+          }
+          with open('mlops/models/model_metadata_latest.json', 'w') as f:
+              json.dump(metadata, f)
+          "
+
+      - name: Run tests
+        env:
+          MODEL_DIR: mlops/models
+          ENVIRONMENT: test
+        run: |
+          cd mlops
+          pytest tests/ -v --cov=app --cov-report=xml --cov-report=term-missing
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v3
+        with:
+          files: mlops/coverage.xml
+          fail_ci_if_error: false
+
+  # ---------------------------------------------------------------------------
+  # Job 3: Model Validation
+  # ---------------------------------------------------------------------------
+  model-validation:
+    name: Model Validation
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r mlops/requirements.txt
+          pip install supabase
+
+      - name: Download production models
+        env:
+          TOOLS_VM_SSH_KEY: ${{ secrets.TOOLS_VM_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$TOOLS_VM_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+          ssh-keyscan -H ${{ env.TOOLS_VM_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+          mkdir -p mlops/models
+          scp -o StrictHostKeyChecking=no \
+            ${{ env.TOOLS_VM_USER }}@${{ env.TOOLS_VM_HOST }}:/root/pikkit/ml/models/*_latest.* \
+            mlops/models/ || echo "No models to download"
+
+      - name: Validate model files
+        run: |
+          python << 'EOF'
+          import pickle
+          import json
+          import sys
+          from pathlib import Path
+
+          model_dir = Path('mlops/models')
+
+          # Check required files exist
+          required_files = [
+              'win_probability_model_latest.pkl',
+              'roi_prediction_model_latest.pkl',
+              'model_metadata_latest.json'
+          ]
+
+          missing = [f for f in required_files if not (model_dir / f).exists()]
+          if missing:
+              print(f"Missing model files: {missing}")
+              sys.exit(1)
+
+          # Load and validate models
+          try:
+              with open(model_dir / 'win_probability_model_latest.pkl', 'rb') as f:
+                  win_model = pickle.load(f)
+              print(f"Win model type: {type(win_model).__name__}")
+
+              with open(model_dir / 'roi_prediction_model_latest.pkl', 'rb') as f:
+                  roi_model = pickle.load(f)
+              print(f"ROI model type: {type(roi_model).__name__}")
+
+              with open(model_dir / 'model_metadata_latest.json', 'r') as f:
+                  metadata = json.load(f)
+              print(f"Model timestamp: {metadata.get('timestamp', 'unknown')}")
+              print(f"Features: {len(metadata.get('features', []))}")
+
+              # Validate model has predict method
+              assert hasattr(win_model, 'predict_proba'), "Win model missing predict_proba"
+              assert hasattr(roi_model, 'predict'), "ROI model missing predict"
+
+              print("\nModel validation passed!")
+
+          except Exception as e:
+              print(f"Model validation failed: {e}")
+              sys.exit(1)
+          EOF
+
+      - name: Performance benchmark
+        env:
+          MODEL_DIR: mlops/models
+        run: |
+          python << 'EOF'
+          import time
+          import pickle
+          import json
+          import numpy as np
+          from pathlib import Path
+
+          model_dir = Path('mlops/models')
+
+          # Load models
+          with open(model_dir / 'win_probability_model_latest.pkl', 'rb') as f:
+              win_model = pickle.load(f)
+          with open(model_dir / 'roi_prediction_model_latest.pkl', 'rb') as f:
+              roi_model = pickle.load(f)
+          with open(model_dir / 'model_metadata_latest.json', 'r') as f:
+              metadata = json.load(f)
+
+          n_features = len(metadata['features'])
+
+          # Benchmark single prediction
+          X_single = np.random.rand(1, n_features)
+
+          times = []
+          for _ in range(100):
+              start = time.perf_counter()
+              win_model.predict_proba(X_single)
+              roi_model.predict(X_single)
+              times.append(time.perf_counter() - start)
+
+          avg_time = np.mean(times) * 1000
+          p99_time = np.percentile(times, 99) * 1000
+
+          print(f"Single prediction latency:")
+          print(f"  Average: {avg_time:.2f}ms")
+          print(f"  P99: {p99_time:.2f}ms")
+
+          # Performance gate: P99 must be under 100ms
+          if p99_time > 100:
+              print("FAILED: P99 latency exceeds 100ms threshold")
+              exit(1)
+
+          # Benchmark batch prediction
+          X_batch = np.random.rand(100, n_features)
+          start = time.perf_counter()
+          win_model.predict_proba(X_batch)
+          roi_model.predict(X_batch)
+          batch_time = (time.perf_counter() - start) * 1000
+
+          print(f"\nBatch prediction (100 items): {batch_time:.2f}ms")
+
+          print("\nPerformance validation passed!")
+          EOF
+
+  # ---------------------------------------------------------------------------
+  # Job 4: Build Docker Image
+  # ---------------------------------------------------------------------------
+  build:
+    name: Build Docker Image
+    runs-on: ubuntu-latest
+    needs: [test, model-validation]
+    if: |
+      always() &&
+      needs.test.result == 'success' &&
+      (needs.model-validation.result == 'success' || needs.model-validation.result == 'skipped')
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      image_tag: ${{ steps.meta.outputs.tags }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            VERSION="$(date +%Y%m%d)-${GITHUB_SHA::7}"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Generated version: $VERSION"
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=${{ steps.version.outputs.version }}
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+            type=sha,prefix=
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: mlops
+          file: mlops/Dockerfile
+          target: production
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            APP_VERSION=${{ steps.version.outputs.version }}
+            BUILD_DATE=${{ github.event.head_commit.timestamp }}
+            GIT_COMMIT=${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Generate SBOM
+        uses: anchore/sbom-action@v0
+        with:
+          image: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.version.outputs.version }}
+          artifact-name: sbom-${{ steps.version.outputs.version }}.spdx.json
+
+  # ---------------------------------------------------------------------------
+  # Job 5: Security Scan
+  # ---------------------------------------------------------------------------
+  security-scan:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ needs.build.outputs.version }}
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
+
+      - name: Upload Trivy scan results
+        uses: github/codeql-action/upload-sarif@v2
+        if: always()
+        with:
+          sarif_file: 'trivy-results.sarif'
+
+  # ---------------------------------------------------------------------------
+  # Job 6: Deploy to Tools VM
+  # ---------------------------------------------------------------------------
+  deploy:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: [build, security-scan]
+    if: |
+      always() &&
+      needs.build.result == 'success' &&
+      (github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch')
+    environment:
+      name: production
+      url: http://192.168.4.80:8000
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up SSH
+        env:
+          TOOLS_VM_SSH_KEY: ${{ secrets.TOOLS_VM_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$TOOLS_VM_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ env.TOOLS_VM_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Copy deployment files
+        run: |
+          scp -o StrictHostKeyChecking=no -r \
+            mlops/docker-compose.yml \
+            mlops/nginx/ \
+            mlops/scripts/ \
+            ${{ env.TOOLS_VM_USER }}@${{ env.TOOLS_VM_HOST }}:/root/pikkit/mlops/
+
+      - name: Deploy using blue-green strategy
+        env:
+          VERSION: ${{ needs.build.outputs.version }}
+          DEPLOYMENT_TYPE: ${{ github.event.inputs.deployment_type || 'blue-green' }}
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ env.TOOLS_VM_USER }}@${{ env.TOOLS_VM_HOST }} << 'DEPLOY_SCRIPT'
+          set -e
+
+          cd /root/pikkit/mlops
+
+          # Load environment
+          source /root/pikkit/.env 2>/dev/null || true
+
+          # Export variables
+          export APP_VERSION="${{ env.VERSION }}"
+          export MODEL_PATH="/root/pikkit/ml/models"
+          export REGISTRY="${{ env.REGISTRY }}"
+          export IMAGE_NAME="${{ env.IMAGE_NAME }}"
+
+          # Pull latest image
+          docker pull $REGISTRY/$IMAGE_NAME:$APP_VERSION
+
+          # Execute deployment
+          case "${{ env.DEPLOYMENT_TYPE }}" in
+            canary)
+              ./scripts/deploy.sh canary --version $APP_VERSION
+              ;;
+            rollback)
+              ./scripts/deploy.sh rollback
+              ;;
+            *)
+              ./scripts/deploy.sh deploy --version $APP_VERSION
+              ;;
+          esac
+
+          # Verify deployment
+          sleep 10
+          curl -sf http://localhost:8000/health || exit 1
+
+          echo "Deployment successful!"
+          DEPLOY_SCRIPT
+
+      - name: Send deployment notification
+        if: success()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="<b>Pikkit ML API Deployed</b>%0A%0AVersion: ${{ needs.build.outputs.version }}%0AEnvironment: production%0AStatus: Success%0A%0A<a href='http://192.168.4.80:8000/health'>Health Check</a>"
+
+      - name: Send failure notification
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="<b>Pikkit ML API Deployment FAILED</b>%0A%0AVersion: ${{ needs.build.outputs.version }}%0AEnvironment: production%0A%0ACheck GitHub Actions for details."
+
+  # ---------------------------------------------------------------------------
+  # Job 7: Post-Deployment Verification
+  # ---------------------------------------------------------------------------
+  verify:
+    name: Post-Deployment Verification
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Set up SSH
+        env:
+          TOOLS_VM_SSH_KEY: ${{ secrets.TOOLS_VM_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$TOOLS_VM_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ env.TOOLS_VM_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Run smoke tests
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ env.TOOLS_VM_USER }}@${{ env.TOOLS_VM_HOST }} << 'EOF'
+
+          echo "Running smoke tests..."
+
+          # Test health endpoint
+          echo "Testing /health..."
+          curl -sf http://localhost:8000/health | jq .
+
+          # Test readiness
+          echo "Testing /ready..."
+          curl -sf http://localhost:8000/ready | jq .
+
+          # Test prediction endpoint
+          echo "Testing /api/v1/predict..."
+          curl -sf -X POST http://localhost:8000/api/v1/predict \
+            -H "Content-Type: application/json" \
+            -d '{
+              "sport": "Basketball",
+              "league": "NBA",
+              "market": "Spread",
+              "institution_name": "DraftKings",
+              "odds": -110
+            }' | jq .
+
+          # Test legacy endpoint
+          echo "Testing /ml-predict..."
+          curl -sf "http://localhost:8000/ml-predict?sport=Basketball&league=NBA&market=Spread&institution_name=DraftKings" | jq .
+
+          # Check metrics
+          echo "Testing /metrics..."
+          curl -sf http://localhost:8000/metrics | head -20
+
+          echo "All smoke tests passed!"
+          EOF
+
+      - name: Run load test
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ env.TOOLS_VM_USER }}@${{ env.TOOLS_VM_HOST }} << 'EOF'
+
+          echo "Running quick load test..."
+
+          # Install hey if not present
+          which hey || (wget -q https://hey-release.s3.us-east-2.amazonaws.com/hey_linux_amd64 -O /usr/local/bin/hey && chmod +x /usr/local/bin/hey)
+
+          # Run 10-second load test
+          hey -z 10s -c 10 -m POST \
+            -H "Content-Type: application/json" \
+            -d '{"sport":"Basketball","league":"NBA","market":"Spread","institution_name":"DraftKings","odds":-110}' \
+            http://localhost:8000/api/v1/predict
+
+          echo "Load test complete!"
+          EOF

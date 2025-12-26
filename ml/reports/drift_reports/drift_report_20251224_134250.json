@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-24T13:42:50.794915",
+  "total_features_checked": 8,
+  "features_with_drift": 6,
+  "drifted_features": [
+    "sport",
+    "league",
+    "market",
+    "institution_name",
+    "bet_type",
+    "implied_prob"
+  ],
+  "requires_retraining": true,
+  "feature_details": {
+    "sport": {
+      "drift_score": 4.996687282018534,
+      "is_drifted": 

@@ -1,0 +1,596 @@
+id,sport,market,predicted_market,prediction_confidence,pick_name
+test_675f9999999999999999999,,,Moneyline,0.19809192410993326,
+692f96e521f3579cd6509554,Baseball,Other,Other,1.0,CIN Reds · 1st Run Live Betting
+692f96e721f3579cd65096ba,Baseball,Other,Other,1.0,MIA Marlins · 1st Run Live Betting
+692f96e921f3579cd65097af,Baseball,Other,Other,1.0,COL Rockies · 1st Run Live Betting
+692f96e921f3579cd65097b0,Baseball,Other,Other,1.0,COL Rockies · 1st Run Live Betting
+692f96ea21f3579cd650981a,Baseball,Other,Other,1.0,LA Angels · 1st Run Live Betting
+692f96eb21f3579cd650988e,Baseball,Other,Other,1.0,CLE Guardians · 1st Run Live Betting
+692f96f721f3579cd6509e35,MMA,Other,Other,0.9999999999999982,No · Fight to Go the Distance
+693e3c9518569d598765e50e,American Football,Other,Other,1.0,CHI Blackhawks +3.5 · Live Puck Line
+693a4bbca3bf037db9fdd1d8,Ice Hockey,Other,Other,1.0,Milwaukee Admirals +1.5 · Live Puck Line
+692f96f921f3579cd6509eb1,Tennis,Other,Other,0.9999999999999956,Anna Bondar -1.5 · Games Spread
+692f96e621f3579cd65095c2,Baseball,Other,Other,1.0,DET Tigers · 1st Run Live Betting
+69355dd1096db98a078219bc,Soccer,Other,Other,0.9999999999997362,Even · Live Total Goals Odd/Even - 1st Half
+693b5749363c04ea4b572732,Tennis,Other,Other,1.0,Luca Wiedenmann · Live Betting
+693a4bbca3bf037db9fdd1ca,Ice Hockey,Other,Other,1.0,CGY Flames +2.5 · Live Puck Line
+692f96e821f3579cd6509719,Baseball,Other,Other,1.0,CLE Guardians · 1st Run Live Betting
+692f96d621f3579cd6508cc0,Tennis,Other,Other,1.0,Francisca Jorge · Live Betting
+6943857a64cac35c54117a77,Unknown,Other,Other,1.0,Luke Hooper · Live Betting
+6943857a64cac35c54117a6f,Unknown,Other,Other,1.0,Federico Iannaccone · Live Betting
+6943857a64cac35c54117a81,Unknown,Other,Other,1.0,Sydney Jara · Live Betting
+69452903b835c3e3783386af,Tennis,Other,Other,1.0,Alexander Blockx · Live 4th Set
+692f96ea21f3579cd650981b,Baseball,Other,Other,1.0,LA Angels · 1st Run Live Betting
+692f96ea21f3579cd6509857,Baseball,Other,Other,1.0,BOS Red Sox · 1st Run Live Betting
+692f96eb21f3579cd650988d,Baseball,Other,Other,1.0,MIA Marlins · 1st Run Live Betting
+692f96eb21f3579cd6509892,Baseball,Other,Other,1.0,TEX Rangers · 1st Run Live Betting
+692f96ec21f3579cd65098df,Baseball,Other,Other,1.0,PIT Pirates · 1st Run Live Betting
+693e3c9518569d598765e50d,Ice Hockey,Other,Other,1.0,Rockford Icehogs +1.5 · Live Puck Line
+692f96f621f3579cd6509da0,MMA,Other,Other,0.9999999999999982,No · Will fight go the distance?
+64793d3ad911a8be22e0d2ce,Parlay,Parlay,Player Double-Double,1.0,Yes · Bam Adebayo Double Double
+692f96df21f3579cd6509152,Parlay,Parlay,Parlay,0.9999999493625401,B. Shelton · Moneyline
+692f96df21f3579cd6509155,Parlay,Parlay,Parlay,0.9999999498974651,T. Fritz · Moneyline
+64ee86e266efec8afab0765d,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+64eeaedb66efec8afa36504c,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+692f96e021f3579cd65091b8,Parlay,Parlay,Parlay,0.9999999493625401,NYK · Moneyline
+692f96e021f3579cd65091b1,Parlay,Parlay,Parlay,0.9999999498974651,J. Fonseca · Moneyline
+65651d79d535130c73d0f4d8,Parlay,Parlay,Parlay,0.9999999271968674,BAL -3.0 · Spread
+65653fefc3508770a037716d,Parlay,Parlay,Puck Line,0.9990791812183644,WSH -1.5 · Puck Line
+65b86903230e83a522124ac5,Parlay,Parlay,Parlay,0.9999999493625401,SAC · Moneyline
+65c2f46c9b5877cbd1973dba,Parlay,Parlay,Parlay,0.9999999522891662,Over 15.5 · Bobby Portis Points
+65c3c7fb206e09be44992cbe,Parlay,Parlay,Parlay,0.9999999524986478,Emma Raducanu · Match Betting Live
+65c2fb709b5877cbd1ac35ce,Parlay,Parlay,Parlay,0.9999999493625514,CHI · Moneyline
+64fdf7c6c82d8d8d1de05545,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+65dc0d1cdb29e33d365b9cd1,Parlay,Parlay,Parlay,0.9999999498974651,Utah Utes · Moneyline
+64862cd21effaf56de80d503,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+692f96e121f3579cd6509258,Parlay,Parlay,Parlay,0.9999999502481347,GSW · Moneyline
+66bc0e29455ca5e1ae2d2358,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+66c9f16c2fb80767f6233a9f,Parlay,Parlay,Parlay,0.9999999493625401,STL · Moneyline
+692f96e121f3579cd65092b9,Parlay,Parlay,Parlay,0.9999999498974651,F. Misolic · Moneyline
+692f96e121f3579cd65092b8,Parlay,Parlay,Parlay,0.9999999498974651,F. Misolic · Moneyline
+67019d2c3d1de19625c9c584,Parlay,Parlay,Parlay,0.9999999498974651,NCST · Moneyline
+67019d2c3d1de19625c9cd69,Parlay,Parlay,Parlay,0.9999999498974651,LOU · Moneyline
+6703d1dc711f686f63f97f43,Parlay,Parlay,Parlay,0.9999999502481347,MIA · Moneyline
+6703d1dc711f686f63f9805c,Parlay,Parlay,Parlay,0.9999999502481347,MIA · Moneyline
+6769d4ba8b40ea143d811e16,Parlay,Parlay,Parlay,0.9386119875607634,Panathinaikos · Moneyline Live Betting
+6769d5a98b40ea143dbf8952,Parlay,Parlay,Parlay,0.9999999498974651,Ekaterina Kazionova · Moneyline
+692f96e321f3579cd650941e,Parlay,Parlay,Parlay,0.9999999536563519,Y. Hanfmann +1.5 · 3rd Set Game Handicap
+64fa6a2b73dfd2b579647315,Parlay,Parlay,Parlay,0.9999999524986889,Skyy Moore · First TD Scorer
+6769d5d08b40ea143dcacdbb,Parlay,Parlay,Parlay,0.9999999520727735,Over 47.5 · Total
+67d2139835819fa2a7d734e9,Parlay,Parlay,Parlay,0.9999999493625514,VAN · Moneyline
+64780b660e15c34d29ca9629,Parlay,Parlay,Parlay,0.9999998078210958,MIN -4.5 · Run Line
+680d52ff645217339473f438,Parlay,Parlay,Parlay,0.9999999493625401,B. Shelton · Moneyline
+68113b8fffa56d9b28a9ae30,Parlay,Parlay,Parlay,0.9999999524986243,Yuki Naito · Live Betting Live Betting
+64fa6a2b73dfd2b579647a2e,Parlay,Parlay,Parlay,0.9999999522891662,Over 29.5 · Jahmyr Gibbs Rec. Yards
+63abe3584baa85f0d3e973ac,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+68f09f87280fa60e69c71d44,Parlay,Parlay,Parlay,0.9999999524986409,Petra Marcinko · 2nd Set Live Betting
+646af2626c44b706bf62f9b1,Parlay,Parlay,Parlay,0.9999999502481347,BOS · Moneyline
+67e8168b34ff1a53ed6ee84d,Parlay,Parlay,Parlay,0.9999999498974651,Marek Gengel · Moneyline
+68ee6183d9b471177413a5fb,Parlay,Parlay,Parlay,0.9999999535025895,O. Crawford · Match Winner
+65c58e76bf526b1456188a2f,Parlay,Parlay,Parlay,0.9999999204231705,DET +5.5 · Spread
+6769d5d08b40ea143dcad9cc,Parlay,Parlay,Parlay,0.9999999496226334,Over 80.5 · 1st Half Total
+669096384b7a63c6313c740d,Parlay,Parlay,Parlay,0.9999999502481347,SD · Moneyline
+670869dee46b7af918eda766,Parlay,Parlay,Parlay,0.9999999271968674,UTEP +19.5 · Spread
+670869dee46b7af918eda1c9,Parlay,Parlay,Parlay,0.9999999271968674,UTEP +19.5 · Spread
+66d79c43ec0972da087a6aa1,Parlay,Parlay,Parlay,0.9999999498974651,FSU · Moneyline
+652477acbe580a9c8e3a32b1,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+66dcb7d185afbf70a29faf80,Parlay,Parlay,Parlay,0.9999999493624573,WSH · Moneyline
+6769d5d08b40ea143dcac932,Parlay,Parlay,Parlay,0.9999999498974651,M. Berrettini · Moneyline
+66eb0ae1aff68221fe8220f4,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+6769d5b38b40ea143dc1e264,Parlay,Parlay,Parlay,0.9999999498974651,SMC · Moneyline
+6769d5b38b40ea143dc1e28e,Parlay,Parlay,Parlay,0.9999998106418623,SMC +8.5 · Spread
+67ae910d2edd1a8a624ecefe,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+67d657f600529c528e993df9,Parlay,Parlay,Parlay,0.9999999498974651,CONN · Moneyline
+670c788eca70d987dfc6b603,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+64676e0bf61ff68888cc87e6,Parlay,Parlay,Parlay,0.9999999534894818,S.Scheffler [R2] · Winner
+64d822e17cba553510b3b9ef,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+64dab98c4377054963280e55,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+692f96fa21f3579cd6509f23,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+692f96fa21f3579cd6509f24,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+6518b00e9c57d468ffa3e6a8,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+65bbdb6a2a18a154d6cd429a,Parlay,Parlay,Parlay,0.999999951454266,GB -9.5 · Spread
+6769d5cd8b40ea143dca1471,Parlay,Parlay,Parlay,0.9999999498974651,Orlando Luz · Moneyline
+65bea862e0cb39b1c71eda2d,Parlay,Parlay,Parlay,0.9999998106418623,VAL -1.0 · Spread
+65bf2397bf47c5e163de17ba,Parlay,Parlay,Parlay,0.9999999498974651,ORE · Moneyline
+680d54376452173394d323f5,Parlay,Parlay,Parlay,0.9999999498974651,Mark Williams · Moneyline
+65c2cdd89b5877cbd1291280,Parlay,Parlay,Parlay,0.9999999536563172,T. Atmane +2.5 · Game Handicap
+66ed2fd57f08e43932ba262a,Parlay,Parlay,Parlay,0.9999999498974651,Andre Ilagan · Moneyline
+65d18d256b01b82bd1c56a05,Parlay,Parlay,Parlay,0.9999999498974651,AUB · Moneyline
+68e2a9e70b5002019255f4d0,Parlay,Parlay,Parlay,0.9386119875607631,Michal Vavrecka · Moneyline Live Betting
+65d83fda05852e2c793a485f,Parlay,Parlay,Parlay,0.9999999498974651,WASH · Moneyline
+669096224b7a63c63133b85d,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+669096344b7a63c6313addda,Parlay,Parlay,Parlay,0.9999999498974651,H. Medjedovic · Moneyline
+669096384b7a63c6313c8b2c,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+66bc0e27455ca5e1ae2be3ac,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+66bc0e29455ca5e1ae2d26e7,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+66d4f3f9fec126272f753d71,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+66d79c3bec0972da087852b3,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+66f73f3a3122e53c9c576b7e,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+66f73f3b3122e53c9c577c88,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66f9d14dbc57f0fa8e219125,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+670c788eca70d987dfc6b667,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+6769d5d08b40ea143dcac7f6,Parlay,Parlay,Parlay,0.9999999493624573,DAL · Moneyline
+67d2139835819fa2a7d74fb5,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+67f584fb7ea0e7a7027396e8,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+66ff27466d7b67520564b3a6,Parlay,Parlay,Parlay,0.9999999493625401,STL · Moneyline
+646a46540ad9696efc6280ae,Parlay,Parlay,Parlay,0.9999999524987071,Matthew NeSmith · 2 Ball (3 Way) - Round 4
+66f9d14dbc57f0fa8e219009,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+6769d5d08b40ea143dcad2bc,Parlay,Parlay,Parlay,0.9999999498974651,CLEM · Moneyline
+6769d5d08b40ea143dcaca37,Parlay,Parlay,Parlay,0.9999999498974651,M. Berrettini · Moneyline
+68b96cbdcec28892d28aca36,Parlay,Parlay,Parlay,0.9999999498974651,J. Munar · Moneyline
+68efe34f76615da746178dc2,Parlay,Parlay,Parlay,0.9999999498974651,C. Ruud · Moneyline
+692f96db21f3579cd6508fdd,Parlay,Parlay,Parlay,0.9998565304110978,Nicole Fossa Huergo · 1st Set Live Betting
+6769d6208b40ea143dde351c,Parlay,Parlay,Parlay,0.9999999493625514,PHX · Moneyline
+63abe1724baa85f0d3b66809,Parlay,Parlay,Parlay,0.9999998078210958,TEX -1.5 · Run Line
+6769d6198b40ea143ddce5c1,Parlay,Parlay,Parlay,0.9999999498974651,Oleksandra Oliynykova · Moneyline
+6769d6138b40ea143ddb791e,Parlay,Parlay,Parlay,0.9999999498974651,Robin Montgomery · Moneyline
+6769d6168b40ea143ddc3a3f,Parlay,Parlay,Parlay,0.9999999498974651,Yasutaka Uchiyama · Moneyline
+6769d6208b40ea143dde1c9a,Parlay,Parlay,Parlay,0.9999999522891662,Over 32.5 · Rashod Bateman Rec. Yards
+68dc5fa05c7f532344846fa0,Parlay,Parlay,Parlay,0.9386119875607634,Anastasia Zakharova · Moneyline Live Betting
+63b5d064fd320280f5b25076,Parlay,Parlay,Parlay,0.9999999520727735,Over 131.5 · Total
+63cf13a92cba43842095f378,Parlay,Parlay,Parlay,0.9999999522891662,Over 11.5 · Rudy Gobert Rebounds
+6769d4bb8b40ea143d815d68,Parlay,Parlay,Parlay,0.9999999498974651,L. Bronzetti · Moneyline
+6769d6208b40ea143dde2eb4,Parlay,Parlay,Parlay,0.9999999498974651,Gustavo Heide · Moneyline
+6769d6208b40ea143dde2fa9,Parlay,Parlay,Parlay,0.9999999498974651,Gustavo Heide · Moneyline
+6769d4ba8b40ea143d812cd0,Parlay,Parlay,Parlay,0.9999999535025296,Vasek Pospisil · Winner Live Betting
+66d390b083133a066bc6512b,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+647e6e6891b525f7c6c08acd,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d1b2c9e80cd8fc7aa98f89,Parlay,Parlay,Parlay,0.9999999502481347,ARI · Moneyline
+652f3917d5e41178d83e89ba,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d1b2cae80cd8fc7aa9a703,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+6573b63d2ab9625f917a28ec,Parlay,Parlay,Parlay,0.9999999520727735,Over 234.0 · Total
+66e7188150b61654ec411893,Parlay,Parlay,Parlay,0.9999999521087483,Under 62.5 · Total
+6599a47f99c960769eebb8ab,Parlay,Parlay,Parlay,0.9996214509203825,HARV +8.5 · 1st Half Spread
+65a2e089c3c57d58e1542f69,Parlay,Parlay,Parlay,0.9996214509203825,SDSU +3 · 1st Half Spread
+66e7188150b61654ec4112d3,Parlay,Parlay,Parlay,0.999999952072773,Over 55.5 · Total
+646d43d541f39899bf7e9b7a,Parlay,Parlay,Parlay,0.9999999502481347,CLE · Moneyline
+670d7c5fec8916e1859c6a9d,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+65a412e4b4f834b1b050c1a3,Parlay,Parlay,Parlay,0.9996204671881322,GTWN +12.5 · 1st Half Spread
+65b52eb768e0d09717ce9838,Parlay,Parlay,Parlay,0.9996214509203825,CCSU -3.5 · 1st Half Spread
+658b58fb0d4d9ce59acf0f4f,Parlay,Parlay,Parlay,0.9999999520999602,Under 59 · Total
+65be9f8ce0cb39b1c7718652,Parlay,Parlay,Parlay,0.9996214509203825,TNTC +6.5 · 1st Half Spread
+65c7209bb2147516745fd74c,Parlay,Parlay,Parlay,0.9999999520727735,Over 121.5 · Total
+64e4de19578505cbc55bbf91,Parlay,Parlay,Parlay,0.9999999502481347,KC · Moneyline
+65d18d1a6b01b82bd1c15d43,Parlay,Parlay,Parlay,0.9999999498974651,COLO · Moneyline
+65ca856758a9600c9961a46e,Parlay,Parlay,Parlay,0.9999999496226334,Over 70.0 · 1st Half Total
+65d18d2a6b01b82bd1c799c2,Parlay,Parlay,Parlay,0.9999999498974651,SYR · Moneyline
+65ef9d164c9a8716c1117468,Parlay,Parlay,Parlay,0.9948510346703465,Under 6.5 · Caris LeVert Assists
+6703d1db711f686f63f960cd,Parlay,Parlay,Parlay,0.9999999498974651,Matteo Berrettini · Moneyline
+669096224b7a63c63133e0df,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+66e7188150b61654ec4140ba,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66bc0e24455ca5e1ae299e7b,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+6477a58bdb067ef1566f9ad0,Parlay,Parlay,Parlay,0.9999998078210958,ATL -1.5 · Run Line
+66c9f16c2fb80767f6234394,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+66c9f1762fb80767f6257744,Parlay,Parlay,Parlay,0.9999999493624573,DET · Moneyline
+64e4336f2e0220f2121a0e86,Parlay,Parlay,Parlay,0.9999999502481347,KC · Moneyline
+66c9f1902fb80767f62aa6ea,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+670acf0935b8c9acdf9d7746,Parlay,Parlay,Parlay,0.9999999493625401,WAS · Moneyline
+6703d1dc711f686f63f97b8c,Parlay,Parlay,Parlay,0.9999999520999602,Under 59.5 · Total
+66dd96efb6ed40e68e6cedea,Parlay,Parlay,Parlay,0.9999999498974651,TTU · Moneyline
+67d2138c35819fa2a7d2381f,Parlay,Parlay,Parlay,0.9999999498974651,Marek Gengel · Moneyline
+67d2139535819fa2a7d5b6e5,Parlay,Parlay,Parlay,0.9999999498974651,J. Paolini · Moneyline
+67d2139835819fa2a7d73689,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+67d2139835819fa2a7d7493e,Parlay,Parlay,Parlay,0.9999999498974651,H. Rune · Moneyline
+67d2139835819fa2a7d74fe1,Parlay,Parlay,Parlay,0.9999999498974651,F. Cerundolo · Moneyline
+67d2139935819fa2a7d77a35,Parlay,Parlay,Parlay,0.9999999498974651,F. Tiafoe · Moneyline
+65a412e5b4f834b1b05108d0,Parlay,Parlay,Parlay,0.9996204671881322,GTWN +12.5 · 1st Half Spread
+66dcb7d285afbf70a2a023fa,Parlay,Parlay,Parlay,0.9999999498974651,NY · Moneyline
+67d2139a35819fa2a7d809a5,Parlay,Parlay,Parlay,0.9999999502481347,GSW · Moneyline
+67d2139a35819fa2a7d815e6,Parlay,Parlay,Parlay,0.9999999498974651,J. Paolini · Moneyline
+67d2139a35819fa2a7d81b16,Parlay,Parlay,Parlay,0.9999999498974651,J. Paolini · Moneyline
+66dcb7d285afbf70a2a02d52,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+67d2139b35819fa2a7d8564e,Parlay,Parlay,Parlay,0.9999999498974651,H. Rune · Moneyline
+67d2139b35819fa2a7d85718,Parlay,Parlay,Parlay,0.9999999493625401,LAC · Moneyline
+67d2200535819fa2a77b6a46,Parlay,Parlay,Parlay,0.9999999498974651,WKU · Moneyline
+66d79c3bec0972da08784565,Parlay,Parlay,Parlay,0.9999999535025296,August Holmgren · Winner Live Betting
+67e22995cd6f9ca10383ef87,Parlay,Parlay,Parlay,0.9999999493625514,PHX · Moneyline
+692f96df21f3579cd6509196,Parlay,Parlay,Parlay,0.9999999513584005,Alejandro Davidovich Fokina · 1st Set Live Betting
+692f96df21f3579cd650915e,Parlay,Parlay,Parlay,0.9999999498974651,T. Fritz · Moneyline
+692f96e021f3579cd65091a6,Parlay,Parlay,Parlay,0.9999999498974651,D. Medvedev · Moneyline
+63abe16f4baa85f0d3b6210d,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+63abe1704baa85f0d3b63d1e,Parlay,Parlay,Parlay,0.9999999525353214,Under 5.5 · Sean Manaea Strikeouts Thrown
+66f9d14dbc57f0fa8e218c2d,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+643885ea409adae78b27e9b0,Parlay,Parlay,1st Period Total,0.6097594549068291,Under 1.5 · 1st Period Total
+66d3b04583133a066b08dab2,Parlay,Parlay,Parlay,0.9999998106418623,BCU +43.5 · Spread
+66f73f3a3122e53c9c575175,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+6468290992d71a5fe0b86c44,Parlay,Parlay,Parlay,0.9999999493624573,DAL · Moneyline
+66d390af83133a066bc5a374,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66e75d9c6a14af96bd7df9bc,Parlay,Parlay,Parlay,0.9999999502481347,KC · Moneyline
+66dcb7d185afbf70a29ffbe7,Parlay,Parlay,Parlay,0.9999998106418623,TNST +35.5 · Spread
+65a05816eaed7a321613132a,Parlay,Parlay,Parlay,0.9999999512912355,BKN +15.5 · Spread
+66d4f3f9fec126272f75518b,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d4f3eafec126272f7231fa,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+6769d5cd8b40ea143dca1522,Parlay,Parlay,Parlay,0.9999999498974651,Orlando Luz · Moneyline
+65e5f1defa37ae0ea17fd248,Parlay,Parlay,Parlay,0.9999999498974651,Sachia Vickery · Moneyline
+66d1b2cbe80cd8fc7aa9b2f5,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d1b2c8e80cd8fc7aa97923,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d1b2c8e80cd8fc7aa97aa2,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+670bffbeca70d987df9a0097,Parlay,Parlay,Parlay,0.9999999520999602,Under 61.5 · Total
+670c788dca70d987dfc68c34,Parlay,Parlay,Parlay,0.9999999520727735,Over 222.5 · Total
+66ca9c252fb80767f6ffa1c0,Parlay,Parlay,Parlay,0.9999999271968674,IND +9.5 · Spread
+6769d5b38b40ea143dc1e993,Parlay,Parlay,Parlay,0.9999999502481347,COL · Moneyline
+6769d5d08b40ea143dcace06,Parlay,Parlay,Parlay,0.9999974550062452,Over 50.5 · Total
+6769d5d08b40ea143dcadc9f,Parlay,Parlay,Parlay,0.9999999498974651,UGA · Moneyline
+6769d6208b40ea143dde2ace,Parlay,Parlay,Parlay,0.9999999498974651,ORL · Moneyline
+66ca85b02fb80767f69069ab,Parlay,Parlay,Parlay,0.9999999524483092,Over 3.5 · Julian Aguiar Strikeouts
+64f7d0936fe316b310fb8219,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+677b05bb7437c98ea8b4dc91,Parlay,Parlay,Parlay,0.9999999204231705,TOR +7.5 · Spread
+64d942f84377054963e57a32,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+66c9f1932fb80767f62b4166,Parlay,Parlay,Parlay,0.9999999498974651,Kamilla Rakhimova · Moneyline
+677fcb4638d8308ece30a099,Parlay,Parlay,Parlay,0.9999999498974651,F. Passaro · Moneyline
+677fcb4638d8308ece30a09d,Parlay,Parlay,Parlay,0.9999999498974651,F. Passaro · Moneyline
+66c9f1872fb80767f628badf,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+67a40c3fcb01b3511ad388de,Parlay,Parlay,Parlay,0.9999999498974651,URI · Moneyline
+67d2138b35819fa2a7d1ea70,Parlay,Parlay,Parlay,0.9999999498974651,M. Keys · Moneyline
+66c9f1872fb80767f628bc2c,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66c9f1912fb80767f62aca3d,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+66c9f18f2fb80767f62a83ad,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+66c9f1902fb80767f62ab7c9,Parlay,Parlay,Parlay,0.9999999498974651,A. Karatsev · Moneyline
+68c2d7b96b9d263be93fa466,Parlay,Parlay,Parlay,0.9386119875607631,Clement Chidekh · Moneyline Live Betting
+68c2d8536b9d263be9554fab,Parlay,Parlay,Parlay,0.9999999512912355,CONN +12.5 · Spread
+68d70ab3eabedaa06b18e249,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+63abe1714baa85f0d3b64fb4,Parlay,Parlay,Parlay,0.9999999493624573,HOU Astros · Moneyline
+64d82ed77cba553510351403,Parlay,Parlay,Parlay,0.9999998078210958,LAD -1.5 · Run Line
+66c9f1902fb80767f62abdd4,Parlay,Parlay,Parlay,0.9999999498974651,B. Bonzi · Moneyline
+66c9f1982fb80767f62c0836,Parlay,Parlay,Parlay,0.9999999498974651,G. Diallo · Moneyline
+63abe2ff4baa85f0d3e0a9a4,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+66c9f1842fb80767f6281e57,Parlay,Parlay,Parlay,0.9999999493624573,Guerreros de Oaxaca · Moneyline
+66c9f1892fb80767f6296c64,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+63b46acbb3382d41d5ecbe59,Parlay,Parlay,Parlay,0.9999999512912355,SC +11.0 · Spread
+63b4bf718993b91ff5108933,Parlay,Parlay,Parlay,0.9999998106418623,PITT +8.5 · Spread
+63b75410df569837ddfbff6a,Parlay,Parlay,Parlay,0.9999999522891662,Over 19.5 · Lauri Markkanen Points
+66c9f18f2fb80767f62a5b71,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+63cf13a82cba43842095edbe,Parlay,Parlay,Parlay,0.9999999523663783,Under 18.5 · Al Horford Points and Assists and Rebounds 
+66c9f18f2fb80767f62a5f14,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+63cf13a92cba43842095f72e,Parlay,Parlay,Parlay,0.9999999523543481,Under 11.5 · Josh Hart Points
+64d822f77cba553510bb7e95,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+63cf13a92cba438420960225,Parlay,Parlay,Parlay,0.9999999522891662,Over 28.5 · Samaje Perine Rec. Yards
+64f688e31aafc5cac698b807,Parlay,Parlay,Parlay,0.9999998106418623,CLEM -6.5 · Spread
+6466d940be7c5342f1cdf31c,Parlay,Parlay,Parlay,0.9999999493625401,DEN · Moneyline
+66c9f1932fb80767f62b42c0,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6467e65e566c0607b4b2c211,Parlay,Parlay,Parlay,0.9999999522891662,Over 5.5 · Jaylen Brown Rebounds
+647291876f0b14cab297fab2,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Spencer Steer Hits
+66c9f1972fb80767f62bfa37,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+64825fba5bb28ca80fbae251,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6473776d5a3e8c4fd8f7570d,Parlay,Parlay,Parlay,0.9999999493625401,LAA · Moneyline
+64837f41b677138c0344d272,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+66c9f16f2fb80767f623c94d,Parlay,Parlay,Parlay,0.9999999502481347,COL · Moneyline
+64ab4fc765de49a1b8d45ffc,Parlay,Parlay,Parlay,0.9999999502481347,ARI · Moneyline
+64aae12432f9f37a4071ab84,Parlay,Parlay,Parlay,0.9999999521087483,Under 8.0 · Total
+64add4f61c369b1eb646c21b,Parlay,Parlay,Total Points,0.6075447912396315,Under 180.5 · Total Points Scored
+652f3917d5e41178d83e88a8,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+654f7089bfeb3eafacd1beb2,Parlay,Parlay,Parlay,0.9999999498974651,OKC · Moneyline
+66bc0e29455ca5e1ae2d233f,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+66c9f1972fb80767f62bf671,Parlay,Parlay,Parlay,0.9999999498974651,Kamilla Rakhimova · Moneyline
+670c23abca70d987dfde7f71,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+64d6be8c85f739bd7740d419,Parlay,Parlay,Parlay,0.9999999521001882,Under 0.5 · 1st Inning Total
+66bc0e28455ca5e1ae2c849b,Parlay,Parlay,Parlay,0.9999999502481347,SD · Moneyline
+66bc0e27455ca5e1ae2b9d58,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+670e155d0b1e9e8bb054d3a7,Parlay,Parlay,Parlay,0.9999999498974651,NYJ · Moneyline
+66bc0e23455ca5e1ae28f8e5,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6471347aa28b207a97ca2d94,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Randy Arozarena Hits
+6769d6208b40ea143dde1ab7,Parlay,Parlay,Parlay,0.9999999498974651,M. Kecmanovic · Moneyline
+692f96e221f3579cd65093be,Parlay,Parlay,Parlay,0.9999999498974651,E. Lys · Moneyline
+692f96e921f3579cd65097a3,Parlay,Parlay,Parlay,0.9386119875607631,Clement Chidekh · Moneyline Live Betting
+6769d6208b40ea143dde1461,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Dak Prescott Pass TDs
+64cec4234afa2c270b374a44,Parlay,Parlay,Parlay,0.9999998078210958,PHI -1.5 · Run Line
+64447b22521121ba40264e9e,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66927a044fc63d9ef64529f2,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+646f61ed6b81e4bc8ec195fe,Parlay,Parlay,Parlay,0.9999999502481347,BOS · Moneyline
+669096224b7a63c63133c17c,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6690960b4b7a63c6312b8b3f,Parlay,Parlay,Parlay,0.9999999502481347,Jack Bruce-smith · Moneyline
+646e3bc3b5bd8621f05201a6,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Connor Joe Hits
+669096394b7a63c6313cd35b,Parlay,Parlay,Parlay,0.9999999493624573,WSH · Moneyline
+669096394b7a63c6313cc7c2,Parlay,Parlay,Parlay,0.9999999493624573,WSH · Moneyline
+64cdbe4179cdd94996e2f6a3,Parlay,Parlay,Parlay,0.9999999502481347,SD · Moneyline
+6690962b4b7a63c631373674,Parlay,Parlay,Parlay,0.9999999493629069,OAK · Moneyline
+6690962b4b7a63c63137677b,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+669096224b7a63c63133dc3d,Parlay,Parlay,Parlay,0.9999999498974651,Gael Monfils · Moneyline
+669096394b7a63c6313cc910,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+647801280e15c34d29f3d9a2,Parlay,Parlay,Parlay,0.9999999521087483,Under 9.5 · Total
+669096234b7a63c631344a33,Parlay,Parlay,Parlay,0.9999999502481347,Ben Shelton · Moneyline
+66bc0c7d455ca5e1ae3cf2d0,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+648f652ba120b188ee9e5c91,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+64c6b1520357355262f43e06,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66bc0c7e455ca5e1ae3d7128,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+6690962b4b7a63c6313767f6,Parlay,Parlay,Parlay,0.9999999493625401,STL · Moneyline
+669096354b7a63c6313b79b5,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+64c19febc3d4080b20e8b8c3,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+64d56d6a9631aff61c9ebbc8,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+669096344b7a63c6313ad088,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+64c19feac3d4080b20e8b3c7,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+64e94029fa9608ffc80c0ce9,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+65023e7d5a2753a7752f174f,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66bc0c7b455ca5e1ae3c78a1,Parlay,Parlay,Parlay,0.9999999498974651,C. Norrie · Moneyline
+6690962e4b7a63c631385de2,Parlay,Parlay,Parlay,0.9999999493624573,DET · Moneyline
+65023e925a2753a7753306c3,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+650267a75a2753a7756957f3,Parlay,Parlay,Parlay,0.9999998078210958,CWS +2.5 · Run Line
+650e296920198d3e5b8d2493,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+669096384b7a63c6313c8c66,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+647a7707669dc1c9a60eb23e,Parlay,Parlay,Parlay,0.9999999498974651,NY Liberty · Moneyline
+650e3035c0053711902bb9fe,Parlay,Parlay,Parlay,0.9999999502481347,ARI · Moneyline
+65c3c802206e09be449a838f,Parlay,Parlay,Parlay,0.9999999498974651,Maria Sakkari · Moneyline
+651b5ec6f746e1b68a4aa00f,Parlay,Parlay,Player Anytime TD,1.0,Kenneth Walker III · Anytime TD Scorer
+669096214b7a63c63133614c,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+646bfd1f02974bbfa0fbdbde,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Austin Reaves Made Threes
+66d79c42ec0972da087a5536,Parlay,Parlay,Parlay,0.9999999498974651,Henry Searle · Moneyline
+6539a5b49599047797d7beb2,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6549af7a3871b27945a1d638,Parlay,Parlay,Player Anytime TD,1.0,Keenan Allen · Anytime TD Scorer
+66c9f1752fb80767f62534c0,Parlay,Parlay,Parlay,0.9999999498974651,Solana Sierra · Moneyline
+66dcb7d185afbf70a29fd408,Parlay,Parlay,Parlay,0.9999999498974651,Arthur Weber · Moneyline
+64dd27283bf31dafdcf8cc52,Parlay,Parlay,Parlay,0.9999998078210958,DET +1.5 · Run Line
+654aef861be7f870c125a4a0,Parlay,Parlay,Parlay,0.9999999498974651,OHIO · Moneyline
+6551973638f1a22b5c13b4fc,Parlay,Parlay,Parlay,0.9999999493625514,PHX · Moneyline
+6551973838f1a22b5c1531a7,Parlay,Parlay,Parlay,0.9999999493625514,PHX · Moneyline
+655c048e521aeeba96f6386b,Parlay,Parlay,Parlay,0.9999999493624573,DAL · Moneyline
+6567e284e0659f6aa6baa8c0,Parlay,Parlay,Parlay,0.9999999498974651,NOP · Moneyline
+64dd08703bf31dafdcea3d6b,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+64dd08703bf31dafdcea3dca,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+67019d2c3d1de19625c9cd39,Parlay,Parlay,Parlay,0.9999999498974651,Le Portel · Moneyline
+65a56f49b4772b8fa5b70132,Parlay,Parlay,Parlay,0.9999999496226334,Over 60.0 · 1st Half Total
+6690962f4b7a63c63138c767,Parlay,Parlay,Parlay,0.9999999493624573,Algodoneros de Union Laguna · Moneyline
+65c2cefb9b5877cbd1b35374,Parlay,Parlay,Parlay,0.9999999498974651,H. Gaston · Moneyline
+65c3068f9b5877cbd1e08817,Parlay,Parlay,Parlay,0.9999999520727735,Over 230.5 · Total
+65c443e5386d661fddb5a3e0,Parlay,Parlay,Parlay,0.9999999513657089,Under 117.0 · 1st Half Total
+6703d1dc711f686f63f97d36,Parlay,Parlay,Parlay,0.9999999512912355,WAS +10.5 · Spread
+64b81b55128156d1cc4c23c4,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Max Muncy Home Runs
+64d90f43859f7b2e29226ab6,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Zack Gelof Home Runs
+64d56d6a9631aff61c9ec081,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+64d4214fa6bc7c81ed09dc0f,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+64d43261a6bc7c81edafe5d8,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+66ef98a64df61c99f0044a4f,Parlay,Parlay,Parlay,0.9999999498974651,LIB · Moneyline
+64d2c1dd4eb6f3a8cbcf342e,Parlay,Parlay,Parlay,0.9999998078210958,STL +1.5 · Run Line
+6436c04a6a2a35bb7f934a65,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Ji-hwan Bae Singles
+64ced47285591db661851c19,Parlay,Parlay,Parlay,0.9999999521087483,Under 9.5 · Total
+64ce93434afa2c270b7f8cc9,Parlay,Parlay,Parlay,0.9999999521087483,Under 9.5 · Total
+64c47d6d401970ba2f58dbc2,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+65299da886e9acf8e6530201,Parlay,Parlay,Parlay,0.9999999502481347,MIN · Moneyline
+64c19ff1c3d4080b20eaab55,Parlay,Parlay,Parlay,0.9999999502481347,ARI · Moneyline
+646a63ef0ad9696efcebf8de,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+64c19feac3d4080b20e8b436,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+65e5f1e0fa37ae0ea1802f21,Parlay,Parlay,Parlay,0.9999999498974651,H. Rune · Moneyline
+66bc0e1f455ca5e1ae269ffe,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66bc0e20455ca5e1ae26fb1e,Parlay,Parlay,Parlay,0.9999999498974651,B. Pera · Moneyline
+66bc0e24455ca5e1ae29b32b,Parlay,Parlay,Parlay,0.9999999502481347,MIN · Moneyline
+66bc0e24455ca5e1ae29b39e,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+64b983965014241f2263d891,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Francisco Lindor Home Runs
+64b88e6210573c8e2d8f0120,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+64b86796128156d1ccf31f62,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Matt Olson Bases
+646a4dc50ad9696efc076f1a,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+66bc0e27455ca5e1ae2b8964,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+66bc0e27455ca5e1ae2b8980,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+66bc0e28455ca5e1ae2c7db9,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+66bc0e29455ca5e1ae2c8b94,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66bc0e29455ca5e1ae2d092f,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66bc0e29455ca5e1ae2d20b5,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+66bc0e29455ca5e1ae2d237e,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+66c9f16c2fb80767f6234843,Parlay,Parlay,Parlay,0.9999999502481347,SD · Moneyline
+66c9f1762fb80767f6257ba4,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+66c9f1772fb80767f6258cd9,Parlay,Parlay,Parlay,0.9999999502481347,MIA · Moneyline
+64b71c45823ef36fa54dea7b,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+66c9f1902fb80767f62aa6af,Parlay,Parlay,Parlay,0.9999999498974651,A. Karatsev · Moneyline
+66c9f1902fb80767f62ab36d,Parlay,Parlay,Parlay,0.9999999493625514,PIT · Moneyline
+66c9f1912fb80767f62acb9e,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+66c9f1932fb80767f62b4093,Parlay,Parlay,Parlay,0.9999999493624573,WSH · Moneyline
+66c9f1932fb80767f62b40d3,Parlay,Parlay,Parlay,0.9999999493624573,WSH · Moneyline
+66c9f1982fb80767f62c0800,Parlay,Parlay,Parlay,0.9999999498974651,G. Diallo · Moneyline
+64b1e9b8ac95d09a24127343,Parlay,Parlay,Parlay,0.9999999525353214,Under 4.5 · Sandy Alcantara Strikeouts
+66d1b2c9e80cd8fc7aa992b0,Parlay,Parlay,Parlay,0.9999999502481347,CLE · Moneyline
+66ff51f625adcf19626623ef,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+6769d5cd8b40ea143dca24ec,Parlay,Parlay,Parlay,0.9999999498974651,Orlando Luz · Moneyline
+67d2139835819fa2a7d731d4,Parlay,Parlay,Parlay,0.9999999498974651,Marek Gengel · Moneyline
+64b09ed907bbe3789b36b956,Parlay,Parlay,Parlay,0.9999999512916181,Charlotte Hornets 13.5 · Spread Betting
+683df7bdb029635844bbaf37,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+651dfc0dfbf43531e5149ecd,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+683df7bdb029635844bbafe2,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+683df7bdb029635844bbaff8,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+64af7657f2fe99d8d40b57f8,Parlay,Parlay,Parlay,0.9999999493624573,LA Lakers · Moneyline
+683df7bdb029635844bbb000,Parlay,Parlay,Parlay,0.9999999502481347,HOU · Moneyline
+64af5e23f2fe99d8d4e03ea8,Parlay,Parlay,Parlay,0.9999999520727735,Over 169.5 · Total
+646a46540ad9696efc627d13,Parlay,Parlay,Parlay,0.9999999524987071,Adam Scott · 2 Ball (3 Way) - Round 4
+68b96cc0cec28892d28b35e8,Parlay,Parlay,Parlay,0.9999999493629069,C. Alcaraz · Moneyline
+690b59fb51125081f9d855fb,Parlay,Parlay,Parlay,0.9999999524986412,Miomir Kecmanovic · 2nd Set Live Betting
+690b5eb351125081f9e2d6e7,Parlay,Parlay,Parlay,0.9386119875607634,Elena Rybakina · Moneyline Live Betting
+692003fd842ddd4930784474,Parlay,Parlay,Parlay,0.9999999498974651,BUF · Moneyline
+692f96dd21f3579cd6509045,Parlay,Parlay,Parlay,0.9999999498974651,I. Swiatek · Moneyline
+692f96dd21f3579cd6509059,Parlay,Parlay,Parlay,0.9999999524986412,Cadence Brace · 2nd Set Live Betting
+64695c5301cf1d4b610adeec,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+692f96dd21f3579cd650907f,Parlay,Parlay,Parlay,0.9386119875607634,Elena Rybakina · Moneyline Live Betting
+692f96dd21f3579cd6509084,Parlay,Parlay,Parlay,0.9999999498974651,M. Kecmanovic · Moneyline
+692f96dd21f3579cd6509086,Parlay,Parlay,Parlay,0.9999999498974651,M. Kecmanovic · Moneyline
+692f96dd21f3579cd6509088,Parlay,Parlay,Parlay,0.9999999498974651,F. Cobolli · Moneyline
+692f96e021f3579cd6509223,Parlay,Parlay,Parlay,0.9999999502481347,MIN · Moneyline
+692f96e621f3579cd65095ae,Parlay,Parlay,Parlay,0.9999999524986412,Johannes Ingildsen · 2nd Set Live Betting
+646920615493c4acd0db283a,Parlay,Parlay,Parlay,0.9999999502481347,CWS · Moneyline
+669096254b7a63c63134bc37,Parlay,Parlay,Parlay,0.9999999493624573,DET · Moneyline
+66bc0e29455ca5e1ae2c8e45,Parlay,Parlay,Parlay,0.9999999493625514,BAL · Moneyline
+66c9f1772fb80767f6258a81,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6467e677566c0607b4b6df89,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Anthony Rizzo Home Runs
+6467dff3566c0607b472b49c,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66d1b2c7e80cd8fc7aa93c94,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+64a8e23a0e5931a7de2e6607,Parlay,Parlay,Parlay,0.9447772823313514,Over 4.5 · 1st 5 Innings Total
+64a7762fe0b985d7dd05db5d,Parlay,Parlay,Parlay,0.9999999522891662,Over 0.5 · Pete Alonso Home Runs
+64676e0bf61ff68888cc85ec,Parlay,Parlay,Parlay,0.9999999534894818,A.Svensson [R2] · Winner
+66d1b2c9e80cd8fc7aa990b5,Parlay,Parlay,Parlay,0.9999998078210958,MIN +3.5 · Run Line
+66d1b2c9e80cd8fc7aa99216,Parlay,Parlay,Parlay,0.9999999502481347,CLE · Moneyline
+64a62580279c106803b22616,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+66eb82d893bc1c6d634ac2bb,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6466ba8fbe7c5342f157c4bb,Parlay,Parlay,Parlay,0.999999951454266,DEN -5.5 · Spread
+64a61f5d279c1068031775ce,Parlay,Parlay,Parlay,0.9999999502481347,MIA · Moneyline
+64a5d88607a2bb10069641bd,Parlay,Parlay,Parlay,0.9999998078210958,HOU -1.5 · Run Line
+64a46d608ac49676b2f2b77c,Parlay,Parlay,Parlay,0.9999999502481347,BOS · Moneyline
+6769d5cd8b40ea143dca26df,Parlay,Parlay,Parlay,0.9999999498974651,Orlando Luz · Moneyline
+64a3423803eada5ac2595075,Parlay,Parlay,Parlay,0.9999998078210958,ATL -1.5 · Run Line
+6769d5ce8b40ea143dca6464,Parlay,Parlay,Parlay,0.9999999498974651,CSUB · Moneyline
+6769d5ce8b40ea143dca74ae,Parlay,Parlay,Parlay,0.9999999513657089,Under 66.5 · 1st Half Total
+66bc0e29455ca5e1ae2d268a,Parlay,Parlay,Parlay,0.9999999493625401,TEX · Moneyline
+6769d5d08b40ea143dcac608,Parlay,Parlay,Parlay,0.9999999493624573,DAL · Moneyline
+6769d5d08b40ea143dcac8ca,Parlay,Parlay,Parlay,0.9999999498974651,J. Struff · Moneyline
+6769d5d08b40ea143dcac93a,Parlay,Parlay,Parlay,0.9999999498974651,M. Berrettini · Moneyline
+64a3423803eada5ac2596074,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Joey Meneses Hits
+64650547bbc44f5061409e00,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+64650547bbc44f5061409e1e,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+6464665cde372e50d54617c6,Parlay,Parlay,Parlay,0.9999999493629069,OAK · Moneyline
+6769d6198b40ea143ddcef6e,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+6769d61a8b40ea143ddd188a,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Josh Whyle Receptions
+64645619de372e50d5329993,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+67b66f98af16d7da12f75298,Parlay,Parlay,Parlay,0.9999999498974651,UTAH · Moneyline
+64645619de372e50d5329592,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+67b818d5f588aaa1d0edf04f,Parlay,Parlay,Parlay,0.9999999498974651,Abbotsford Canucks · Moneyline
+68917aa456bc5404761283c5,Parlay,Parlay,Parlay,0.9999999498974651,J. Fonseca · Moneyline
+63abe16f4baa85f0d3b61533,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+63cf13a92cba438420960cbf,Parlay,Parlay,Parlay,0.9999990202982268,Under 14.5 · Aaron Gordon Points
+648cb0274b93e0269ae169a0,Parlay,Parlay,Parlay,0.9999998106750193,Connecticut Sun -6.5 · Spread Betting
+6492763d631530a354514788,Parlay,Parlay,Parlay,0.9999999502481347,SD · Moneyline
+64a079477355dd06670777b8,Parlay,Parlay,Parlay,0.9999999521087483,Under 10.5 · Total
+6494734aac637ee861780365,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+649f8fca245161d0a3a15c25,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+64fa6a2b73dfd2b57964797c,Parlay,Parlay,Parlay,0.9999999524986889,Sam LaPorta · First TD Scorer
+65090606b3c72566e06c3a07,Parlay,Parlay,Parlay,0.9999999493624573,NO · Moneyline
+650a2cfd4a501cff42d49fd0,Parlay,Parlay,Parlay,0.9999998078210958,ATL -1.5 · Run Line
+649f8fd2245161d0a3a4d016,Parlay,Parlay,Parlay,0.9999999493624573,CIN · Moneyline
+649f8fd2245161d0a3a4e951,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+650a2d034a501cff42d67444,Parlay,Parlay,Parlay,0.9999999502481347,MIN · Moneyline
+650b1cb771a3ecc9bf4e6e36,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+649f8fd2245161d0a3a4d003,Parlay,Parlay,Parlay,0.9909838353712092,Over 0.5 · 1st Inning Total
+650e296920198d3e5b8d232e,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+651e0c71fbf43531e5ebe1c6,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+669f0ae8f41e38dff8cb6d89,Parlay,Parlay,Parlay,0.9999999498974651,Atlanta Hawks · Moneyline
+652c6fe267d2ed407e95c9cd,Parlay,Parlay,Parlay,0.9999999498974651,LV · Moneyline
+6566b41ac25e231559dda586,Parlay,Parlay,Parlay,0.9999999520727735,Over 155.5 · Total
+65ca857258a9600c9964980c,Parlay,Parlay,Parlay,0.9999999498974651,OU · Moneyline
+65d2b8796b364c9ed99078c0,Parlay,Parlay,Parlay,0.9999999498974651,FAU · Moneyline
+65d2b87a6b364c9ed990da67,Parlay,Parlay,Parlay,0.9999999498974651,IONA · Moneyline
+65d2b87a6b364c9ed990e8f9,Parlay,Parlay,Parlay,0.9999999498974651,IONA · Moneyline
+65d83fd405852e2c7938c554,Parlay,Parlay,Parlay,0.9999999498974651,SCU · Moneyline
+669096284b7a63c63135f9e2,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+6694fddf94880c66716f4728,Parlay,Parlay,Parlay,0.9999999493624573,DET · Moneyline
+649de780ff8b628bece1223f,Parlay,Parlay,Parlay,0.9909838353712092,Over 0.5 · 1st Inning Total
+649db4af9f980acdee00c0d6,Parlay,Parlay,Parlay,0.9909838353712092,Over 0.5 · 1st Inning Total
+66ecd99e81c397b0a3f14f29,Parlay,Parlay,Parlay,0.9999999498974651,CHC · Moneyline
+65c0020f1983a3cf2a52be66,Parlay,Parlay,Parlay,0.6700438795751632,Under 27.5 · Immanuel Quickley PRA (Points + Rebounds + Assists)
+649cf41252f57912da2146d2,Parlay,Parlay,Parlay,0.9999999493625401,LAA · Moneyline
+64645619de372e50d5328f62,Parlay,Parlay,Parlay,0.9999999524483092,Over 6.5 · Zack Wheeler Strikeouts
+656d2ad6d543fb5d341fdd42,Parlay,Parlay,Parlay,0.9999999271968674,KC -5.5 · Spread
+6769d61a8b40ea143ddd1b6b,Parlay,Parlay,Parlay,0.9999999498974651,Alexis Galarneau · Moneyline
+64862cd21effaf56de80d34a,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+680d543d6452173394d4d066,Parlay,Parlay,Parlay,0.9999999498974651,OKC · Moneyline
+6856b81e437cafb8ba467c74,Parlay,Parlay,Parlay,0.9999999502481347,SF · Moneyline
+63abe16f4baa85f0d3b620ab,Parlay,Parlay,Parlay,0.9999999493625514,TB Rays · Moneyline
+648250515bb28ca80fbe95a7,Parlay,Parlay,Parlay,0.9999999502481347,NYY · Moneyline
+64af5e2bf2fe99d8d4e128d4,Parlay,Parlay,Parlay,0.9999999512912355,LA +13.5 · Spread
+656bf6eb3fbf1d6d44e79f6c,Parlay,Parlay,Parlay,0.999999951454266,DEN +4.0 · Spread
+64cec4234afa2c270b37543d,Parlay,Parlay,Parlay,0.9999998078210958,PHI -1.5 · Run Line
+647e51c191b525f7c615bf27,Baseball,Parlay,Parlay,0.9999999523192766,Over 0.5 · Masataka Yoshida Hits
+65a0717718de3e8ad7c12691,Parlay,Parlay,Parlay,0.9999998106418623,UNH +3.0 · Spread
+65a888bba4fb8a3faa97d769,Parlay,Parlay,Parlay,0.9999999512912355,HOU -13.0 · Spread
+65bed376bf47c5e163d810fb,Parlay,Parlay,Parlay,0.9996204671881322,PRES +11.0 · 1st Half Spread
+65bf0032bf47c5e163ee7be9,Parlay,Parlay,Parlay,0.9999999520727735,Over 139.5 · Total
+65c15cbbc57996f4b1273308,Parlay,Parlay,Parlay,0.999999951454266,SAC -4.0 · Spread
+65c1a27272ba39cfa615171e,Parlay,Parlay,Parlay,0.9999999493625401,SAC · Moneyline
+65c2fb709b5877cbd1ac385e,Parlay,Parlay,Parlay,0.9999999513657089,Under 62.5 · 1st Half Total
+65c43150386d661fdd6f06f6,Parlay,Parlay,Parlay,0.9999998106418623,CREI -2.5 · Spread
+65248cfcbe580a9c8e9f9849,American Football,Parlay,Parlay,0.9999999523372267,Over 34.5 · Jayden Reed Rec. Yards
+65c51098ae9f086a97f4a1dc,Parlay,Parlay,Parlay,0.9999999498974651,Cristina Bucsa · Moneyline
+64645618de372e50d5324b2c,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+65c64d9b7963985a82ce518c,Parlay,Parlay,Parlay,0.9999999498974651,Anastasija Sevastova · Moneyline
+65ca857258a9600c996497e8,Parlay,Parlay,Parlay,0.9999999498974651,Storm Hunter · Moneyline
+65cc194b8b7eb66ae321198b,Parlay,Parlay,Parlay,0.9999999512912355,MICH +16.0 · Spread
+65ce999dfbd7a3215d5e4093,Parlay,Parlay,Parlay,0.9999999498974651,UNLV · Moneyline
+65ce999dfbd7a3215d5e40a7,Parlay,Parlay,Parlay,0.9999999498974651,UNLV · Moneyline
+647ccbaa3e5016509d3b5ef7,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+63cf13a92cba4384209604c5,American Football,Parlay,Parlay,0.9999999523372267,Over 77.5 · Travis Kelce Rec. Yards
+65d0f69ba57876344a456c8c,Parlay,Parlay,Parlay,0.9999999512912355,BUCK +13.5 · Spread
+669096234b7a63c63134446b,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+669096344b7a63c6313ad646,Parlay,Parlay,Parlay,0.9999999502481347,LAD · Moneyline
+669096354b7a63c6313b8f9d,Parlay,Parlay,Parlay,0.9999999502481347,SEA · Moneyline
+669096274b7a63c63135a6df,Parlay,Parlay,Parlay,0.9999999493624573,DAL · Moneyline
+669096374b7a63c6313c039a,Parlay,Parlay,Parlay,0.9999999498974651,G. Mpetshi Perricard · Moneyline
+669096374b7a63c6313c1573,Parlay,Parlay,Parlay,0.9999999502481347,MIN · Moneyline
+669096374b7a63c6313c1d54,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+669096384b7a63c6313c77b0,Parlay,Parlay,Parlay,0.9999999493625514,TB · Moneyline
+66bc0c7b455ca5e1ae3c78e9,Parlay,Parlay,Parlay,0.9999999498974651,C. Norrie · Moneyline
+66bc0c7d455ca5e1ae3cf7a6,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+66bc0e27455ca5e1ae2b8414,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+682963e3a1a74ca56279a5c4,Baseball,Parlay,Parlay,0.9999999521020767,Over 8.5 · Total
+6769d5cf8b40ea143dca8601,Parlay,Parlay,Parlay,0.9996204671881322,CP +12.5 · 1st Half Spread
+6769d5d08b40ea143dcaccae,Parlay,Parlay,Parlay,0.9999999502481347,ATL · Moneyline
+6769d6178b40ea143ddc7592,Parlay,Parlay,Parlay,0.9999999498974651,M. Berrettini · Moneyline
+669096384b7a63c6313c8b69,Parlay,Parlay,Parlay,0.9999999502481347,PHI · Moneyline
+677b05bb7437c98ea8b4da8a,Parlay,Parlay,Parlay,0.9999999502481347,TOR · Moneyline
+63bb1b9ac1abca589f16786c,Basketball,Parlay,Parlay,0.9999999523109746,Over 18.5 · Tyrese Maxey Points
+6477d06d0e15c34d29eb320d,Parlay,Parlay,Parlay,0.9999999522891662,Over 1.5 · Luis Arraez Bases
+690b59fb51125081f9d8560a,Parlay,Parlay,Parlay,0.9999999498974651,M. Kecmanovic · Moneyline
+64612a58e809da6c16cdf25e,Basketball,Parlay,Parlay,0.9999999523109746,Over 29.5 · Jayson Tatum Points
+643c7d4fe2982e87dd57e412,Parlay,Parlay,Parlay,0.9999999502481347,NYM · Moneyline
+63bc997849d53fb171770f09,Basketball,Parlay,Parlay,0.9999999523109746,Over 18.5 · Kristaps Porzingis Points
+643c8d0e14196b6a8288fdf9,Parlay,Parlay,Parlay,0.9999999271968674,PHX -8.0 · Spread
+643cb4d814196b6a82e65205,Parlay,Parlay,Parlay,0.9999999493625514,PHX · Moneyline
+6461542ae809da6c16da43df,Parlay,Parlay,Parlay,0.9999999502481347,MIA · Moneyline
+66e7187f50b61654ec4015f9,Baseball,Game Props,Game Props,0.9999999999998779,Miami Marlins 0.5 · 3 Innings Line
+66bc0e0d455ca5e1ae1be059,Baseball,Game Props,Game Props,0.9999999999998779,Detroit Tigers 0.5 · 3 Innings Line
+66927a044fc63d9ef6452251,Baseball,Game Props,Game Props,0.9999999999998779,Los Angeles Dodgers 0.5 · 3 Innings Line
+669f0aeaf41e38dff8cc225a,Baseball,Game Props,Game Props,0.9999999999998654,Over · 9th Inning Over/Under 0.5 Runs
+657d1a749aec525f5e5bf1ee,Basketball,Game Props,Game Props,0.9999999999998654,yes · Will There Be Overtime?
+6830d0e145cb09984f7d2410,Tennis,Game Props,Game Props,0.9999999999998657,Felix Auger Aliassime · Set 2 - Game 10 Live Betting
+657d0c7c9aec525f5e044ce7,Basketball,Game Props,Game Props,0.9999999999998654,yes · Will There Be Overtime?
+657d0c7c9aec525f5e045671,Basketball,Game Props,Game Props,0.9999999999998654,yes · Will There Be Overtime?
+68cd159c7ceeff812a1c4e3e,Tennis,Game Props,Game Props,0.9999999999998657,Ryan Peniston · Set 3 - Game 2 Live Betting
+691f027d497fa43e8e3c8cbd,Tennis,Game Props,Game Props,0.9999999999998657,Markus Malaszszak · Set 1 - Game 3 Live Betting
+691f027d497fa43e8e3c8cc3,Tennis,Game Props,Game Props,0.9999999999998657,Arthur Laborde · Set 1 - Game 4 Live Betting
+691f027d497fa43e8e3c8cbf,Tennis,Game Props,Game Props,0.9999999999998657,Markus Malaszszak · Set 1 - Game 3 Live Betting
+691f027d497fa43e8e3c8cba,Tennis,Game Props,Game Props,0.9999999999998657,Markus Malaszszak · Set 1 - Game 2 Live Betting
+691f027d497fa43e8e3c8cbb,Tennis,Game Props,Game Props,0.9999999999998657,Daniil Sarksian · Set 1 - Game 2 Live Betting
+691f027d497fa43e8e3c8cb8,Tennis,Game Props,Game Props,0.9999999999998657,Daniil Sarksian · Set 1 - Game 4 Live Betting
+685f6c970f2c6410cb2fce26,Tennis,Game Props,Game Props,0.9999999999998657,Panna Udvardy · Set 1 - Game 6 Live Betting
+691f027d497fa43e8e3c8cc1,Tennis,Game Props,Game Props,0.9999999999998657,Arthur Laborde · Set 1 - Game 4 Live Betting
+691f027d497fa43e8e3c8cbc,Tennis,Game Props,Game Props,0.9999999999998657,Thantub Suksumrarn · Set 2 - Game 10 Live Betting
+66ea0620aff68221fe09d726,Baseball,Game Props,Game Props,0.9999999999998779,Miami Marlins 0.5 · 3 Innings Line
+691f027d497fa43e8e3c8cb9,Tennis,Game Props,Game Props,0.9999999999998657,Daniil Sarksian · Set 1 - Game 6 Live Betting
+691f027d497fa43e8e3c8cc2,Tennis,Game Props,Game Props,0.9999999999998657,Karol Filar · Set 1 - Game 4 Live Betting
+650b1caf71a3ecc9bf4d402d,Baseball,Game Props,Game Props,0.9999999999998779,SF Giants · 1st 5 Innings
+64dd9111ffc38b0a0c17f158,Baseball,Game Props,Game Props,0.9999999999998779,ARI Diamondbacks · 1st 5 Innings
+650c19737d3c2f4a4337c151,Baseball,Game Props,Game Props,0.9999999999999976,Extra Base Hit (Double/Triple/Home Run) · First Pitch Result - Bottom 8th
+64dd52443bf31dafdca80073,Baseball,Game Props,Game Props,0.9999999999998779,OAK Athletics · 1st 5 Innings
+66bc0e0d455ca5e1ae1bf59f,Baseball,Game Props,Game Props,0.9999999999998779,Detroit Tigers 0.5 · 3 Innings Line
+64b71c45823ef36fa54dc467,Tennis,Game Props,Game Props,0.9999999999998657,Both players to serve 10+ aces · Inplay Match Specials
+63abe35b4baa85f0d3e9a95d,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 2.5 · How many runs will the Arizona Diamondbacks score?
+6575fff735b5fe58f8a0bda5,American Football,Other Player Props,Other Player Props,0.9999999999993856,Over 0.5 · Jake Browning Interceptions
+63abe3554baa85f0d3e9454e,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 3.5 · How many runs will the San Diego Padres score?
+63abe3564baa85f0d3e94702,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 2.5 · How many runs will the Seattle Mariners score?
+63abe3564baa85f0d3e9563e,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 6.5 · How many runs will the Washington Nationals score?
+63abe3564baa85f0d3e946f2,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Washington Nationals score?
+63abe35b4baa85f0d3e9a3db,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 1.5 · How many bases will Trea Turner (LAD) record?
+63abe35b4baa85f0d3e9a954,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Detroit Tigers score?
+63abe35b4baa85f0d3e9aa4f,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Miami Marlins score?
+669096254b7a63c63134c5a7,Baseball,Other Player Props,Other Player Props,0.9999999999993898,Over 0.5 · Andrew McCutchen Runs
+669096244b7a63c631347615,Baseball,Other Player Props,Other Player Props,0.9999999999993898,Over 0.5 · Dylan Moore Runs
+63abe35a4baa85f0d3e99efb,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 0.5 · How many bases will Andrew Knapp (Phi) record?
+63abe35b4baa85f0d3e9a1b7,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 2.5 · How many earned runs will Jose Berrios (Tor) allow?
+63abe3564baa85f0d3e948a0,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 4.5 · How many runs will the Milwaukee Brewers score?
+63abe3564baa85f0d3e94dd7,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 1.5 · How many bases will Trea Turner (LAD) record?
+63abe3564baa85f0d3e94cb7,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 2.5 · How many earned runs will Justin Steele (ChC) allow?
+63abe35b4baa85f0d3e9a249,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 0.5 · How many bases will Dansby Swanson (Atl) record?
+63abe3564baa85f0d3e950a4,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 0.5 · How many bases will Kyle Farmer (Cin) record?
+63abe35b4baa85f0d3e9a8a1,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 2.5 · How many earned runs will Jose Suarez (LAA) allow?
+6588a44876944d27fc4499d8,American Football,Other Player Props,Other Player Props,0.999999999999386,Dak Prescott Under 38.5 · Dak Prescott - Longest Pass
+63b363754992f9e533245f1e,American Football,Other Player Props,Other Player Props,0.999999999999388,Yes · Josh Allen and Joe Burrow to throw for 525+ combined yards
+63abe3564baa85f0d3e94a64,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Baltimore Orioles score?
+63abe3564baa85f0d3e94775,Baseball,Other Player Props,Other Player Props,0.999999999999386,Under 2.5 · How many earned runs will Robbie Ray (Sea) allow?
+63abe3564baa85f0d3e94814,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Boston Red Sox score?
+659b0ccc4cb8da5d4035e571,American Football,Other Player Props,Other Player Props,0.999999999999386,Justin Fields Under 35.5 · Justin Fields - Longest Pass
+6693f6e772f41a4cb0f66564,Tennis,Other Player Props,Other Player Props,0.9999999999993816,Novak Djokovic Yes · Novak Djokovic to win at least one set
+63abe2af4baa85f0d3d83f91,Basketball,Other Player Props,Other Player Props,0.9999999999993816,Sunday Super Boost - Josh Allen and Patrick Mahomes to Each Throw for 250+ Pass Yards (10/16) · Sunday Super Boost - Josh Allen and Patrick Mahomes to Each Throw for 250+ Pass Yards (10/16)
+63abe2b14baa85f0d3d8c8db,American Football,Other Player Props,Other Player Props,0.999999999999388,Matt Ryan Yes · Matt Ryan - Interception
+67d9f2287ee18e06f67bc404,Tennis,Other Player Props,Other Player Props,0.9999999999993816,Alexander Shevchenko No · Alexander Shevchenko to win at least one set
+6456c85b7bbc0442c576b889,Tennis,Other Player Props,Other Player Props,0.9999999999993816,Sara Sorribes Tormo Yes · To lose 1st set and win match
+64837f40b677138c0344c316,Tennis,Other Player Props,Other Player Props,0.9999999999993816,Kaja Juvan Yes · To lose 1st set and win match
+63abe33f4baa85f0d3e7596c,American Football,Other Player Props,Other Player Props,0.9728916459112568,Over 9.5 · How many rushing attempts will Justin Fields (Chi) record?
+63abe2b14baa85f0d3d8c6c8,American Football,Other Player Props,Other Player Props,0.999999999999388,Jared Goff No · Jared Goff - Interception
+63abe3564baa85f0d3e94aa1,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 4.5 · How many runs will the Washington Nationals score?
+63abe3564baa85f0d3e94ca3,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 4.5 · How many runs will the Los Angeles Angels score?
+63abe35b4baa85f0d3e9aa2b,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 4.5 · How many runs will the New York Mets score?
+63abe3564baa85f0d3e947c5,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 3.5 · How many runs will the Houston Astros score?
+644edd63f102bb7e34a5b0f4,Basketball,Other Player Props,Other Player Props,0.9999999999993816,DeAaron Fox or Domantas Sabonis to score 30+ points · GSW at SAC Live Parlays 30th April
+63abe35b4baa85f0d3e9a8b2,Baseball,Other Player Props,Other Player Props,0.9999999999993856,Over 4.5 · How many runs will the Los Angeles Angels score?
+64a841372271a6943c410df4,Tennis,Other Player Props,Other Player Props,0.9999999999993816,Sofia Kenin Yes · To win 1st set and win match

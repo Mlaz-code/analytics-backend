@@ -1,0 +1,36 @@
+# =============================================================================
+# Prometheus Scrape Configuration for Pikkit ML API
+# Add this to /root/monitoring-stack/prometheus/prometheus.yml
+# =============================================================================
+
+# Pikkit ML API monitoring
+- job_name: 'pikkit-ml-api'
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  metrics_path: /metrics
+  static_configs:
+    - targets:
+        - '192.168.4.80:8000'      # Load balancer / primary
+        - '192.168.4.80:8001'      # Blue deployment
+        - '192.168.4.80:8002'      # Green deployment
+        - '192.168.4.80:8003'      # Canary deployment
+      labels:
+        service: 'pikkit-ml-api'
+        environment: 'production'
+  relabel_configs:
+    - source_labels: [__address__]
+      regex: '.*:8000'
+      target_label: deployment
+      replacement: 'loadbalancer'
+    - source_labels: [__address__]
+      regex: '.*:8001'
+      target_label: deployment
+      replacement: 'blue'
+    - source_labels: [__address__]
+      regex: '.*:8002'
+      target_label: deployment
+      replacement: 'green'
+    - source_labels: [__address__]
+      regex: '.*:8003'
+      target_label: deployment
+      replacement: 'canary'

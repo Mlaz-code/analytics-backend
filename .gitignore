@@ -1,0 +1,30 @@
+# Sensitive files
+.env
+mlops/.env
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data files - too large for git
+*.parquet
+reports/
+ml/data/*.parquet
+ml/data/*.csv
+
+# Models - too large for git
+ml/models/*.pkl
+ml/models/*.joblib
+
+# Feature store databases
+ml/feature_store/feature_repo/data/*.db
+
+# Drift reports
+ml/reports/drift_reports/*.json

@@ -1,0 +1,272 @@
+# =============================================================================
+# Pikkit ML Training Configuration
+# =============================================================================
+# This file controls all aspects of model training including hyperparameters,
+# feature engineering, cross-validation, and experiment tracking.
+
+# -----------------------------------------------------------------------------
+# Data Configuration
+# -----------------------------------------------------------------------------
+data:
+  # Supabase connection (uses env vars if not specified)
+  supabase_url: null  # Uses SUPABASE_URL env var
+  supabase_key: null  # Uses SUPABASE_SERVICE_KEY env var
+
+  # Data fetching parameters
+  fetch_limit: 50000
+  batch_size: 1000
+  min_bets_per_market: 30
+
+  # Data filtering
+  filters:
+    is_settled: true
+    min_date: null  # ISO format: "2024-01-01"
+    max_date: null
+    exclude_sports: []
+    include_sports: []  # Empty = all sports
+
+# -----------------------------------------------------------------------------
+# Feature Engineering
+# -----------------------------------------------------------------------------
+features:
+  # Categorical features to encode
+  categorical:
+    - sport
+    - league
+    - market
+    - institution_name
+    - bet_type
+
+  # Numerical features
+  numerical:
+    - implied_prob
+    - clv_percentage
+    - clv_ev
+    - is_live
+
+  # Historical aggregation windows
+  historical_windows:
+    - name: sport
+      columns: [sport]
+    - name: sport_market
+      columns: [sport, market]
+    - name: sport_league
+      columns: [sport, league]
+    - name: sport_league_market
+      columns: [sport, league, market]
+    - name: institution_name
+      columns: [institution_name]
+
+  # Rolling window for recent performance
+  recent_window_size: 10
+
+  # Feature selection
+  selection:
+    method: all  # Options: all, importance_threshold, top_k
+    threshold: 0.01
+    top_k: 25
+
+# -----------------------------------------------------------------------------
+# Model Configuration
+# -----------------------------------------------------------------------------
+models:
+  # Win Probability Classifier
+  win_classifier:
+    type: xgboost_classifier
+    objective: binary:logistic
+    eval_metric: logloss
+
+    # Default hyperparameters (can be overridden by optimization)
+    hyperparameters:
+      n_estimators: 200
+      max_depth: 6
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.8
+      min_child_weight: 1
+      gamma: 0
+      reg_alpha: 0
+      reg_lambda: 1
+
+    # Early stopping
+    early_stopping_rounds: 20
+
+  # ROI Regressor
+  roi_regressor:
+    type: xgboost_regressor
+    objective: reg:squarederror
+    eval_metric: mae
+
+    hyperparameters:
+      n_estimators: 200
+      max_depth: 5
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.8
+      min_child_weight: 1
+      gamma: 0
+      reg_alpha: 0
+      reg_lambda: 1
+
+    early_stopping_rounds: 20
+
+# -----------------------------------------------------------------------------
+# Cross-Validation Configuration
+# -----------------------------------------------------------------------------
+cross_validation:
+  # Type of CV (time_series, purged_kfold, expanding_window)
+  method: time_series
+
+  # Number of folds
+  n_splits: 5
+
+  # For purged k-fold: embargo period (days)
+  embargo_days: 7
+
+  # Minimum training size (fraction)
+  min_train_size: 0.5
+
+  # Test size (fraction of total data for final holdout)
+  test_size: 0.2
+
+# -----------------------------------------------------------------------------
+# Sample Weighting
+# -----------------------------------------------------------------------------
+sample_weighting:
+  # Strategy: none, recency, outcome_balanced, clv_based, combined
+  strategy: recency
+
+  # Recency weighting parameters
+  recency:
+    # Exponential decay factor (higher = more weight to recent)
+    decay_factor: 1.0
+    # Minimum weight (prevents old samples from being ignored)
+    min_weight: 0.1
+
+  # Outcome balancing parameters
+  outcome_balanced:
+    # Weight multiplier for minority class
+    minority_weight: 1.5
+
+  # CLV-based weighting (more weight to bets with CLV data)
+  clv_based:
+    with_clv_weight: 1.5
+    without_clv_weight: 1.0
+
+# -----------------------------------------------------------------------------
+# Hyperparameter Optimization (Optuna)
+# -----------------------------------------------------------------------------
+optimization:
+  enabled: true
+
+  # Number of trials
+  n_trials: 50
+
+  # Timeout per trial (seconds)
+  timeout_per_trial: 300
+
+  # Pruning strategy
+  pruning:
+    enabled: true
+    patience: 10
+
+  # Search space for win classifier
+  win_classifier_search_space:
+    n_estimators: [100, 500]
+    max_depth: [3, 10]
+    learning_rate: [0.01, 0.3]
+    subsample: [0.6, 1.0]
+    colsample_bytree: [0.6, 1.0]
+    min_child_weight: [1, 10]
+    gamma: [0, 5]
+    reg_alpha: [0, 10]
+    reg_lambda: [0, 10]
+
+  # Search space for ROI regressor
+  roi_regressor_search_space:
+    n_estimators: [100, 500]
+    max_depth: [3, 8]
+    learning_rate: [0.01, 0.3]
+    subsample: [0.6, 1.0]
+    colsample_bytree: [0.6, 1.0]
+    min_child_weight: [1, 10]
+    gamma: [0, 5]
+    reg_alpha: [0, 10]
+    reg_lambda: [0, 10]
+
+  # Optimization metric
+  optimize_metric: val_auc  # Options: val_auc, val_accuracy, val_mae
+
+# -----------------------------------------------------------------------------
+# Experiment Tracking (MLflow)
+# -----------------------------------------------------------------------------
+experiment_tracking:
+  enabled: true
+
+  # MLflow tracking URI (local or remote)
+  tracking_uri: /root/pikkit/ml/experiments/mlruns
+
+  # Experiment name
+  experiment_name: pikkit-betting-models
+
+  # Artifacts to log
+  log_artifacts:
+    - models
+    - feature_importance
+    - calibration_plots
+    - confusion_matrix
+    - predictions
+
+  # Tags for experiment runs
+  tags:
+    project: pikkit
+    team: ml
+    environment: production
+
+# -----------------------------------------------------------------------------
+# Model Registry
+# -----------------------------------------------------------------------------
+model_registry:
+  # Registry storage path
+  path: /root/pikkit/ml/registry
+
+  # Model stages
+  stages:
+    - development
+    - staging
+    - production
+    - archived
+
+  # Auto-promotion thresholds
+  promotion_thresholds:
+    staging:
+      min_auc: 0.55
+      min_samples: 1000
+    production:
+      min_auc: 0.57
+      min_samples: 5000
+      min_validation_days: 7
+
+  # Retention policy
+  retention:
+    max_versions_per_stage: 5
+    archive_after_days: 90
+
+# -----------------------------------------------------------------------------
+# Output Paths
+# -----------------------------------------------------------------------------
+paths:
+  models: /root/pikkit/ml/models
+  predictions: /root/pikkit/ml/predictions
+  data: /root/pikkit/ml/data
+  experiments: /root/pikkit/ml/experiments
+  registry: /root/pikkit/ml/registry
+  logs: /var/log/pikkit-ml
+
+# -----------------------------------------------------------------------------
+# Logging
+# -----------------------------------------------------------------------------
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: /var/log/pikkit-ml/training.log

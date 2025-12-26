@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-12-24T13:54:56.517073",
+  "total_features_checked": 8,
+  "features_with_drift": 6,
+  "drifted_features": [
+    "sport",
+    "league",
+    "market",
+    "institution_name",
+    "bet_type",
+    "implied_prob"
+  ],
+  "requires_retraining": true,
+  "feature_details": {
+    "sport": {
+      "drift_score": 4.996687282018534,
+      "is_drifted": true,
+      "method": "PSI",
+      "psi": 4.996687282018534,
+      "severity": "high",
+      "ref_categories": 12,
+      "curr_categories": 7
+    },
+    "league": {
+      "drift_score": 8.713725875128018,
+      "is_drifted": true,
+      "method": "PSI",
+      "psi": 8.713725875128018,
+      "severity": "high",
+      "ref_categories": 54,
+      "curr_categories": 13
+    },
+    "market": {
+      "drift_score": 8.275353787421878,
+      "is_drifted": true,
+      "method": "PSI",
+      "psi": 8.275353787421878,
+      "severity": "high",
+      "ref_categories": 74,
+      "curr_categories": 19
+    },
+    "institution_name": {
+      "drift_score": 1.1217466566734913,
+      "is_drifted": true,
+      "method": "PSI",
+      "psi": 1.1217466566734913,
+      "severity": "high",
+      "ref_categories": 4,
+      "curr_categories": 1
+    },
+    "bet_type": {
+      "drift_score": 1.0338682704531446,
+      "is_drifted": true,
+      "method": "PSI",
+      "psi": 1.0338682704531446,
+      "severity": "high",
+      "ref_categories": 2,
+      "curr_categories": 1
+    },
+    "implied_prob": {
+      "drift_score": 0.4457490697246076,
+      "is_drifted": true,
+      "method": "KS Test",
+      "ks_statistic": 0.4457490697246076,
+      "p_value": 1.131745044321179e-29,
+      "ref_mean": 0.5017733606136564,
+      "curr_mean": 0.5053819066838778,
+      "mean_shift": 0.14234398393365413
+    },
+    "clv_percentage": {
+      "drift_score": null,
+      "is_drifted": false,
+      "method": "KS Test",
+      "ks_statistic": null,
+      "p_value": null,
+      "ref_mean": null,
+      "curr_mean": null,
+      "mean_shift": 0
+    },
+    "clv_ev": {
+      "drift_score": null,
+      "is_drifted": false,
+      "method": "KS Test",
+      "ks_statistic": null,
+      "p_value": null,
+      "ref_mean": null,
+      "curr_mean": null,
+      "mean_shift": 0
+    }
+  }
+}

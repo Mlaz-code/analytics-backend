@@ -1,0 +1,70 @@
+Loading training data from CSV...
+Loaded 23811 bets from CSV
+Training on 23811 total bets...
+
+Data overview:
+  Sports: 14 unique
+  Leagues: 78 unique
+  Markets: 107 unique
+
+[Market] Training on 23766 samples, 86 market types
+[Sport] Training on 23809 samples, 12 sports
+[League] Training on 23751 samples, 47 leagues
+
+Creating features...
+
+============================================================
+Training MARKET Classifier
+============================================================
+      Iter       Train Loss   Remaining Time 
+         1           0.4853            8.22m
+         2           0.4047           18.01m
+         3           1.9544           21.22m
+         4           1.8898           22.30m
+         5           1.8434           22.77m
+         6           1.8097           22.86m
+         7           1.7852           22.79m
+         8           1.7670           22.52m
+         9           1.7535           22.19m
+        10           1.7436           21.78m
+        20           1.7162           16.84m
+        30           1.7148           11.29m
+        40           1.7147            5.30m
+        50           1.7147            0.00s
+Market Test Accuracy: 0.9952
+
+============================================================
+Training SPORT Classifier
+============================================================
+      Iter       Train Loss   Remaining Time 
+         1           0.7731            1.34m
+         2 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.90m
+         3 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.95m
+         4 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.95m
+         5 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.89m
+         6 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.86m
+         7 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.82m
+         8 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.78m
+         9 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.74m
+        10 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.68m
+        20 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            1.10m
+        30 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000           32.41s
+        40 7021220048387539028023812300059883354110303977552968846206886936136612345336425475931436491793105944576.0000            0.00s
+Sport Test Accuracy: 0.9985
+
+Sport Classification Report:
+Traceback (most recent call last):
+  File "/root/pikkit/ml/comprehensive_classifier.py", line 391, in <module>
+    main()
+  File "/root/pikkit/ml/comprehensive_classifier.py", line 376, in main
+    metrics = classifier.train(train_df, min_samples_market=5, min_samples_sport=5, min_samples_league=5)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/pikkit/ml/comprehensive_classifier.py", line 204, in train
+    print(classification_report(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_param_validation.py", line 218, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py", line 3097, in classification_report
+    raise ValueError(
+ValueError: Number of classes, 11, does not match size of target_names, 12. Try specifying the labels parameter

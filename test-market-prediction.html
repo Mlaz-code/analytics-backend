@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Prediction API Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1d24;
+            color: #e1e4e8;
+        }
+        .test-container {
+            background: #2d3139;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #00c853;
+        }
+        button {
+            background: #00c853;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        button:hover {
+            background: #00a844;
+        }
+        .result {
+            background: #1a1d24;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 15px;
+            border-left: 4px solid #00c853;
+        }
+        .error {
+            border-left-color: #f44336;
+            color: #ff6b6b;
+        }
+        .grade-A, .grade-B { color: #00c853; }
+        .grade-C { color: #ffc107; }
+        .grade-D { color: #ff9800; }
+        .grade-F { color: #f44336; }
+        .score-display {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .recommendation {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 15px 0;
+        }
+        .take { color: #00c853; }
+        .skip { color: #f44336; }
+        .details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .detail-item {
+            background: #1a1d24;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .detail-label {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .detail-value {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏀 Market Prediction API Test</h1>
+
+    <div class="test-container">
+        <h2>Test Market Predictions</h2>
+        <p>Click the buttons below to test different markets:</p>
+
+        <button onclick="testMarket('Basketball', 'NBA', 'Player Points')">NBA Player Points</button>
+        <button onclick="testMarket('Basketball', 'NCAAB', 'Total Points')">NCAAB Total Points</button>
+        <button onclick="testMarket('Baseball', 'MLB', 'Moneyline')">MLB Moneyline</button>
+        <button onclick="testMarket('Tennis', 'ATP', 'Moneyline')">ATP Moneyline</button>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="test-container">
+        <h2>Custom Test</h2>
+        <div style="margin-bottom: 15px;">
+            <input type="text" id="sport" placeholder="Sport (e.g., Basketball)" style="padding: 8px; width: 200px; margin-right: 10px; background: #1a1d24; border: 1px solid #444; color: white; border-radius: 4px;">
+            <input type="text" id="league" placeholder="League (e.g., NBA)" style="padding: 8px; width: 200px; margin-right: 10px; background: #1a1d24; border: 1px solid #444; color: white; border-radius: 4px;">
+            <input type="text" id="market" placeholder="Market (e.g., Player Points)" style="padding: 8px; width: 200px; background: #1a1d24; border: 1px solid #444; color: white; border-radius: 4px;">
+        </div>
+        <button onclick="testCustomMarket()">Test Custom Market</button>
+    </div>
+
+    <script>
+        const API_BASE = 'http://192.168.4.80:8001';
+
+        async function testMarket(sport, league, market) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '<div class="result">Loading...</div>';
+
+            try {
+                const encodedMarket = encodeURIComponent(market);
+                const url = `${API_BASE}/api/v1/predict-market/${sport}/${league}/${encodedMarket}`;
+
+                console.log('Fetching:', url);
+                const response = await fetch(url);
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.status} ${response.statusText}`);
+                }
+
+                const data = await response.json();
+                console.log('Market prediction:', data);
+
+                const gradeClass = `grade-${data.grade}`;
+                const recClass = data.should_take ? 'take' : 'skip';
+
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <h3>${data.sport} - ${data.league} - ${data.market}</h3>
+
+                        <div class="score-display ${gradeClass}">
+                            ${Math.round(data.recommendation_score)}/100
+                            <span style="font-size: 36px;">(${data.grade})</span>
+                        </div>
+
+                        <div class="recommendation ${recClass}">
+                            ${data.should_take ? '✓ TAKE' : '✗ SKIP'}
+                        </div>
+
+                        <div style="font-size: 14px; color: #aaa; margin: 15px 0;">
+                            ${data.explanation}
+                        </div>
+
+                        <div class="details">
+                            <div class="detail-item">
+                                <div class="detail-label">Predicted Winrate</div>
+                                <div class="detail-value">${(data.predicted_winrate * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Predicted ROI</div>
+                                <div class="detail-value ${data.predicted_roi >= 0 ? 'positive' : 'negative'}">
+                                    ${data.predicted_roi >= 0 ? '+' : ''}${data.predicted_roi.toFixed(1)}%
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Confidence</div>
+                                <div class="detail-value">${(data.confidence * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Historical Bets</div>
+                                <div class="detail-value">${data.historical_bets}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Historical Winrate</div>
+                                <div class="detail-value">${(data.historical_winrate * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Historical ROI</div>
+                                <div class="detail-value ${data.historical_roi >= 0 ? 'positive' : 'negative'}">
+                                    ${data.historical_roi >= 0 ? '+' : ''}${data.historical_roi.toFixed(1)}%
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 20px; padding: 15px; background: #1a1d24; border-radius: 4px;">
+                            <div style="font-size: 12px; color: #666; margin-bottom: 10px;">API Response:</div>
+                            <pre style="overflow-x: auto; font-size: 11px; color: #888;">${JSON.stringify(data, null, 2)}</pre>
+                        </div>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <h3>Error</h3>
+                        <p>${error.message}</p>
+                        <p style="font-size: 12px; margin-top: 10px;">
+                            Make sure the ML API is running on port 8001 and accessible from this browser.
+                        </p>
+                    </div>
+                `;
+            }
+        }
+
+        function testCustomMarket() {
+            const sport = document.getElementById('sport').value;
+            const league = document.getElementById('league').value;
+            const market = document.getElementById('market').value;
+
+            if (!sport || !league || !market) {
+                alert('Please fill in all fields');
+                return;
+            }
+
+            testMarket(sport, league, market);
+        }
+
+        // Test on load
+        window.onload = () => {
+            console.log('Testing market prediction API...');
+            testMarket('Basketball', 'NBA', 'Player Points');
+        };
+    </script>
+</body>
+</html>
